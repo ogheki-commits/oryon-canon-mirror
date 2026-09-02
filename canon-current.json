@@ -5,7 +5,7 @@
     "updatedAt": "2026-09-02",
     "language": "fr",
     "role": "source_canon_operationnelle_unique",
-    "instruction": "Lire ce fichier après ai-context.txt. Il consolide les corrections v1.2, l’audit v1.3 et les ajouts v1.4. Les anciens fichiers sont archivés uniquement pour traçabilité et ne doivent pas être relus en routine. En cas de conflit : correction explicitement validée après ce commit > canon-current.json > chapitres validés > couches archivées v1.4 puis v1.3 puis v1.2 > api/lore et api/lore.json > anciennes fiches. Ne jamais transformer PRÉVU ou IDÉE en CANON sans validation explicite de l’auteur."
+    "instruction": "Lire ce fichier après ai-context.txt. Il consolide les corrections canoniques actuellement validées. Les anciennes couches sont archivées uniquement pour traçabilité et ne doivent pas être relues en routine. En cas de conflit : correction explicitement validée après ce commit > canon-current.json > chapitres validés > couches archivées v1.4 puis v1.3 puis v1.2 > api/lore et api/lore.json > anciennes fiches. Ne jamais transformer PRÉVU ou IDÉE en CANON sans validation explicite de l’auteur."
   },
   "editorialRules": {
     "visibility": [
@@ -165,13 +165,17 @@
     "status": "CANON",
     "access": "author",
     "mapRule": "La carte illustrée d’Oryon indique les positions générales mais n’est pas strictement à l’échelle ; les distances chiffrées priment.",
-    "standardTravel": "Les durées sont des trajets directs théoriques en charrette, dans des conditions idéales, sans combats, détours, météo, blessures, pannes ou arrêts logistiques prolongés.",
+    "standardTravel": "Les durées ordinaires ci-dessous sont des trajets directs théoriques en charrette, dans des conditions idéales, sans combats, détours, météo, blessures, pannes ou arrêts logistiques prolongés.",
     "routes": [
       {"from": "Asteria / Solaria", "to": "bord des Brumes Éternelles", "distanceKm": 150, "idealCartTime": "5 à 7 jours"},
       {"from": "traversée des Brumes côté Asteria", "to": "sortie vers Elyndra", "distanceKm": 100, "idealCartTime": "3 à 5 jours"},
       {"from": "bord des Brumes côté Elyndra", "to": "royaume d’Elyndra", "distanceKm": 150, "idealCartTime": "5 à 7 jours"},
       {"from": "Asteria", "to": "Khardûn", "distanceKm": 180, "idealCartTime": "6 à 9 jours"},
       {"from": "Khardûn", "to": "Brumes Éternelles", "distanceKm": 30, "idealCartTime": "environ 1 jour"}
+    ],
+    "specialTravel": [
+      "Trya Belion peut aller d’Asteria à Elyndra en environ 2 à 3 jours grâce aux ailes physiques de sa Compétence Unique Ange.",
+      "Pour ce trajet, Trya survole les Brumes Éternelles au lieu de les traverser par les voies terrestres ordinaires."
     ],
     "Solaria": [
       "Solaria est si vaste que certains grands trajets internes peuvent demander environ quatre jours.",
@@ -301,6 +305,7 @@
         "18 ans, humaine, aventurière indépendante, plus forte humaine connue.",
         "La Pierre l’évalue S sans détecter Ange ; ses capacités naturelles sont déjà S.",
         "Ange lui confère des ailes physiques, un vol rapide sans fatigue et une force physique herculéenne permanente.",
+        "Trya parcourt le trajet Asteria → Elyndra en environ 2 à 3 jours grâce à ses ailes, en survolant les Brumes Éternelles.",
         "Les ailes sont littéralement les anciennes ailes arrachées de Râ, intégrées accidentellement au système des Uniques.",
         "Éviter le terme réincarnation s’il implique une rupture de continuité avec les ailes de Râ.",
         "Leur ADN/signature existentielle a influencé le développement naturel de Trya, expliquant ses quatre affinités supérieures et sa force anormale détectables indépendamment de l’Unique."
@@ -331,6 +336,7 @@
         "Transposis : portée 100 m, cible dans le champ de vision.",
         "Objet maximum 102 kg ; être vivant maximum 200 kg.",
         "Après permutation, Nava conserve sa propre vitesse et son propre élan.",
+        "Vely Flower et Nava sont meilleures amies.",
         "Cooldown, fréquence précise et orientation de sortie non verrouillés."
       ]
     },
@@ -488,7 +494,12 @@
     ],
     "relationships": [
       "Hetsuga Eno : amour secret de Vely ; aucun sentiment réciproque de Hetsuga n’est défini.",
-      "Edward Asteria : employeur impérial ; recrutement personnel après recommandation de Hetsuga."
+      "Edward Asteria : employeur impérial ; recrutement personnel après recommandation de Hetsuga.",
+      "Nava Asteria : meilleure amie de Vely."
+    ],
+    "accessPolicy": [
+      "Pour être soigné par Vely, il faut l’autorisation de Hetsuga, l’autorisation d’Enjin, ou une demande directe adressée à Edward.",
+      "Cette restriction a été décidée afin d’éviter que des aventuriers sollicitent Vely pour des blessures mineures ou insignifiantes, comme une simple éraflure à la jambe."
     ],
     "undefined": [
       "Rang officiel de Vely.",
@@ -504,17 +515,30 @@
     "chapter1": {
       "title": "L’Autre Côté",
       "summary": "Ao force une anomalie dimensionnelle dans son laboratoire terrestre. L’arrêt d’urgence échoue lorsque la courbure de l’espace-temps devient autonome ; Ao et des débris sont aspirés. Elle est projetée violemment sur Oryon, se blesse au dos, découvre ses oreilles et sa queue de Demi-chat, puis rencontre Lyra et Eren après la fuite de deux Gobelins. Axiome établit l’adaptation linguistique. À la Guilde de Solaria, le mot magie prononcé par Sato capte toute son attention.",
-      "readerKnowledge": ["Ao a atteint un autre monde mais son expérience a échappé à son contrôle.", "Elle est devenue Demi-chat pendant le passage.", "Axiome lui permet de comprendre la langue locale.", "Ses instruments transportés ont été détruits à l’impact."]
+      "readerKnowledge": [
+        "Ao a atteint un autre monde mais son expérience a échappé à son contrôle.",
+        "Elle est devenue Demi-chat pendant le passage.",
+        "Axiome lui permet de comprendre la langue locale.",
+        "Ses instruments transportés ont été détruits à l’impact."
+      ]
     },
     "chapter2": {
       "title": "Magie",
       "summary": "Ao interroge Sato sur le mana et les quatre éléments. Un contact rapproché déclenche accidentellement Sensor ; Sato perçoit des fragments de sa solitude et de son passé, puis la prend spontanément dans ses bras. Plus tard, la Pierre Noire classe Ao rang E.",
-      "readerKnowledge": ["Sato possède une capacité sensorielle anormale dont toutes les règles ne sont pas encore révélées.", "Ao est réellement rang E au départ malgré son intelligence.", "La Pierre Noire ne révèle aucune puissance cachée qui la placerait artificiellement plus haut."]
+      "readerKnowledge": [
+        "Sato possède une capacité sensorielle anormale dont toutes les règles ne sont pas encore révélées.",
+        "Ao est réellement rang E au départ malgré son intelligence.",
+        "La Pierre Noire ne révèle aucune puissance cachée qui la placerait artificiellement plus haut."
+      ]
     },
     "chapter3": {
       "title": "Un toit pour ce soir",
       "summary": "Ao découvre avec les cristaux d’affinité Eau et Foudre au niveau inférieur, tente sans succès de produire de la magie puis apprend qu’elle doit d’abord comprendre le mana. Elle découvre la grande bibliothèque, subit un examen médical confirmant contusion et traumatisme musculaire sans blessure critique, puis accepte l’hébergement temporaire chez Lyra et Eren.",
-      "readerKnowledge": ["Ao ne sait toujours lancer aucun sort.", "La bibliothèque devient son prochain objectif immédiat.", "Lyra et Eren lui offrent un foyer temporaire sans contrepartie."]
+      "readerKnowledge": [
+        "Ao ne sait toujours lancer aucun sort.",
+        "La bibliothèque devient son prochain objectif immédiat.",
+        "Lyra et Eren lui offrent un foyer temporaire sans contrepartie."
+      ]
     }
   },
   "majorAuthorSecrets": [
@@ -529,7 +553,7 @@
     "Transposis : cooldown, fréquence et orientation exacte non verrouillés.",
     "Starvamp : méthode exacte de cumul, plafond éventuel et condition de remise à zéro non verrouillés.",
     "Création d’Univers X : le sens exact de X ne doit pas être développé sans validation.",
-    "Les temps de voyage sont idéaux et ne doivent pas être convertis en durées réelles garanties.",
+    "Les temps de voyage ordinaires sont idéaux et ne doivent pas être convertis en durées réelles garanties ; l’exception spécifique de Trya Asteria → Elyndra est fixée à environ 2 à 3 jours par les airs.",
     "La carte d’Oryon n’est pas à l’échelle exacte ; ne pas déduire de nouvelles distances depuis le dessin.",
     "Ne pas inventer de nouvelle nation, continent, religion majeure, haut-gradé A anonyme ou nouvelle Unique pour combler un vide.",
     "Vely : rang, affinités et niveau de maîtrise élémentaire non définis.",
