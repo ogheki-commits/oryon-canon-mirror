@@ -1,111 +1,69 @@
-ORYON — CONTEXTE IA CANON · CURRENT · 2026-09-02
+ORYON — CONTEXTE IA CANON · CURRENT · 2026-09-03
 
 RÔLE
-- Ce dépôt GitHub est la base canon prioritaire et durable du manga Ao/Oryon.
-- Ce fichier est le point d’entrée compact.
-- Après ce fichier, lire canon-current.json.
-- Consulter api/lore ou api/lore.json seulement lorsqu’un détail historique non repris dans canon-current.json est nécessaire.
-- Les anciennes couches v1.2/v1.3/v1.4 sont archivées uniquement pour traçabilité et ne font plus partie de la lecture normale.
-- Pour la médecine, le texte source complet reste dans docs/protocole-medical-asteria.md.
+- Ce dépôt GitHub est la base canon opérationnelle du manga Ao/Oryon.
+- Commencer chaque reprise d’écriture par ce fichier.
+- Lire ensuite canon-current.json.
+- Pour un domaine précis, consulter le document spécialisé correspondant dans docs/ ; une fiche spécialisée plus récente prévaut sur la formulation générale plus ancienne de canon-current.json.
+- api/lore et api/lore.json sont désormais des copies du canon actuel, pas l’ancien lore v1.1.
+- L’ancien lore v1.1 et les anciennes couches sont conservés uniquement dans archive/ pour traçabilité. NE PAS les utiliser en routine.
+- drafts/ contient des propositions ou points non entièrement validés. NE JAMAIS les transformer en canon par déduction.
 
 PRIORITÉ
 1. Correction explicitement validée par l’auteur après le dernier commit GitHub.
-2. canon-current.json.
-3. Décisions canoniques établies dans les chapitres validés.
-4. Archives de couches canoniques si un détail ancien doit être récupéré : v1.4 > v1.3 > v1.2.
-5. api/lore et api/lore.json.
-6. Anciennes fiches texte/formulations obsolètes.
+2. Documents spécialisés validés dans docs/ lorsqu’ils traitent précisément du sujet.
+3. canon-current.json.
+4. Chapitres validés.
+5. archive/ uniquement pour retrouver un détail historique non migré, jamais pour écraser une correction récente.
+6. drafts/ n’est pas canon.
+
+ÉTAT DU RÉCIT
+- Fin actuelle : chapitre 3 « Un toit pour ce soir ».
+- Ao : 27 ans, ancienne humaine devenue Demi-chat, rang E, Eau inférieur, Foudre inférieur, aucun sort maîtrisé, hébergée par Lyra et Eren.
+- Prochaine scène naturelle : première soirée chez Lyra/Eren puis apprentissage réel de la perception/canalisation du mana. Ao ne doit pas réussir trop vite.
 
 RÈGLES IMPÉRATIVES
-- CANON = établi ; PRÉVU = décidé mais pas encore révélé ; IDÉE = modifiable.
-- Ne jamais divulguer authorKnowledge au lecteur avant sa révélation.
+- CANON = établi ; PRÉVU = décidé mais non encore révélé ; IDÉE = modifiable.
+- Respecter publicKnowledge / readerKnowledge / authorKnowledge.
 - Ne jamais donner à un personnage une information qu’il ne possède pas.
 - Ne jamais résoudre une contradiction par invention.
 - Aucun plot armor.
-- Ne jamais transformer une suggestion éditoriale en canon sans validation de l’auteur.
-
-ÉTAT ACTUEL
-- Fin du chapitre 3 : « Un toit pour ce soir ».
-- Ao : 27 ans, ancienne humaine devenue Demi-chat, rang E, Eau inférieur, Foudre inférieur, aucun sort maîtrisé, hébergée par Lyra et Eren.
-- Lyra : 25 ans, humaine, rang C, protectrice stricte, Feu moyen + trois éléments inférieurs.
-- Eren : 28 ans, humain, rang C, épéiste, Feu inférieur canalisé sur sa lame.
-- Sato : 48 ans, ancien rang A, responsable bénévole de la grande bibliothèque de la Guilde.
-- Prochaine scène naturelle : première soirée chez Lyra/Eren puis apprentissage réel de la perception et canalisation du mana ; Ao ne doit pas réussir trop vite.
-
-MONDE / PUISSANCE
 - Oryon est la planète entière, pas un continent.
-- Nations majeures définies : Asteria, Khardûn, Elyndra.
-- Guilde des Aventuriers : internationale et officiellement neutre.
-- Rangs : E, D, C, B, A, S, SS, SSS ; un rang est une catégorie globale, pas une valeur numérique.
-- Aucun natif actuel officiellement connu ne dépasse S.
-- Un monstre est généralement plus dangereux qu’un individu civilisé du même rang.
-- Pierre Noire : rang global via capacités détectables ; ne détecte pas les Compétences Uniques.
-- Affinités élémentaires : testées séparément par les quatre cristaux d’affinité.
-- Trois Pierres Noires connues : Asteria, Khardûn, Elyndra.
+- Pierre Noire = rang global détectable ; quatre cristaux séparés = affinités élémentaires.
+- Les Compétences Uniques ne sont pas détectées par la Pierre Noire.
+- Les monstres naturels ne possèdent pas de Compétence Unique.
 
-MAGIE
-- Quatre éléments fondamentaux : Eau, Feu, Foudre, Terre.
-- Variantes canoniques : Eau → Glace ; Feu → Magma.
-- Les natifs ressentent instinctivement le mana mais sa canalisation volontaire et les sorts s’apprennent.
-- L’épuisement complet du mana peut être mortel.
+DOCUMENTS SPÉCIALISÉS CANONIQUES
+- docs/protocole-medical-asteria.md : médecine officielle et gestion du mana.
+- docs/solaria.md : organisation des quatre quartiers et du complexe impérial.
+- docs/systeme-armes-oryon.md : armes, enchantements, rangs B/A/S et coût en mana.
+- docs/demi-betes-oryon.md : anatomie, quatre variantes et reproduction déjà définie.
+- docs/citoyens-recrutement-oryon.md : connaissances du citoyen, accès Guilde/Armée, filtre Hetsuga/Enjin.
+- docs/lois-justice-securite-oryon.md : lois communes, justice d’Asteria et d’Elyndra.
 
-POINTS PERSONNAGES À NE PAS RATER
-- Aria : officiel/Pierre S, puissance complète réelle SS ; aucun élément ni Unique ; souffle draconique intrinsèque non élémentaire mal pris en compte par la Pierre.
-- Hetsuga : A martial pur ; Chimère A vaincue seul dans des circonstances exceptionnelles ; Trya l’a vaincu, jamais Vrul.
-- Edward : inférieur à Hetsuga en escrime pure sans Instinct ; avec Instinct peut rivaliser en combat réel.
-- Trya : S détectable sans Ange ; les ailes d’Ange sont littéralement les anciennes ailes de Râ. Grâce à elles, elle effectue Asteria → Elyndra en environ 2 à 3 jours en survolant les Brumes Éternelles.
-- Norn : B ; refuse une dépendance militaire permanente à Asteria ; AdvancedFire protège flammes/chaleurs extrêmes, pas le froid en général.
-- Mina : Transcendance +1 rang réel pendant 1 h, réutilisable après la fin ; pas de cooldown 24 h.
-- Nava : Transposis 100 m, champ de vision, objet 102 kg, vivant 200 kg, conservation de son propre élan ; cooldown non défini. Nava et Vely Flower sont meilleures amies.
-- Ed Neron : Brain exploite un point de rupture physique, sans annulation automatique des protections magiques.
-- Yoh : sa défense agit sur la composante mana et peut être dépassée ; le physique pur n’est pas annulé automatiquement.
-- Elza : B ; Starvamp augmente seulement la puissance de frappe de 10 % par coup réussi ; paramètres précis de cumul non verrouillés.
-- Zeo : B normal ; pouvoirs d’ombre ; fin prévue avec niveau effectif SSS dans l’univers absolument obscur.
-- Draïd : SS, détruit par Aria dans un affrontement SS contre SS dominé par son erreur de lecture.
-- Zenedia : S théorique ; tue Sato ; Ao la tue par préparation techno-magique et précision, pas par puissance physique S.
-- Vrul : vrai SS ; sang externe/extrait/cadavres uniquement ; jamais le sang interne d’un vivant ; ne rencontre jamais Aria.
-- Râ : SSS intrinsèque, ancien Ange et créateur d’Oryon ; les ailes sont liées à Trya, pas Vrul.
+POINTS RÉCENTS À NE PAS RATER
+- Trya : Asteria → Elyndra en environ 2 à 3 jours grâce à Ange, en survolant les Brumes Éternelles.
+- Vely Flower et Nava Asteria sont meilleures amies.
+- Accès aux soins de Vely : autorisation de Hetsuga, autorisation d’Enjin, ou demande directe à Edward.
+- Flower = scanner + chirurgie intracorporelle. AUCUNE régénération.
+- Hetsuga est presque totalement dépourvu de mana : son épée B enchantée fonctionne pour lui essentiellement comme une excellente arme physique.
+- Demi-chats/canins n’ont pas d’oreilles humaines en plus de leurs oreilles animales.
+- Reproduction définie : Humain + Demi-Bête = Demi-Bête de la variante concernée ; deux variantes différentes de Demi-Bêtes ne peuvent pas se reproduire.
+- Elyndra : crimes graves passibles de mort ; petits crimes jugés par Yoh et non passibles de peine capitale.
 
-MÉDECINE / VELY FLOWER
-- Protocole officiel complet : docs/protocole-medical-asteria.md.
-- Deux piliers : Repos Forcé/Sommeil Artificiel + Tisanes/Onguents de Mana.
-- Ils maintiennent ou rechargent le réservoir de mana ; ils ne régénèrent pas miraculeusement les blessures.
-- Vely Flower : humaine, 20 ans, médecin officielle de la cour d’Edward principalement dédiée aux soldats et aventuriers.
-- Prodige très timide/peureuse ; devient d’une efficacité clinique redoutable lorsqu’une vie est en danger.
-- Vely est secrètement amoureuse de Hetsuga depuis qu’elle l’a soigné.
-- Vely et Nava Asteria sont meilleures amies.
-- L’accès aux soins de Vely est filtré : il faut l’autorisation de Hetsuga, l’autorisation d’Enjin, ou une demande directe à Edward. Cette règle existe pour éviter que des aventuriers viennent la solliciter pour des blessures mineures ou insignifiantes.
-- Unique Flower : yeux luminescents ; Scanner corporel + Suture Intracorporelle.
-- RÈGLE ABSOLUE : Flower est un outil médical exceptionnel, PAS une régénération. Il ne recrée aucun tissu, organe ou membre.
-- Rang, affinités, portée, coût, fatigue et durée maximale de Flower non définis.
+ANCIEN LORE DANGEREUX — CORRECTIONS DÉJÀ VERROUILLÉES
+- Toute ancienne mention d’Oryon comme continent est obsolète.
+- Hetsuga a été vaincu par Trya, jamais par Vrul.
+- Les ailes de Râ sont liées à Trya, pas à Vrul.
+- Sensor au chapitre 2 : contact rapproché Ao/Sato → activation accidentelle → Sato prend ensuite Ao dans ses bras. Le câlin n’est pas le déclencheur.
+- Mina : Feu supérieur = potentiel naturel non entraîné/interdit, pas scellement magique.
+- Transcendance n’a pas de cooldown de 24 h.
 
-AO
-- Arrive uniquement avec sa tenue technique noire de sa propre conception, son cerveau et Axiome ; petits instruments détruits à l’impact.
-- Tenue : résistante au feu, isolante électriquement, résistante à la pénétration d’une lame ; n’annule ni choc ni douleur.
-- Axiome : observation, analyse et déduction à partir d’informations accessibles ; aucune omniscience ni connaissance gratuite.
-- Ao reste physiquement faible au départ ; progression par apprentissage, science, ressources et techno-magie ; échecs possibles.
-- Ao n’est pas timide : elle manque surtout de codes sociaux. Faible pudeur/espace personnel occasionnels et non fanservice.
-
-SECRETS AUTEUR MAJEURS
-- L’accident dimensionnel d’Ao perturbe un réseau plus vaste et provoque des arrivées depuis plusieurs mondes/époques.
-- Les Pierres Noires viennent du monde de Vrul ; leur arrivée des siècles avant Ao découle causalement de la perturbation ultérieure d’Ao.
-- Sato devient progressivement le père de cœur d’Ao puis meurt à cause de Zenedia.
-- Râ a créé Oryon, les races dominantes, les monstres et le système des Uniques.
-- Les anomalies interdimensionnelles échappent partiellement au code existentiel de Râ.
-- Final : Ao entraîne Râ dans un univers absolument vide via un trou de ver maîtrisé ; Zeo prend ensuite sa place et Ao revient sur Oryon trois mois plus tard.
-
-NE PAS INVENTER
-- Transposis : cooldown/fréquence/orientation exacte.
-- Starvamp : cumul/plafond/remise à zéro exacts.
-- Vely : rang et affinités.
-- Flower : portée/coût/fatigue/durée/limites quantitatives exactes ; jamais de régénération.
-- Sens exact du X de Création d’Univers X.
-- Nouvelles distances déduites de la carte, qui n’est pas à l’échelle.
-- Nouvelle nation, continent, religion majeure, haut-gradé A anonyme ou Unique inventée pour combler un vide.
+BROUILLONS / DÉCISIONS EN ATTENTE
+- drafts/systeme-uniques-oryon-a-valider.md contient le brouillon du système des Uniques et n’est PAS canon prioritaire.
+- drafts/points-a-rendre-coherents.md contient les questions précises qui doivent être tranchées par l’auteur pour éviter de futures contradictions.
 
 SOURCES
-- Canon opérationnel : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-current.json
-- Protocole médical : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/protocole-medical-asteria.md
+- Canon principal : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-current.json
+- API canon : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore
 - Index : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/llms.txt
-- Lore historique : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore
-- Copie JSON historique : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore.json
