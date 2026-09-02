@@ -5,14 +5,13 @@ RÔLE
 - Commencer chaque reprise d’écriture par ce fichier.
 - Lire ensuite canon-current.json.
 - Pour un domaine précis, consulter le document spécialisé correspondant dans docs/ ; une fiche spécialisée plus récente prévaut sur la formulation générale plus ancienne de canon-current.json.
-- api/lore et api/lore.json sont désormais des copies du canon actuel, pas l’ancien lore v1.1.
-- L’ancien lore v1.1 et les anciennes couches sont conservés uniquement dans archive/ pour traçabilité. NE PAS les utiliser en routine.
-- drafts/ contient des propositions ou points non entièrement validés. NE JAMAIS les transformer en canon par déduction.
+- api/lore et api/lore.json sont des copies du canon général actuel, pas l’ancien lore v1.1.
+- archive/ = traçabilité uniquement. drafts/ = non canon tant qu’un point n’est pas validé.
 
 PRIORITÉ
 1. Correction explicitement validée par l’auteur après le dernier commit GitHub.
 2. Documents spécialisés validés dans docs/ lorsqu’ils traitent précisément du sujet.
-3. canon-current.json.
+3. canon-current.json / api/lore / api/lore.json.
 4. Chapitres validés.
 5. archive/ uniquement pour retrouver un détail historique non migré, jamais pour écraser une correction récente.
 6. drafts/ n’est pas canon.
@@ -36,33 +35,71 @@ RÈGLES IMPÉRATIVES
 DOCUMENTS SPÉCIALISÉS CANONIQUES
 - docs/protocole-medical-asteria.md : médecine officielle et gestion du mana.
 - docs/solaria.md : organisation des quatre quartiers et du complexe impérial.
-- docs/systeme-armes-oryon.md : armes, enchantements, rangs B/A/S et coût en mana.
-- docs/demi-betes-oryon.md : anatomie, quatre variantes et reproduction déjà définie.
-- docs/citoyens-recrutement-oryon.md : connaissances du citoyen, accès Guilde/Armée, filtre Hetsuga/Enjin.
-- docs/lois-justice-securite-oryon.md : lois communes, justice d’Asteria et d’Elyndra.
+- docs/systeme-armes-oryon.md : armes, enchantements, affinités et rangs B/A/S.
+- docs/demi-betes-oryon.md : anatomie, variantes et reproduction inter-raciale explicitement définie.
+- docs/citoyens-recrutement-oryon.md : connaissances du citoyen et recrutement Armée/Gardes.
+- docs/lois-justice-securite-oryon.md : lois communes, justice d’Asteria et d’Elyndra, rôle judiciaire de Yoh.
+- docs/systeme-uniques-oryon.md : algorithme de Râ, découverte, recyclage et compensation des outsiders.
 
-POINTS RÉCENTS À NE PAS RATER
-- Trya : Asteria → Elyndra en environ 2 à 3 jours grâce à Ange, en survolant les Brumes Éternelles.
+UNIQUES — RÈGLES VERROUILLÉES
+- L’algorithme de Râ ne voit pas le futur. Il analyse le potentiel et peut entrevoir ce qu’un individu est susceptible de devenir.
+- Le porteur ne connaît pas son Unique à la naissance : il découvre progressivement ses capacités en grandissant, puis son nom lui apparaît naturellement.
+- À la mort du porteur, l’Unique retourne au système puis peut être réattribuée à un nouvel hôte compatible.
+- Il s’agit exactement de la même Unique : aucune variante, aucune évolution.
+- Les connaissances personnelles accumulées via l’ancien hôte ne sont pas conservées lors de la réattribution ; Axiome est l’exemple canonique.
+- La logique d’équilibrage de Râ tente de donner un minimum de viabilité aux outsiders trop faibles pour survivre à Oryon.
+- Un natif peut naître faible sans déclencher cette compensation anormale.
+- Ao, trop faible hors intelligence et difficile à déchiffrer car extérieure à l’existence créée par Râ, a été compensée par Axiome et par sa transformation d’Humaine en Demi-chat.
+- Axiome n’a pas été consciemment planifiée par Râ pour Ao.
+
+ARMES — RÈGLES VERROUILLÉES
+- Une arme enchantée consomme le mana de son utilisateur ; elle ne produit pas sa propre énergie.
+- Un utilisateur peut activer via l’arme un élément qu’il n’a pas comme affinité, mais cet élément est nettement moins puissant.
+- Il est donc recommandé d’utiliser une arme correspondant à ses affinités naturelles.
+- Rang S : plusieurs éléments peuvent être utilisés simultanément, y compris lors d’une projection. « Sans limite » ne signifie jamais puissance infinie ; cela signifie absence de restriction à un seul élément actif.
+- Hetsuga est presque totalement dépourvu de mana ; son épée B lui sert essentiellement d’excellente arme physique.
+
+MÉDECINE / SOLARIA
+- Les pierres médicales du quartier Ouest sont des outils concentrés en mana ; elles ne guérissent pas directement les blessures.
+- Entorse/foulure = immobilisation ; luxation = remise en place manuelle puis immobilisation.
+- L’huile bouillante pour une hémorragie grave est une méthode extrême/désespérée, pas une pratique courante.
+- Flower = scanner + chirurgie intracorporelle. AUCUNE régénération.
 - Vely Flower et Nava Asteria sont meilleures amies.
 - Accès aux soins de Vely : autorisation de Hetsuga, autorisation d’Enjin, ou demande directe à Edward.
-- Flower = scanner + chirurgie intracorporelle. AUCUNE régénération.
-- Hetsuga est presque totalement dépourvu de mana : son épée B enchantée fonctionne pour lui essentiellement comme une excellente arme physique.
-- Demi-chats/canins n’ont pas d’oreilles humaines en plus de leurs oreilles animales.
-- Reproduction définie : Humain + Demi-Bête = Demi-Bête de la variante concernée ; deux variantes différentes de Demi-Bêtes ne peuvent pas se reproduire.
-- Elyndra : crimes graves passibles de mort ; petits crimes jugés par Yoh et non passibles de peine capitale.
 
-ANCIEN LORE DANGEREUX — CORRECTIONS DÉJÀ VERROUILLÉES
-- Toute ancienne mention d’Oryon comme continent est obsolète.
-- Hetsuga a été vaincu par Trya, jamais par Vrul.
-- Les ailes de Râ sont liées à Trya, pas à Vrul.
+DEMI-BÊTES / REPRODUCTION
+- Demi-chats et Demi-chiens n’ont pas d’oreilles humaines en plus de leurs oreilles animales.
+- Humain + Demi-Bête = reproduction possible ; enfant Demi-Bête de la variante du parent Demi-Bête.
+- Deux Demi-Bêtes de variantes différentes = impossible.
+- Elfe + Demi-Bête = impossible.
+- Nain + Demi-Bête = impossible.
+- Humain + Elfe = impossible.
+- Humain + Nain = impossible.
+- Ces incompatibilités n’empêchent pas des relations sentimentales ou sexuelles entre adultes consentants.
+- Elfe + Nain et le cas explicitement formulé de deux Demi-Bêtes de même variante restent à confirmer.
+
+CITOYENS / RECRUTEMENT
+- Pour l’Armée Impériale, Hetsuga teste personnellement les recrues sur le plan physique/martial ; Enjin évalue ensuite personnellement les candidats retenus pour leur affectation optimale.
+- Les simples gardes ne passent pas par Hetsuga puis Enjin ; ils sont formés par d’autres gardes.
+- Le droit exact des Nains résidant/citoyens d’Asteria à entrer dans l’Armée impériale reste à confirmer.
+
+ELYNDRA / JUSTICE
+- Le faible niveau de criminalité elfe vient principalement de la culture pacifiste d’Elyndra, pas d’une impossibilité biologique de violence.
+- Elyndra reste prête à se défendre contre les dangers extérieurs.
+- Crimes graves : peine capitale possible ; petits crimes : pas de peine capitale.
+- Yoh possède officiellement une fonction judiciaire pour les affaires mineures en plus de ses rôles de conseiller stratégique et garde rapproché d’Elfa ; Elfa le juge apte à cette fonction en raison notamment de sa neutralité et de son tempérament non agressif.
+
+AUTRES POINTS RÉCENTS
+- Trya : Asteria → Elyndra en environ 2 à 3 jours grâce à Ange, en survolant les Brumes Éternelles.
 - Sensor au chapitre 2 : contact rapproché Ao/Sato → activation accidentelle → Sato prend ensuite Ao dans ses bras. Le câlin n’est pas le déclencheur.
 - Mina : Feu supérieur = potentiel naturel non entraîné/interdit, pas scellement magique.
 - Transcendance n’a pas de cooldown de 24 h.
+- Hetsuga a été vaincu par Trya, jamais par Vrul.
+- Les ailes de Râ sont liées à Trya, pas à Vrul.
 
-BROUILLONS / DÉCISIONS EN ATTENTE
-- drafts/systeme-uniques-oryon-a-valider.md contient le brouillon du système des Uniques et n’est PAS canon prioritaire.
-- drafts/points-a-rendre-coherents.md contient les questions précises qui doivent être tranchées par l’auteur pour éviter de futures contradictions.
-- RÈGLE DE SÉCURITÉ : lorsqu’un point exact est listé dans `drafts/points-a-rendre-coherents.md`, il est temporairement considéré NON VERROUILLÉ même si une formulation ambiguë apparaît dans un document de `docs/`. Ne jamais choisir silencieusement une interprétation ; attendre la validation auteur.
+POINTS ENCORE OUVERTS
+- Voir drafts/points-a-rendre-coherents.md.
+- Ne pas inventer la réponse aux points encore ouverts.
 
 SOURCES
 - Canon principal : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-current.json
