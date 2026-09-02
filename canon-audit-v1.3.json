@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "title": "Oryon — Audit canon complémentaire",
+    "version": "1.3",
+    "updatedAt": "2026-09-02",
+    "language": "fr",
+    "role": "corrections_prioritaires_audit_pass_2",
+    "instruction": "Ce fichier complète canon-overrides-v1.2.json et corrige les incohérences restantes repérées dans api/lore et api/lore.json. En cas de contradiction : correction récente validée > canon-audit-v1.3.json > canon-overrides-v1.2.json > chapitres validés > api/lore/api/lore.json > anciennes fiches. Ne jamais transformer PRÉVU ou IDÉE en CANON sans validation explicite de l’auteur."
+  },
+  "criticalCorrections": [
+    {
+      "target": "PER-0013 Hetsuga Eno",
+      "status": "PRÉVU",
+      "access": "author",
+      "changes": [
+        "La relation ancienne reliant Hetsuga à PER-0020 Vrul avec la note « L’a vaincu en duel » est une erreur d’identifiant.",
+        "La personne ayant vaincu Hetsuga en duel est Trya Belion, PER-0019.",
+        "Vrul Tesyl n’a jamais affronté Hetsuga dans le canon établi."
+      ]
+    },
+    {
+      "target": "PER-0018 Râ",
+      "status": "PRÉVU",
+      "access": "author",
+      "changes": [
+        "La relation ancienne reliant les ailes de Râ à PER-0020 Vrul est une erreur d’identifiant.",
+        "Les anciennes ailes de Râ sont liées à Trya Belion, PER-0019, via la Compétence Unique Ange.",
+        "Elles ne sont pas une réincarnation de Vrul et n’ont aucun lien biologique avec elle."
+      ]
+    },
+    {
+      "target": "UNI-0011 Ange / Trya",
+      "status": "PRÉVU",
+      "access": "author",
+      "changes": [
+        "Les ailes de Trya sont littéralement les anciennes ailes arrachées de Râ, intégrées accidentellement au système des Compétences Uniques.",
+        "Éviter le terme « réincarnation » s’il implique qu’elles auraient cessé d’être les ailes de Râ puis seraient devenues autre chose.",
+        "Leur ADN/signature existentielle a influencé le développement naturel de Trya, ce qui explique ses quatre affinités supérieures et sa force anormale mesurables par la Pierre indépendamment de la détection de l’Unique."
+      ]
+    },
+    {
+      "target": "OBJ-0001 / SEC-0001 / FOI-0001 Pierre Noire et Vrul",
+      "status": "PRÉVU",
+      "access": "author",
+      "changes": [
+        "Trois Pierres Noires sont actuellement connues : une à Asteria, une à Khardûn et une à Elyndra.",
+        "Leur origine réelle est le même monde que Vrul.",
+        "Une Pierre peut évaluer Vrul SS, mais ne pas affirmer qu’elle l’a déjà évaluée auparavant ni qu’elle la « reconnaît » personnellement sans nouvelle validation.",
+        "Le foreshadowing correct repose sur la compatibilité anormalement naturelle de Vrul avec ce système et sur sa propre connaissance des rangs, pas sur une mémoire confirmée de l’artefact."
+      ]
+    },
+    {
+      "target": "LIE-0003 Mont Céleste",
+      "status": "PRÉVU",
+      "access": "author",
+      "changes": [
+        "Le Mont Céleste est le plus haut sommet de la chaîne située à la frontière Asteria–Elyndra, au cœur/à proximité immédiate des Brumes Éternelles.",
+        "C’est le territoire d’Aria, mais « territoire interdit » est une formulation trop absolue : aucune interdiction juridique universelle n’est nécessairement proclamée.",
+        "La zone est surtout évitée par prudence en raison d’Aria et des Dragons sauvages."
+      ]
+    },
+    {
+      "target": "MON-0001 / NAT-0001 / REL-0004 / PRE-0004",
+      "status": "CANON_OR_PREVU_AS_EXISTING_RECORD",
+      "access": "author",
+      "changes": [
+        "Toute formulation décrivant Oryon comme un continent est obsolète : Oryon est la planète.",
+        "Remplacer les expressions telles que « une grande partie du continent », « alliance la plus solide du continent » ou « guerre continentale » par une formulation cohérente à l’échelle du monde connu ou de la planète selon le contexte."
+      ]
+    }
+  ],
+  "powerAndCharacterAudit": [
+    {
+      "target": "PER-0017 / UNI-0004 Norn — AdvancedFire",
+      "status": "PRÉVU",
+      "access": "author",
+      "changes": [
+        "AdvancedFire donne une immunité totale aux flammes et aux chaleurs extrêmes, pas une immunité générale à toutes les températures.",
+        "Le froid n’est pas automatiquement annulé.",
+        "Norn contrôle avec une grande précision ses propres flammes et peut atteindre les températures nécessaires à la variante Magma et au travail de minerais magiques rares.",
+        "Le pouvoir n’implique pas un contrôle absolu de toutes les flammes extérieures."
+      ]
+    },
+    {
+      "target": "PER-0014 Mina Khardûn",
+      "status": "PRÉVU",
+      "access": "author",
+      "changes": [
+        "Sa magie de Feu correspond à un potentiel naturel de niveau supérieur, actuellement non entraîné et interdit par Norn ; ne pas présenter cela comme un scellement magique établi si aucun scellement n’a été défini.",
+        "Transcendance : une seule cible, +1 rang réel, exactement une heure, cible vivante ou monstre, Mina comprise, effet imposable, non cumulable.",
+        "Après la fin de l’effet, la compétence peut être réutilisée immédiatement ; aucun cooldown de 24 h."
+      ]
+    },
+    {
+      "target": "PER-0015 / UNI-0010 Nava — Transposis",
+      "status": "PRÉVU",
+      "access": "author",
+      "changes": [
+        "Portée maximale validée : 100 mètres.",
+        "La cible doit être dans le champ de vision.",
+        "Objet : maximum 102 kg ; être vivant : maximum 200 kg.",
+        "Après la permutation, Nava conserve sa propre vitesse et son propre élan ; la compétence n’annule pas automatiquement le momentum.",
+        "Cooldown, fréquence précise et orientation de sortie ne sont pas encore verrouillés et ne doivent pas être inventés."
+      ]
+    },
+    {
+      "target": "UNI-0002 Sensor / PER-0004 Sato",
+      "status": "CANON_AND_PREVU",
+      "access": "author",
+      "changes": [
+        "Au chapitre 2, l’activation accidentelle de Sensor survient lors du contact rapproché d’Ao avec Sato avant que Sato ne la prenne spontanément dans ses bras.",
+        "Ne pas écrire qu’Ao surprend Sato avec un câlin déclencheur.",
+        "Activation accidentelle : flashes émotionnels et fragments incomplets seulement.",
+        "Lecture volontaire approfondie : contact + concentration intense, usage que Sato refuse éthiquement sur les personnes."
+      ]
+    },
+    {
+      "target": "UNI-0007 Brain / PER-0007 Ed Neron",
+      "status": "PRÉVU",
+      "access": "author",
+      "changes": [
+        "Brain calcule inconsciemment le point de rupture optimal d’une protection physique ou matérielle au moment de l’impact.",
+        "Il ne rend pas les armures, carapaces ou écailles inexistantes et ne garantit pas de toucher.",
+        "Il permet de transmettre les dégâts de manière anormalement efficace à travers une protection physique lorsque l’impact est réussi.",
+        "Les barrières purement magiques ne sont pas automatiquement annulées.",
+        "Contre Aria, ses écailles et son corps restent d’une résistance hors norme malgré Brain."
+      ]
+    },
+    {
+      "target": "PER-0021 Yoh Shuzo",
+      "status": "PRÉVU",
+      "access": "author",
+      "changes": [
+        "La technique défensive de Yoh lit la signature de mana d’une attaque avant l’impact puis injecte une quantité précisément calculée de mana opposé pour freiner/annuler sa composante magique et exploiter le déséquilibre créé.",
+        "Une attaque purement physique sans mana n’est pas automatiquement annulée.",
+        "Perception, réaction, quantité de mana, feintes, attaques multiples et puissance excessive peuvent dépasser sa défense."
+      ]
+    },
+    {
+      "target": "PER-0010 / UNI-0008 Elfa — Souverain",
+      "status": "PRÉVU",
+      "access": "author",
+      "changes": [
+        "Souverain fonctionne sur une cible dont la puissance effective globale est au moins environ quatre fois inférieure à celle d’Elfa ; la cible reste consciente.",
+        "La compétence peut soumettre de nombreux adversaires faibles selon la situation, mais n’est pas un bouton de victoire universel.",
+        "Elle est inefficace contre les individus proches du niveau d’Elfa ; Edward équipé d’Instinct se situe suffisamment près pour ne pas être une cible fiable, et Aria est hors de portée."
+      ]
+    }
+  ],
+  "ariaAndGeopolitics": {
+    "status": "PRÉVU",
+    "access": "author",
+    "facts": [
+      "Aria est officiellement enregistrée S par la Pierre, mais son niveau de combat complet réel est SS.",
+      "Elle vit au cœur des Brumes Éternelles sur l’axe naturel Asteria–Elyndra.",
+      "Sa présence et celle des Dragons sauvages rendent toute route lourde, expansion ou mouvement militaire massif très risqué entre les deux nations.",
+      "Aria n’a pas besoin d’interdire officiellement le passage : son territoire est évité par prudence.",
+      "Lors de l’incident Draïd, Aria ne soupçonne jamais Khardûn, notamment grâce à son ancienne rencontre secrète et positive avec Norn.",
+      "Pendant la visite d’Edward et Elfa après Draïd, un Dragon adulte sauvage peut attaquer leurs délégations ; Aria le tue sans difficulté, montrant qu’elle n’éprouve pas de solidarité automatique envers les autres Dragons."
+    ]
+  },
+  "chapterAudit": {
+    "status": "CANON",
+    "access": "reader",
+    "chapter1": {
+      "title": "L’Autre Côté",
+      "summary": "Ao force expérimentalement une anomalie dimensionnelle dans son laboratoire terrestre. L’arrêt d’urgence échoue lorsque la courbure de l’espace-temps devient autonome ; Ao et des débris sont aspirés. Elle est projetée violemment sur Oryon, se blesse au dos, découvre ses oreilles et sa queue de Demi-chat, puis rencontre Lyra et Eren après que deux Gobelins ont fui l’impact. Axiome établit l’adaptation linguistique. En arrivant à Solaria, sa curiosité la disperse jusqu’à la Guilde, où le mot « magie » prononcé par Sato capte toute son attention.",
+      "readerKnowledge": [
+        "Ao a réussi à atteindre un autre monde mais son expérience a échappé à son contrôle.",
+        "Elle est devenue Demi-chat pendant le passage.",
+        "Axiome lui permet de comprendre la langue locale.",
+        "Ses instruments transportés dans une poche ont été détruits à l’impact."
+      ]
+    },
+    "chapter2": {
+      "title": "Magie",
+      "summary": "Ao se précipite vers Sato et l’interroge sur le mana et les quatre éléments. Elle reformule immédiatement ses explications avec son regard scientifique. Un contact rapproché déclenche accidentellement Sensor : Sato perçoit seulement des fragments de la solitude et du passé d’Ao, ce qui lui rappelle émotionnellement sa fille décédée. Il prend Ao spontanément dans ses bras sans lui expliquer tout son passé. Plus tard, Lyra insiste sur la situation pratique d’Ao et l’emmène à l’évaluation : la Pierre Noire la classe rang E, résultat qu’Ao accueille surtout avec fascination.",
+      "readerKnowledge": [
+        "Sato possède une capacité sensorielle anormale dont le lecteur ne connaît pas encore toutes les règles.",
+        "Ao est réellement rang E au départ malgré son intelligence.",
+        "La Pierre Noire ne révèle aucune puissance cachée qui la placerait artificiellement plus haut."
+      ]
+    },
+    "chapter3": {
+      "title": "Un toit pour ce soir",
+      "summary": "Ao découvre ses affinités Eau et Foudre au niveau inférieur, tente sans succès de produire de la magie puis apprend qu’elle doit d’abord comprendre le mana. Sato lui montre la grande bibliothèque de la Guilde, qu’elle voudrait immédiatement explorer. Après un examen médical confirmant une contusion et un traumatisme musculaire sans blessure critique, Lyra et Eren lui font découvrir quelques aspects pratiques de Solaria. Sans argent ni logement, Ao accepte finalement l’hébergement temporaire dans leur maison familiale, son premier véritable point d’ancrage sur Oryon.",
+      "readerKnowledge": [
+        "Ao ne sait toujours lancer aucun sort.",
+        "La bibliothèque devient son prochain objectif immédiat.",
+        "Lyra et Eren lui offrent un foyer temporaire sans contrepartie."
+      ]
+    }
+  },
+  "bestiaryComplete": {
+    "status": "CANON",
+    "access": "reader",
+    "sourceNote": "Complète le bestiaire incomplet de api/lore. Le titre ancien « Bestiaire d’Oyon » contient seulement une coquille ; le nom canon de la planète est Oryon.",
+    "rankE": [
+      {"name":"Slime","facts":["Petite créature gluante et gélatineuse commune dans les forêts, notamment près d’Asteria.","Peu dangereuse mais capable de dissoudre les vêtements."]},
+      {"name":"Rat","facts":["Plutôt rare, surtout présent dans les égouts et lieux à forte odeur.","Peu dangereux mais peut mordre."]},
+      {"name":"Aracne","facts":["Petite araignée peu dangereuse vivant dans les lieux sombres et abandonnés."]}
+    ],
+    "rankD": [
+      {"name":"Slime Transformiste","facts":["Plus rare que le Slime normal.","Peut prendre le contrôle d’un cadavre pour s’en servir comme corps.","N’est pas intelligent."]},
+      {"name":"Gobelin","facts":["Environ 1,12 m.","Faible seul mais dangereux en groupe.","Communique avec ses congénères et établit des camps, notamment dans les forêts profondes."]},
+      {"name":"Strix","facts":["Créature fantomatique ressemblant à une chouette.","Insensible aux dégâts physiques ordinaires et vulnérable à la magie.","Présente dans les zones sombres et les forêts, notamment autour d’Elyndra."]},
+      {"name":"Sanglier","facts":["Peu agressif par nature.","Ses charges et son fouissage peuvent ravager flore et cultures."]},
+      {"name":"Loutre noire","facts":["Vit près des grandes rivières et chasse en groupe.","Griffes et crocs assez dangereux pour repousser un Hobgobelin dans certaines circonstances."]}
+    ],
+    "rankC": [
+      {"name":"Loup Argenté","facts":["Chasse en meute sous les ordres d’un chef.","Dangereux surtout en groupe et rôde parfois près des Gobelins pour s’en nourrir."]},
+      {"name":"Raptor Acéré","facts":["Prédateur solitaire des plaines et hautes herbes.","Plus intelligent que la moyenne, discret et rusé.","Certains individus sont capturés, élevés ou dressés et peuvent tirer des charrettes.","Un Raptor dressé reste physiquement un monstre de rang C et peut redevenir dangereux s’il panique ou est maltraité."]}
+    ],
+    "rankB": [
+      {"name":"Ours d’Onyx","facts":["Très dangereux, massif et doté de griffes puissantes.","Résiste particulièrement bien à la magie.","Présent près des montagnes des Brumes Éternelles."]},
+      {"name":"Harpie","facts":["Monstre humanoïde volant, intelligent et capable de dialoguer.","Évite les combats inutiles mais reste redoutable grâce à ses ailes, ses griffes et son intelligence.","Vit dans les grandes forêts d’Elyndra."]},
+      {"name":"Hobgobelin","facts":["Semblable au Gobelin mais pouvant approcher 2 m.","Immense force physique, rare, généralement présent au sein de groupes de Gobelins."]}
+    ],
+    "rankA": [
+      {"name":"Dragon adulte","facts":["Créature volante massive des Brumes Éternelles.","Souffle draconique intrinsèque, écailles extrêmement difficiles à percer.","Un monstre A exige normalement plusieurs aventuriers A selon les circonstances ; ce n’est pas une règle mathématique absolue."]},
+      {"name":"Chimère","facts":["Tête de lion, ailes de faucon et queue de scorpion au venin mortel.","C’est précisément la créature A vaincue seule par Hetsuga dans des circonstances exceptionnelles."]},
+      {"name":"Ver Géant","facts":["Créature désertique de plus de dix mètres, dissimulée sous le sable.","Être happé dans sa gueule est presque toujours mortel."]}
+    ],
+    "rankS": [
+      {"name":"Dragon Ancien","facts":["Évolution/âge supérieur du Dragon avec capacités de base démesurément accrues.","Extrêmement rare ; peut développer intelligence, langage et forme humanoïde.","Les Dragons Anciens sont officiellement connus jusqu’au rang S, même si Aria constitue un cas particulier réellement SS mais sous-évalué par la Pierre."]}
+    ]
+  },
+  "itemsAndWeapons": {
+    "status": "CANON_OR_PREVU_AS_CHARACTER_DETAIL",
+    "access": "author",
+    "facts": [
+      "Le rang d’une arme est une recommandation de dangerosité/sécurité et non un prérequis biologique : un combattant de rang inférieur peut techniquement manier une arme plus élevée s’il l’obtient.",
+      "Hetsuga utilise une épée de rang B héritée de son père décédé et refuse de l’abandonner malgré son rang A.",
+      "Edward possède une arme légendaire de rang S forgée sur mesure par Norn.",
+      "Khardûn peut forger des armes de très haut rang grâce à son savoir-faire et à ses matériaux magiques."
+    ]
+  },
+  "openPointsDoNotInvent": [
+    "Transposis : cooldown/fréquence/orientation exacte non verrouillés.",
+    "Starvamp : méthode exacte de cumul, plafond éventuel et condition précise de remise à zéro non verrouillés.",
+    "Création d’Univers X : le sens exact de X est volontairement laissé comme indice/numérotation et ne doit pas être développé sans validation.",
+    "Les temps de voyage validés sont idéaux et ne doivent pas être convertis en durées réelles garanties.",
+    "La carte d’Oryon n’est pas à l’échelle exacte ; ne pas déduire de nouvelles distances à partir du dessin.",
+    "Ne pas inventer de nouvelle nation, continent, religion majeure, haut-gradé A anonyme ou nouvelle Compétence Unique pour combler un vide."
+  ]
+}
