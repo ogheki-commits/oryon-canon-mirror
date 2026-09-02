@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "title": "Oryon — Ajouts canoniques complémentaires",
+    "version": "1.4",
+    "updatedAt": "2026-09-02",
+    "language": "fr",
+    "role": "ajouts_canoniques_prioritaires_pass_3",
+    "instruction": "Ce fichier contient les ajouts validés après canon-audit-v1.3.json. En cas de contradiction : correction récente validée après ce commit > canon-additions-v1.4.json > canon-audit-v1.3.json > canon-overrides-v1.2.json > chapitres validés > api/lore/api/lore.json > anciennes fiches. Ne jamais inventer les champs encore non définis."
+  },
+  "medicalProtocolAsteria": {
+    "id": "MED-0001",
+    "status": "CANON",
+    "access": "author",
+    "title": "Protocole médical d'Asteria : soins et gestion du mana",
+    "sourceFile": "docs/protocole-medical-asteria.md",
+    "scope": "Pratiques médicales officielles d'Asteria, notamment pour les soldats et aventuriers.",
+    "foundation": [
+      "La médecine d'Asteria combine des techniques de chirurgie médiévale classique avec la régénération passive du réservoir de mana grâce au mana ambiant.",
+      "Les méthodes liées au mana décrites ici visent à recharger ou maintenir le réservoir magique du patient ; elles ne constituent pas une régénération instantanée des blessures physiques."
+    ],
+    "twoPillars": [
+      {
+        "name": "Repos Forcé (Sommeil Artificiel)",
+        "description": "Utilisation de plantes sédatives, comme le pavot, afin de plonger le blessé dans un sommeil profond, limiter le gaspillage d'énergie et optimiser l'absorption passive du mana de l'air."
+      },
+      {
+        "name": "Tisanes et Onguents de Mana",
+        "description": "Remèdes préparés à partir de plantes médicinales ayant absorbé le mana de la terre ; ils servent de carburant d'urgence pour maintenir le niveau vital de mana du patient."
+      }
+    ],
+    "minorInjuries": {
+      "superficialCutsAndMinorMonsterBites": [
+        "Nettoyage au vinaigre ou au vin.",
+        "Suture au fil de lin avec une aiguille.",
+        "Application d'un onguent de mana sur les sutures afin de nourrir la peau et d'accélérer la cicatrisation naturelle sur quelques jours."
+      ],
+      "sprainsAndStrains": [
+        "Réduction manuelle de l'articulation et immobilisation stricte du membre à l'aide d'éclisses en bois."
+      ]
+    },
+    "severeInjuries": {
+      "principle": "Pour les traumatismes lourds, le protocole standard reste une médecine médiévale brute et physique, sans intervention du mana.",
+      "openFractures": [
+        "Réalignement manuel de l'os.",
+        "Nettoyage minutieux des éclats d'os cassés.",
+        "Suture profonde des muscles puis de la peau touchés."
+      ],
+      "majorInternalBleedingAndEvisceration": [
+        "Ouverture de la zone.",
+        "Épongeage du sang avec des linges propres.",
+        "Cautérisation immédiate des vaisseaux artériels majeurs au fer brûlant ou à l'huile bouillante.",
+        "Fermeture de la plaie."
+      ]
+    },
+    "relationshipWithFlower": [
+      "Le protocole ci-dessus décrit la pratique médicale officielle générale.",
+      "Flower est une Compétence Unique individuelle de Vely Flower qui lui permet d'effectuer certains gestes chirurgicaux intracorporels sans ouvrir la peau ; elle ne transforme pas cette capacité exceptionnelle en pratique accessible aux autres médecins.",
+      "Flower ne régénère rien."
+    ]
+  },
+  "characters": [
+    {
+      "id": "PER-0022",
+      "name": "Vely Flower",
+      "status": "CANON",
+      "access": "author",
+      "readerStatus": "Non encore introduite dans les chapitres validés.",
+      "identity": {
+        "age": 20,
+        "race": "Humaine",
+        "role": "Médecin officielle de la cour de l'empereur Edward, principalement dédiée aux soldats et aventuriers."
+      },
+      "personality": [
+        "Prodige médical d'une grande gentillesse, profondément timide et peureuse.",
+        "Elle doute fréquemment d'elle-même malgré son génie médical incontesté.",
+        "Lorsqu'un patient est en danger de mort, sa peur disparaît immédiatement au profit d'une concentration clinique et d'une efficacité chirurgicale redoutables.",
+        "Elle est secrètement amoureuse de Hetsuga depuis qu'elle l'a soigné et perd totalement ses moyens, bafouille et panique lorsqu'il entre dans la pièce hors urgence médicale."
+      ],
+      "uniqueSkill": {
+        "id": "UNI-0012",
+        "name": "Flower",
+        "status": "CANON",
+        "activationVisual": "Les yeux de Vely deviennent instantanément luminescents lors de l'utilisation.",
+        "abilities": [
+          {
+            "name": "Scanner corporel",
+            "description": "Détecte les symptômes avec une précision chirurgicale absolue et permet à Vely de voir à travers le corps humain afin de repérer notamment blessures internes et os brisés."
+          },
+          {
+            "name": "Suture Intracorporelle",
+            "description": "Permet de soigner au sens chirurgical, recoudre ou manipuler les tissus et vaisseaux à l'intérieur du corps en ignorant la barrière de la peau, réduisant fortement les risques d'infection liés à l'ouverture du patient."
+          }
+        ],
+        "coreRule": [
+          "Flower doit être considérée comme un outil médical exceptionnel et ultra-pratique, pas comme un pouvoir de régénération.",
+          "Flower ne régénère aucun tissu, organe ou partie du corps.",
+          "Elle permet à Vely de diagnostiquer et de manipuler chirurgicalement ce qui existe déjà ; la guérison biologique reste distincte."
+        ],
+        "undefined": [
+          "Portée exacte.",
+          "Coût précis en mana ou fatigue.",
+          "Durée maximale d'utilisation.",
+          "Limites quantitatives exactes sur la complexité ou le nombre d'interventions simultanées."
+        ]
+      },
+      "background": [
+        "Vely a théorisé et mis au point les deux piliers de la convalescence par le mana utilisés dans le protocole médical d'Asteria.",
+        "Elle a soigné Hetsuga après un combat difficile.",
+        "Impressionné par son efficacité, Hetsuga a vanté ses mérites à l'empereur Edward.",
+        "Edward s'est déplacé personnellement pour lui proposer le poste de médecin officielle de la cour.",
+        "Vely, complètement paniquée par la présence de l'Empereur, a accepté l'offre."
+      ],
+      "relationships": [
+        {
+          "target": "PER-0013 Hetsuga Eno",
+          "type": "Amour secret de Vely",
+          "notes": "Vely est amoureuse de Hetsuga depuis qu'elle l'a soigné. Aucun sentiment réciproque de Hetsuga n'est défini ici."
+        },
+        {
+          "target": "PER-0006 Edward Asteria",
+          "type": "Employeur impérial",
+          "notes": "Edward l'a recrutée personnellement après recommandation de Hetsuga."
+        }
+      ],
+      "undefined": [
+        "Rang officiel de Vely.",
+        "Affinités élémentaires de Vely.",
+        "Niveau de maîtrise élémentaire éventuel.",
+        "Date exacte du combat lors duquel elle a soigné Hetsuga.",
+        "Première apparition prévue dans le manga."
+      ]
+    }
+  ]
+}
