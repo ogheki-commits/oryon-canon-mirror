@@ -4,43 +4,36 @@ Base canon publique du manga **Ao dans Oryon**.
 
 > ⚠️ Spoilers complets : ce dépôt contient des secrets auteur, des événements futurs et des informations non révélées au lecteur.
 
-## Ressources directes
+## Structure simple
 
 - [Contexte IA compact](https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/ai-context.txt)
-- [Ajouts canoniques prioritaires v1.4](https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-additions-v1.4.json)
+- [Canon opérationnel consolidé](https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-current.json)
 - [Protocole médical d’Asteria](https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/protocole-medical-asteria.md)
-- [Audit canon complémentaire v1.3](https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-audit-v1.3.json)
-- [Corrections et ajouts prioritaires v1.2](https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-overrides-v1.2.json)
 - [Index et règles d’utilisation](https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/llms.txt)
-- [Lore structuré complet historique](https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore)
+- [Lore structuré historique](https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore)
 - [Copie JSON du lore historique](https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore.json)
 
-## Ordre de lecture canon
+## Ordre de lecture normal
 
 1. `ai-context.txt`
-2. `canon-additions-v1.4.json`
-3. `canon-audit-v1.3.json`
-4. `canon-overrides-v1.2.json`
-5. `api/lore` / `api/lore.json`
+2. `canon-current.json`
+3. `api/lore` / `api/lore.json` uniquement si un détail historique supplémentaire est nécessaire
+4. document spécialisé éventuel, par exemple `docs/protocole-medical-asteria.md`
 
-En cas de contradiction, les ajouts v1.4 priment sur l’audit v1.3, qui prime sur l’override v1.2, puis sur les formulations plus anciennes du lore principal. Ces fichiers prioritaires permettent d’éviter de réécrire brutalement le gros JSON historique tant que chaque correction n’a pas encore été fusionnée dans une future reconstruction complète de la base.
+Les anciennes couches canoniques versionnées ont été retirées de la racine et conservées dans `archive/canon-layers/` pour traçabilité. Elles ne sont plus à lire en routine.
 
-## Ajouts v1.4
+## Canon actuel
 
-Cette passe ajoute **Vely Flower**, médecin officielle de la cour d’Edward spécialisée dans les soldats et aventuriers, ainsi que sa Compétence Unique **Flower**. Flower fonctionne comme un outil exceptionnel de diagnostic et de chirurgie intracorporelle et **ne possède aucun effet de régénération**.
+`canon-current.json` est désormais l’unique fichier de consolidation prioritaire. Il reprend les corrections et ajouts utiles des anciennes couches, notamment : monde et puissance, magie, Guilde, économie, géographie, bestiaire, armes, personnages, Uniques, chapitres 1 à 3, secrets auteur, protocole médical et Vely Flower.
 
-Le protocole médical officiel d’Asteria est également conservé séparément dans `docs/protocole-medical-asteria.md`. Il définit les deux piliers de la convalescence par le mana et les pratiques médicales validées pour les blessures légères et graves.
+La règle d’inscription actuelle suit la continuité des chapitres : **Pierre Noire = rang global ; cristaux séparés = affinités élémentaires**.
 
-## Audit v1.3
+Vely Flower et sa Compétence Unique Flower sont intégrées au canon consolidé. **Flower n’est pas un pouvoir de régénération** : c’est un outil exceptionnel de diagnostic et de chirurgie intracorporelle.
 
-La seconde passe d’audit corrige notamment plusieurs erreurs d’identifiants et de continuité du lore historique : Hetsuga a été vaincu en duel par Trya, pas Vrul ; les anciennes ailes de Râ sont liées à Trya, pas Vrul ; Oryon est une planète ; le Mont Céleste n’est pas une zone juridiquement interdite par définition ; les règles de plusieurs Uniques ont été précisées. Le bestiaire validé et les résumés consolidés des chapitres 1 à 3 sont également conservés dans `canon-audit-v1.3.json`.
+## Maintenance future
 
-## Organisation actuelle
+À partir de maintenant, les nouvelles informations validées doivent être intégrées directement dans `canon-current.json`. On évite de créer une suite de fichiers `v1.5`, `v1.6`, etc.
 
-GitHub sert de **base canon opérationnelle prioritaire** pour le travail avec ChatGPT. Le site `oryon-archives-canon.ogheki.chatgpt.site` peut rester temporairement en retard et être resynchronisé plus tard depuis ce dépôt.
+`ai-context.txt` reste volontairement compact et sert de point d’entrée rapide. Les anciennes versions archivées restent disponibles uniquement si une vérification de provenance ou la récupération d’un détail ancien devient nécessaire.
 
-Le dépôt est public afin que les ressources puissent être lues sans compte, cookie, session ou JavaScript. Le fichier `robots.txt` demande aux robots de ne pas indexer le miroir, sans pouvoir garantir l’absence totale de référencement du dépôt GitHub lui-même.
-
-## Mise à jour
-
-Une information proposée n’est jamais automatiquement canonique. Après validation explicite de l’auteur, elle peut être ajoutée au dépôt puis devenir prioritaire pour les reprises suivantes.
+Le site `oryon-archives-canon.ogheki.chatgpt.site` peut rester temporairement en retard et être resynchronisé plus tard depuis ce dépôt.
