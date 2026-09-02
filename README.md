@@ -1,39 +1,45 @@
 # Oryon — miroir canon pour IA
 
-Base canon publique du manga **Ao dans Oryon**.
+Base canon opérationnelle du manga **Ao dans Oryon**.
 
-> ⚠️ Spoilers complets : ce dépôt contient des secrets auteur, des événements futurs et des informations non révélées au lecteur.
+> ⚠️ Le dépôt contient des spoilers et des informations réservées auteur.
 
-## Structure simple
+## Lecture recommandée
 
-- [Contexte IA compact](https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/ai-context.txt)
-- [Canon opérationnel consolidé](https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-current.json)
-- [Protocole médical d’Asteria](https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/protocole-medical-asteria.md)
-- [Index et règles d’utilisation](https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/llms.txt)
-- [Lore structuré historique](https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore)
-- [Copie JSON du lore historique](https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore.json)
+1. `ai-context.txt` — point d’entrée compact.
+2. `canon-current.json` — canon consolidé principal.
+3. `docs/` — documents spécialisés validés par domaine.
+4. `drafts/` — questions et propositions non entièrement validées ; **ne pas les traiter comme canon**.
+5. `archive/` — historique uniquement ; **ne pas l’utiliser pour l’écriture courante**.
 
-## Ordre de lecture normal
+## API
 
-1. `ai-context.txt`
-2. `canon-current.json`
-3. `api/lore` / `api/lore.json` uniquement si un détail historique supplémentaire est nécessaire
-4. document spécialisé éventuel, par exemple `docs/protocole-medical-asteria.md`
+`api/lore` et `api/lore.json` pointent désormais sur le même contenu canon que `canon-current.json`. L’ancien gros lore v1.1, qui contenait plusieurs formulations obsolètes, a été retiré de l’API active et conservé dans `archive/historical-lore/api-lore-v1.1.json`.
 
-Les anciennes couches canoniques versionnées ont été retirées de la racine et conservées dans `archive/canon-layers/` pour traçabilité. Elles ne sont plus à lire en routine.
+Cela évite qu’une future IA lise accidentellement comme canon : Oryon = continent, Hetsuga battu par Vrul, ailes de Râ liées à Vrul, ancien déclencheur erroné de Sensor, ancien état de Mina, etc.
 
-## Canon actuel
+## Documents spécialisés actuels
 
-`canon-current.json` est désormais l’unique fichier de consolidation prioritaire. Il reprend les corrections et ajouts utiles des anciennes couches, notamment : monde et puissance, magie, Guilde, économie, géographie, bestiaire, armes, personnages, Uniques, chapitres 1 à 3, secrets auteur, protocole médical et Vely Flower.
+- `docs/protocole-medical-asteria.md`
+- `docs/solaria.md`
+- `docs/systeme-armes-oryon.md`
+- `docs/demi-betes-oryon.md`
+- `docs/citoyens-recrutement-oryon.md`
+- `docs/lois-justice-securite-oryon.md`
 
-La règle d’inscription actuelle suit la continuité des chapitres : **Pierre Noire = rang global ; cristaux séparés = affinités élémentaires**.
+Une fiche spécialisée validée et plus récente prévaut sur une formulation générale plus ancienne de `canon-current.json` lorsqu’elles traitent exactement du même point.
 
-Vely Flower et sa Compétence Unique Flower sont intégrées au canon consolidé. **Flower n’est pas un pouvoir de régénération** : c’est un outil exceptionnel de diagnostic et de chirurgie intracorporelle.
+## Brouillons
 
-## Maintenance future
+- `drafts/systeme-uniques-oryon-a-valider.md` : brouillon auteur sur l’algorithme/recyclage des Uniques et le cas Axiome.
+- `drafts/points-a-rendre-coherents.md` : liste de décisions encore nécessaires pour verrouiller les zones susceptibles de créer des contradictions.
 
-À partir de maintenant, les nouvelles informations validées doivent être intégrées directement dans `canon-current.json`. On évite de créer une suite de fichiers `v1.5`, `v1.6`, etc.
+## Règles de maintenance
 
-`ai-context.txt` reste volontairement compact et sert de point d’entrée rapide. Les anciennes versions archivées restent disponibles uniquement si une vérification de provenance ou la récupération d’un détail ancien devient nécessaire.
+- Ne pas créer une nouvelle couche `v1.x` à chaque modification.
+- Mettre à jour directement le canon courant ou le document spécialisé concerné.
+- Archiver uniquement lorsqu’une ancienne source doit rester consultable pour traçabilité.
+- Ne jamais inventer une réponse à un champ explicitement non défini.
+- CANON / PRÉVU / IDÉE et publicKnowledge / readerKnowledge / authorKnowledge doivent rester distincts.
 
-Le site `oryon-archives-canon.ogheki.chatgpt.site` peut rester temporairement en retard et être resynchronisé plus tard depuis ce dépôt.
+Le site miroir externe peut être resynchronisé plus tard ; en cas de différence temporaire, ce dépôt GitHub est prioritaire.
