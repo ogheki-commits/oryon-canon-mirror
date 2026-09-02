@@ -8,8 +8,9 @@
 
 ## 2. ÉGALITÉ DES CHANCES ET ENGAGEMENT CITOYEN
 
-- **Politique de non-discrimination :** Sous le règne de l’Empereur Edward Asteria, l'accès aux corps de métiers d'élite est universel. Chaque habitant relevant des catégories actuellement explicitement définies dans ce document, sans distinction de race (Humain, Demi-Bête) ou de classe sociale, détient le droit légal de s'inscrire à la Guilde pour devenir Aventurier ou de postuler pour s'enrôler dans l'Armée Impériale.
-- **Point encore à préciser :** le cas juridique exact des Nains résidant ou citoyens d'Asteria n'a pas encore été explicitement confirmé dans cette règle d'accès.
+- **Politique de non-discrimination :** Sous le règne de l’Empereur Edward Asteria, l'accès à la Guilde et à l'Armée Impériale est légalement ouvert sans distinction de classe sociale aux Humains, Demi-Bêtes et Nains vivant à Asteria ou reconnus comme citoyens d'Asteria.
+- **Nains d'Asteria :** Un Nain dispose donc du même droit légal de s'inscrire à la Guilde pour devenir Aventurier ou de postuler à l'Armée Impériale. Il n'existe aucune interdiction raciale ou institutionnelle à ce sujet.
+- **Tendance culturelle naine :** Dans les faits, les Nains préfèrent généralement une vie paisible, la forge ou l'artisanat. Aucun personnage Nain aventurier n'est actuellement défini dans le canon ; cette absence est culturelle et circonstancielle, pas une impossibilité.
 
 ## 3. LE FILTRE MILITAIRE : HETSUGA ET ENJIN
 
