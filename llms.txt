@@ -16,17 +16,17 @@ Source de vérité opérationnelle du manga Ao/Oryon.
 - Demi-Bêtes : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/demi-betes-oryon.md
 - Citoyens et recrutement : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/citoyens-recrutement-oryon.md
 - Lois, justice et sécurité : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/lois-justice-securite-oryon.md
+- Système des Compétences Uniques : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/systeme-uniques-oryon.md
 
 ## API canon
 
 - https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore
 - https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore.json
 
-Ces deux chemins contiennent désormais le même canon actif que `canon-current.json`. Ils ne contiennent plus l’ancien lore v1.1 contradictoire.
+Ces deux chemins contiennent le canon consolidé général de `canon-current.json`. Pour les domaines disposant d'un document spécialisé plus récent, le document de `docs/` prévaut.
 
 ## Brouillons — NON CANON
 
-- https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/drafts/systeme-uniques-oryon-a-valider.md
 - https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/drafts/points-a-rendre-coherents.md
 
 Ne jamais utiliser un fichier de `drafts/` comme vérité canonique sans validation explicite de l’auteur.
@@ -42,7 +42,14 @@ Anciennes couches v1.2/v1.3/v1.4 : `archive/canon-layers/`.
 
 1. Correction explicitement validée par l’auteur après le dernier commit.
 2. Document spécialisé validé dans `docs/` lorsqu’il traite exactement du sujet.
-3. `canon-current.json`.
+3. `canon-current.json` / `api/lore` / `api/lore.json`.
 4. Chapitres validés.
 5. Archives, uniquement pour récupérer un détail non migré et non contradictoire.
 6. Brouillons : jamais canoniques par défaut.
+
+## Points encore ouverts
+
+La liste exhaustive est dans `drafts/points-a-rendre-coherents.md`. À ce jour, les seuls trous conservés concernent principalement :
+- le droit exact des Nains résidant/citoyens d'Asteria à rejoindre l'Armée impériale ;
+- Elfe + Nain ;
+- la formulation explicite de la reproduction entre deux Demi-Bêtes de même variante.
