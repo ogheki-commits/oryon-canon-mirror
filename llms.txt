@@ -5,21 +5,37 @@
 ## Utilisation recommandée
 
 - Commencer chaque reprise d’écriture par : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/ai-context.txt
-- Interroger toutes les fiches structurées : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore
-- Chercher un terme : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore?q=Ao
-- Ouvrir un identifiant exact : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore?id=PER-0001
-- Filtrer une catégorie : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore?category=personnages
-- Limiter le point de vue : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore?view=reader
+- Lire ensuite les corrections prioritaires : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-overrides-v1.2.json
+- Puis interroger le lore structuré : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore
+- Copie JSON du lore : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore.json
+
+## Priorité des sources
+
+1. Correction explicitement validée par l’auteur après la dernière mise à jour GitHub, jusqu’à son prochain commit.
+2. `canon-overrides-v1.2.json`.
+3. Décisions canoniques établies dans les chapitres validés.
+4. `api/lore` et `api/lore.json`.
+5. Anciennes fiches texte ou formulations devenues obsolètes.
+
+Une entrée présente dans `canon-overrides-v1.2.json` remplace donc toute formulation contradictoire plus ancienne du lore principal jusqu’à fusion définitive.
 
 ## Règles impératives
 
 - CANON est établi. PRÉVU est décidé mais non révélé. IDÉE reste modifiable.
-- Ne pas divulguer authorKnowledge dans un passage destiné au lecteur avant la révélation correspondante.
+- Ne pas divulguer `authorKnowledge` dans un passage destiné au lecteur avant la révélation correspondante.
 - Ne pas donner à un personnage une information qu’il ne possède pas.
-- Ne jamais résoudre une contradiction par invention ; la signaler.
-- En cas de conflit, appliquer la priorité des sources exposée dans ai-context.txt.
+- Ne jamais résoudre une contradiction par invention ; la signaler ou appliquer une correction prioritaire explicite.
+- Oryon est la planète entière ; toute ancienne mention d’un « continent d’Oryon » est obsolète.
+- La carte illustrée n’est pas strictement à l’échelle : les distances chiffrées validées priment.
+- Ne jamais transformer une suggestion éditoriale en CANON sans validation explicite de l’auteur.
 
-## Mise à jour
+## État de continuité
 
-Version des données : 1.1 (2026-09-01).
-Nombre de fiches : 89.
+- Version canon opérationnelle : 1.2 (2026-09-02).
+- Lore principal historique : version 1.1, 89 fiches.
+- Corrections et ajouts récents : `canon-overrides-v1.2.json`.
+- Fin actuelle : chapitre 3 « Un toit pour ce soir ».
+
+## Note de maintenance
+
+Le dépôt GitHub est désormais la base canon opérationnelle prioritaire. Le site `oryon-archives-canon.ogheki.chatgpt.site` peut être resynchronisé ultérieurement ; une différence temporaire entre le site et GitHub ne doit pas faire régresser le canon validé présent ici.
