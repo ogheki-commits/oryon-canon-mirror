@@ -5,21 +5,24 @@
 ## Utilisation recommandée
 
 - Commencer chaque reprise d’écriture par : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/ai-context.txt
+- Lire ensuite les ajouts prioritaires : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-additions-v1.4.json
 - Lire ensuite l’audit prioritaire : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-audit-v1.3.json
 - Lire ensuite les corrections précédentes : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-overrides-v1.2.json
+- Protocole médical d’Asteria : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/protocole-medical-asteria.md
 - Puis interroger le lore structuré historique : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore
 - Copie JSON du lore historique : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore.json
 
 ## Priorité des sources
 
 1. Correction explicitement validée par l’auteur après la dernière mise à jour GitHub, jusqu’à son prochain commit.
-2. `canon-audit-v1.3.json`.
-3. `canon-overrides-v1.2.json`.
-4. Décisions canoniques établies dans les chapitres validés.
-5. `api/lore` et `api/lore.json`.
-6. Anciennes fiches texte ou formulations devenues obsolètes.
+2. `canon-additions-v1.4.json`.
+3. `canon-audit-v1.3.json`.
+4. `canon-overrides-v1.2.json`.
+5. Décisions canoniques établies dans les chapitres validés.
+6. `api/lore` et `api/lore.json`.
+7. Anciennes fiches texte ou formulations devenues obsolètes.
 
-Une entrée présente dans les fichiers d’audit/corrections prioritaires remplace toute formulation contradictoire plus ancienne du lore principal jusqu’à fusion définitive.
+Une entrée présente dans les fichiers d’ajout/audit/corrections prioritaires remplace toute formulation contradictoire plus ancienne du lore principal jusqu’à fusion définitive.
 
 ## Règles impératives
 
@@ -32,12 +35,16 @@ Une entrée présente dans les fichiers d’audit/corrections prioritaires rempl
 - Ne jamais transformer une suggestion éditoriale en CANON sans validation explicite de l’auteur.
 - Les erreurs d’identifiant repérées dans le lore historique doivent être corrigées par les fichiers prioritaires : Hetsuga a été vaincu par Trya, pas Vrul ; les ailes de Râ sont liées à Trya, pas Vrul.
 - Une Pierre Noire peut évaluer Vrul SS, mais ne pas inventer qu’un artefact précis l’a déjà évaluée ou la reconnaît personnellement.
+- Vely Flower et le protocole médical d’Asteria sont définis dans `canon-additions-v1.4.json` et `docs/protocole-medical-asteria.md`.
+- Flower est un outil de diagnostic et de chirurgie intracorporelle ; il ne régénère rien.
+- Rang, affinités élémentaires et limites techniques exactes de Flower non explicitement définies ne doivent pas être inventés.
 
 ## État de continuité
 
-- Version canon opérationnelle : 1.3 (2026-09-02).
+- Version canon opérationnelle : 1.4 (2026-09-02).
 - Lore principal historique : version 1.1, 89 fiches.
-- Audit complémentaire actuel : `canon-audit-v1.3.json`.
+- Ajouts canoniques actuels : `canon-additions-v1.4.json`.
+- Audit complémentaire : `canon-audit-v1.3.json`.
 - Corrections consolidées antérieures : `canon-overrides-v1.2.json`.
 - Fin actuelle : chapitre 3 « Un toit pour ce soir ».
 
