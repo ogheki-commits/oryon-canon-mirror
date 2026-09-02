@@ -2,54 +2,53 @@
 
 > Source de vérité structurée du manga Ao dans Oryon. Langue : français. Contient des spoilers et du lore réservé auteur.
 
-## Utilisation recommandée
+## Lecture normale
 
-- Commencer chaque reprise d’écriture par : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/ai-context.txt
-- Lire ensuite les ajouts prioritaires : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-additions-v1.4.json
-- Lire ensuite l’audit prioritaire : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-audit-v1.3.json
-- Lire ensuite les corrections précédentes : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-overrides-v1.2.json
-- Protocole médical d’Asteria : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/protocole-medical-asteria.md
-- Puis interroger le lore structuré historique : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore
-- Copie JSON du lore historique : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore.json
+1. Commencer par : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/ai-context.txt
+2. Lire ensuite le canon opérationnel consolidé : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-current.json
+3. Pour un détail historique non repris dans le canon consolidé, consulter :
+   - https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore
+   - https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore.json
+4. Pour la médecine d’Asteria : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/protocole-medical-asteria.md
+
+Les anciennes couches v1.2, v1.3 et v1.4 sont archivées uniquement pour traçabilité. Elles ne font plus partie de l’ordre de lecture normal.
 
 ## Priorité des sources
 
-1. Correction explicitement validée par l’auteur après la dernière mise à jour GitHub, jusqu’à son prochain commit.
-2. `canon-additions-v1.4.json`.
-3. `canon-audit-v1.3.json`.
-4. `canon-overrides-v1.2.json`.
-5. Décisions canoniques établies dans les chapitres validés.
-6. `api/lore` et `api/lore.json`.
-7. Anciennes fiches texte ou formulations devenues obsolètes.
-
-Une entrée présente dans les fichiers d’ajout/audit/corrections prioritaires remplace toute formulation contradictoire plus ancienne du lore principal jusqu’à fusion définitive.
+1. Correction explicitement validée par l’auteur après le dernier commit GitHub.
+2. `canon-current.json`.
+3. Décisions canoniques établies dans les chapitres validés.
+4. Archives canoniques de secours, si un détail omis doit être récupéré : v1.4 > v1.3 > v1.2.
+5. `api/lore` et `api/lore.json`.
+6. Anciennes fiches texte/formulations obsolètes.
 
 ## Règles impératives
 
 - CANON est établi. PRÉVU est décidé mais non révélé. IDÉE reste modifiable.
-- Ne pas divulguer `authorKnowledge` dans un passage destiné au lecteur avant la révélation correspondante.
+- Ne pas divulguer `authorKnowledge` avant la révélation correspondante.
 - Ne pas donner à un personnage une information qu’il ne possède pas.
-- Ne jamais résoudre une contradiction par invention ; la signaler ou appliquer une correction prioritaire explicite.
-- Oryon est la planète entière ; toute ancienne mention d’un « continent d’Oryon » est obsolète.
-- La carte illustrée n’est pas strictement à l’échelle : les distances chiffrées validées priment.
+- Ne jamais résoudre une contradiction par invention.
 - Ne jamais transformer une suggestion éditoriale en CANON sans validation explicite de l’auteur.
-- Les erreurs d’identifiant repérées dans le lore historique doivent être corrigées par les fichiers prioritaires : Hetsuga a été vaincu par Trya, pas Vrul ; les ailes de Râ sont liées à Trya, pas Vrul.
-- Une Pierre Noire peut évaluer Vrul SS, mais ne pas inventer qu’un artefact précis l’a déjà évaluée ou la reconnaît personnellement.
-- Vely Flower et le protocole médical d’Asteria sont définis dans `canon-additions-v1.4.json` et `docs/protocole-medical-asteria.md`.
+- Oryon est la planète entière, pas un continent.
+- La carte n’est pas strictement à l’échelle ; les distances chiffrées validées priment.
+- La Pierre Noire sert au rang global ; les affinités élémentaires sont testées séparément par les quatre cristaux d’affinité.
+- Hetsuga a été vaincu par Trya, pas Vrul.
+- Les anciennes ailes de Râ sont liées à Trya, pas Vrul.
+- Une Pierre peut évaluer Vrul SS sans qu’il soit canon qu’un artefact précis l’ait déjà évaluée ou reconnue personnellement.
 - Flower est un outil de diagnostic et de chirurgie intracorporelle ; il ne régénère rien.
-- Rang, affinités élémentaires et limites techniques exactes de Flower non explicitement définies ne doivent pas être inventés.
+- Rang, affinités et limites techniques exactes non définies de Vely/Flower ne doivent pas être inventés.
 
 ## État de continuité
 
-- Version canon opérationnelle : 1.4 (2026-09-02).
-- Lore principal historique : version 1.1, 89 fiches.
-- Ajouts canoniques actuels : `canon-additions-v1.4.json`.
-- Audit complémentaire : `canon-audit-v1.3.json`.
-- Corrections consolidées antérieures : `canon-overrides-v1.2.json`.
+- Canon opérationnel : `canon-current.json`.
 - Fin actuelle : chapitre 3 « Un toit pour ce soir ».
+- Lore historique : version 1.1, 89 fiches.
+- Protocole médical officiel : `docs/protocole-medical-asteria.md`.
 
-## Note de maintenance
+## Archives
 
-Le dépôt GitHub est la base canon opérationnelle prioritaire. Le site `oryon-archives-canon.ogheki.chatgpt.site` peut être resynchronisé ultérieurement ; une différence temporaire entre le site et GitHub ne doit pas faire régresser le canon validé présent ici.
+Les couches qui ont servi à construire le canon consolidé sont conservées dans `archive/canon-layers/` uniquement afin qu’aucune information historique ne soit perdue. Elles ne doivent être consultées qu’en cas de besoin de provenance, de vérification ou de récupération d’un détail non repris ailleurs.
 
-L’objectif de maintenance est de fusionner progressivement les fichiers prioritaires dans `api/lore` et `api/lore.json` une fois chaque passe auditée. Tant que cette fusion n’est pas terminée, toujours lire les fichiers prioritaires avant le lore historique.
+## Maintenance
+
+À partir de maintenant, les nouvelles informations validées doivent être intégrées directement dans `canon-current.json` au lieu de créer une nouvelle succession de fichiers v1.5, v1.6, etc. `ai-context.txt` reste volontairement compact et sert uniquement de point d’entrée rapide.
