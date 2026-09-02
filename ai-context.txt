@@ -6,7 +6,7 @@ RÔLE
 - Lire ensuite canon-current.json.
 - Pour un domaine précis, consulter le document spécialisé correspondant dans docs/ ; une fiche spécialisée plus récente prévaut sur la formulation générale plus ancienne de canon-current.json.
 - api/lore et api/lore.json sont des copies du canon général actuel, pas l’ancien lore v1.1.
-- archive/ = traçabilité uniquement. drafts/ = non canon tant qu’un point n’est pas validé.
+- archive/ = traçabilité uniquement. Les brouillons éventuels ne sont jamais canoniques sans validation explicite.
 
 PRIORITÉ
 1. Correction explicitement validée par l’auteur après le dernier commit GitHub.
@@ -14,7 +14,6 @@ PRIORITÉ
 3. canon-current.json / api/lore / api/lore.json.
 4. Chapitres validés.
 5. archive/ uniquement pour retrouver un détail historique non migré, jamais pour écraser une correction récente.
-6. drafts/ n’est pas canon.
 
 ÉTAT DU RÉCIT
 - Fin actuelle : chapitre 3 « Un toit pour ce soir ».
@@ -37,7 +36,7 @@ DOCUMENTS SPÉCIALISÉS CANONIQUES
 - docs/solaria.md : organisation des quatre quartiers et du complexe impérial.
 - docs/systeme-armes-oryon.md : armes, enchantements, affinités et rangs B/A/S.
 - docs/demi-betes-oryon.md : anatomie, variantes et reproduction inter-raciale explicitement définie.
-- docs/citoyens-recrutement-oryon.md : connaissances du citoyen et recrutement Armée/Gardes.
+- docs/citoyens-recrutement-oryon.md : connaissances du citoyen et recrutement Armée/Gardes, incluant le droit des Nains.
 - docs/lois-justice-securite-oryon.md : lois communes, justice d’Asteria et d’Elyndra, rôle judiciaire de Yoh.
 - docs/systeme-uniques-oryon.md : algorithme de Râ, découverte, recyclage et compensation des outsiders.
 
@@ -69,19 +68,21 @@ MÉDECINE / SOLARIA
 
 DEMI-BÊTES / REPRODUCTION
 - Demi-chats et Demi-chiens n’ont pas d’oreilles humaines en plus de leurs oreilles animales.
-- Humain + Demi-Bête = reproduction possible ; enfant Demi-Bête de la variante du parent Demi-Bête.
+- Humain + Demi-Bête = possible ; enfant Demi-Bête de la variante du parent Demi-Bête.
+- Deux Demi-Bêtes de même variante = possible ; enfant de la même variante.
 - Deux Demi-Bêtes de variantes différentes = impossible.
 - Elfe + Demi-Bête = impossible.
 - Nain + Demi-Bête = impossible.
 - Humain + Elfe = impossible.
 - Humain + Nain = impossible.
+- Elfe + Nain = impossible.
 - Ces incompatibilités n’empêchent pas des relations sentimentales ou sexuelles entre adultes consentants.
-- Elfe + Nain et le cas explicitement formulé de deux Demi-Bêtes de même variante restent à confirmer.
 
 CITOYENS / RECRUTEMENT
+- Humains, Demi-Bêtes et Nains vivant à Asteria ou reconnus comme citoyens d’Asteria disposent du même droit légal de s’inscrire à la Guilde et de postuler à l’Armée Impériale.
+- Les Nains préfèrent culturellement une vie paisible, la forge ou l’artisanat ; aucun personnage Nain aventurier n’est actuellement défini dans le canon. Ce n’est pas une interdiction.
 - Pour l’Armée Impériale, Hetsuga teste personnellement les recrues sur le plan physique/martial ; Enjin évalue ensuite personnellement les candidats retenus pour leur affectation optimale.
 - Les simples gardes ne passent pas par Hetsuga puis Enjin ; ils sont formés par d’autres gardes.
-- Le droit exact des Nains résidant/citoyens d’Asteria à entrer dans l’Armée impériale reste à confirmer.
 
 ELYNDRA / JUSTICE
 - Le faible niveau de criminalité elfe vient principalement de la culture pacifiste d’Elyndra, pas d’une impossibilité biologique de violence.
@@ -96,10 +97,6 @@ AUTRES POINTS RÉCENTS
 - Transcendance n’a pas de cooldown de 24 h.
 - Hetsuga a été vaincu par Trya, jamais par Vrul.
 - Les ailes de Râ sont liées à Trya, pas à Vrul.
-
-POINTS ENCORE OUVERTS
-- Voir drafts/points-a-rendre-coherents.md.
-- Ne pas inventer la réponse aux points encore ouverts.
 
 SOURCES
 - Canon principal : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-current.json
