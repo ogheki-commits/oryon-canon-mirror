@@ -1,0 +1,56 @@
+ORYON — CONTEXTE IA CANON · V1.1 · 2026-09-01
+
+RÔLE DE CETTE SOURCE
+- Cette encyclopédie est la source de vérité durable du manga Ao/Oryon.
+- En cas de conflit, appliquer la priorité des sources ci-dessous et signaler la contradiction au lieu d’inventer.
+- PRÉVU et IDÉE ne doivent jamais être présentés comme déjà révélés au lecteur.
+
+PRIORITÉ DES SOURCES
+1. Corrections les plus récentes validées dans la conversation
+2. Décisions prises pendant l’écriture des chapitres
+3. Fiches texte du dossier Manga
+4. Anciennes formulations devenues obsolètes
+
+ÉTAT ACTUEL
+- Fin du chapitre 3 : première soirée d’Ao sur Oryon, devant la maison familiale de Lyra et Eren.
+- Ao : 27 ans ; ancienne humaine devenue Demi-chat ; rang E ; Eau inférieur ; Foudre inférieur ; aucun sort maîtrisé ; hébergée par Lyra et Eren.
+- Lyra : 25 ans ; humaine ; rang C ; protectrice stricte ; Feu moyen + trois éléments inférieurs.
+- Eren : 28 ans ; humain ; rang C ; épéiste ; Feu inférieur canalisé sur sa lame.
+- Sato : 48 ans ; ancien rang A ; responsable de la bibliothèque ; vient de rencontrer Ao.
+
+RÈGLES DU MONDE
+- Oryon est médiéval. Quatre éléments : Eau/Glace, Feu/Magma, Foudre, Terre. Maîtrise : inférieur, moyen, supérieur.
+- Rangs globaux : E, D, C, B, A, S, SS, SSS. Le rang mesure le total réel, pas une valeur exacte. Rang A = élite.
+- La Pierre Noire combine capacités physiques, martiales et magiques ; elle ne mesure pas les Compétences Uniques.
+- Les monstres sont plus dangereux à rang égal ; un monstre A demande environ plusieurs aventuriers A, selon les contres et l’expérience.
+- Les Dragons adultes sont souvent A ; les Dragons Anciens peuvent atteindre S, devenir intelligents, parler et prendre forme humaine.
+- Nations : Asteria (plaines, cosmopolite), Khardûn (montagnes, forge), Elyndra (forêt, elfes isolationnistes). Guilde internationale neutre.
+
+RÈGLES DE CONTINUITÉ
+- CANON = établi dans les chapitres ; PRÉVU = décision future non révélée ; IDÉE = piste modifiable.
+- Toujours séparer informations publiques, révélées au lecteur et réservées auteur.
+- Ne pas donner à un personnage une information qu’il ne peut pas connaître.
+- Ao reste physiquement faible au départ. Sa force future vient de l’apprentissage, de la logique, des machines et de sources externes.
+- Aucun plot armor : rang, limites, terrain, fatigue, information et contres doivent rester cohérents.
+
+SECRETS AUTEUR MAJEURS
+- L’accident d’Ao attire ensuite Draïd, Zenedia, Zeo et Vrul depuis d’autres mondes.
+- Sato devient le père de cœur d’Ao puis meurt à cause de Zenedia, provoquant la rupture morale d’Ao.
+- Les Pierres Noires viennent du monde de Vrul.
+- Râ, ancien Ange devenu dieu, a créé Oryon et les Uniques ; il devient le boss final SSS.
+- Les anomalies interdimensionnelles échappent partiellement au code existentiel de Râ.
+
+POINTS À NE PAS INVENTER
+- Priorité des sources : Règle éditoriale : correction récente validée > décision prise pendant l’écriture > fiche texte > ancienne version obsolète.
+- Aria, Elza et Edward : détails à comparer : La conversation de référence indique que certaines formulations anciennes de ces trois fiches ont été corrigées ensuite.
+- Zao ou Zeo : Le fichier se nomme Zao.txt mais son titre et tout son contenu nomment le personnage Zeo Soul.
+- Chapitres 1 et 2 incomplets dans la V1 : Leur existence est canon, mais le fichier de suivi détaillé n’était pas joint aux 23 fiches du dossier Manga.
+
+PROCHAINE SCÈNE NATURELLE
+- Première soirée d’Ao chez Lyra et Eren, puis apprentissage réel de la perception du mana. Ne pas lui faire réussir trop vite un sort.
+
+ACCÈS AUX FICHES DÉTAILLÉES
+- Index IA : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/llms.txt
+- Toutes les fiches : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore
+- Recherche : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore?q=terme
+- Identifiant exact : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore?id=PER-0001
