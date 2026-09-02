@@ -1,19 +1,20 @@
-ORYON — CONTEXTE IA CANON · V1.3 · 2026-09-02
+ORYON — CONTEXTE IA CANON · V1.4 · 2026-09-02
 
 RÔLE DE CETTE SOURCE
 - Ce dépôt GitHub est la base canon prioritaire et durable du manga Ao/Oryon.
 - Commencer chaque reprise d’écriture par ce fichier.
-- Lire ensuite canon-audit-v1.3.json, puis canon-overrides-v1.2.json, avant api/lore lorsqu’une information détaillée est nécessaire.
+- Lire ensuite canon-additions-v1.4.json, puis canon-audit-v1.3.json, puis canon-overrides-v1.2.json, avant api/lore lorsqu’une information détaillée est nécessaire.
 - En cas de conflit, appliquer strictement la priorité ci-dessous et signaler la contradiction au lieu d’inventer.
 - PRÉVU et IDÉE ne doivent jamais être présentés comme déjà révélés au lecteur.
 
 PRIORITÉ DES SOURCES
 1. Correction explicitement validée par l’auteur après la dernière mise à jour GitHub (temporaire jusqu’au prochain commit)
-2. canon-audit-v1.3.json
-3. canon-overrides-v1.2.json
-4. Décisions canoniques établies dans les chapitres validés
-5. api/lore et api/lore.json
-6. Anciennes fiches texte et formulations devenues obsolètes
+2. canon-additions-v1.4.json
+3. canon-audit-v1.3.json
+4. canon-overrides-v1.2.json
+5. Décisions canoniques établies dans les chapitres validés
+6. api/lore et api/lore.json
+7. Anciennes fiches texte et formulations devenues obsolètes
 
 ÉTAT ACTUEL
 - Fin du chapitre 3 : « Un toit pour ce soir ».
@@ -66,6 +67,18 @@ CORRECTIONS PERSONNAGES À NE PAS RATER
 - Vrul : vrai SS ; hémomancie uniquement sur sang externe/extrait/cadavres, jamais le sang interne d’un vivant ; ne rencontre jamais Aria.
 - Râ : boss final SSS, ancien Ange et créateur d’Oryon ; son autorité de créateur est locale à son univers mais sa puissance SSS est intrinsèque. L’ancienne relation liant ses ailes à Vrul est une erreur : elles sont liées à Trya.
 
+MÉDECINE D’ASTERIA / VELY FLOWER
+- Le protocole médical officiel validé est conservé dans docs/protocole-medical-asteria.md et structuré dans canon-additions-v1.4.json.
+- Les deux piliers de la convalescence par le mana sont le Repos Forcé (Sommeil Artificiel) et les Tisanes/Onguents de Mana.
+- Ces deux méthodes servent avant tout à maintenir ou recharger naturellement le réservoir de mana ; elles ne constituent pas une régénération miraculeuse des blessures.
+- Les traumatismes graves restent normalement traités par une médecine physique de type médiéval selon le protocole validé.
+- Vely Flower : humaine, 20 ans, médecin officielle de la cour d’Edward principalement dédiée aux soldats et aventuriers ; prodige très timide et peureuse, mais extrêmement professionnelle lorsqu’une vie est en danger.
+- Vely est secrètement amoureuse de Hetsuga depuis qu’elle l’a soigné ; hors urgence médicale, elle bafouille et panique facilement en sa présence.
+- Vely a théorisé et mis au point les deux piliers de la convalescence par le mana. Après avoir soigné Hetsuga à la suite d’un combat difficile, elle a été recommandée à Edward, qui s’est déplacé personnellement pour la recruter.
+- Unique Flower : ses yeux deviennent luminescents à l’activation. Scanner corporel = diagnostic interne extrêmement précis. Suture Intracorporelle = manipulation/recouture chirurgicale de tissus et vaisseaux à travers la peau, sans ouverture externe.
+- RÈGLE ABSOLUE FLOWER : ce pouvoir ne régénère rien. Il doit être traité comme un outil médical exceptionnel et ultra-pratique, pas comme un sort de guérison ou une régénération.
+- Rang, affinités élémentaires, coût, portée exacte, fatigue et durée maximale de Flower ne sont PAS encore définis.
+
 RÈGLES AO
 - Ao arrive uniquement avec sa tenue technique noire de sa propre conception, son cerveau et Axiome ; ses petits instruments sont détruits à l’impact.
 - Tenue : résistante au feu, isolante électriquement, résistante à la pénétration d’une lame ; elle n’annule ni choc ni douleur.
@@ -97,10 +110,14 @@ POINTS À NE PAS INVENTER
 - Ne pas transformer une suggestion éditoriale en canon sans validation de l’auteur.
 - Transposis : cooldown/fréquence/orientation exacte non verrouillés.
 - Starvamp : cumul exact, plafond éventuel et remise à zéro non verrouillés.
+- Vely : rang et affinités élémentaires non définis.
+- Flower : portée exacte, coût, fatigue, durée maximale et limites quantitatives précises non définis ; ne jamais lui ajouter une régénération.
 - La carte n’étant pas à l’échelle, ne jamais déduire une nouvelle distance depuis son dessin.
-- Si api/lore contredit canon-audit-v1.3.json ou canon-overrides-v1.2.json, les corrections prioritaires prévalent jusqu’à fusion dans le lore principal.
+- Si api/lore contredit canon-additions-v1.4.json, canon-audit-v1.3.json ou canon-overrides-v1.2.json, les corrections prioritaires prévalent jusqu’à fusion dans le lore principal.
 
 ACCÈS AUX SOURCES
+- Ajouts prioritaires v1.4 : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-additions-v1.4.json
+- Protocole médical d’Asteria : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/protocole-medical-asteria.md
 - Audit prioritaire v1.3 : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-audit-v1.3.json
 - Corrections prioritaires v1.2 : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-overrides-v1.2.json
 - Index IA : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/llms.txt
