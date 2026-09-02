@@ -5,19 +5,21 @@
 ## Utilisation recommandée
 
 - Commencer chaque reprise d’écriture par : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/ai-context.txt
-- Lire ensuite les corrections prioritaires : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-overrides-v1.2.json
-- Puis interroger le lore structuré : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore
-- Copie JSON du lore : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore.json
+- Lire ensuite l’audit prioritaire : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-audit-v1.3.json
+- Lire ensuite les corrections précédentes : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-overrides-v1.2.json
+- Puis interroger le lore structuré historique : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore
+- Copie JSON du lore historique : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore.json
 
 ## Priorité des sources
 
 1. Correction explicitement validée par l’auteur après la dernière mise à jour GitHub, jusqu’à son prochain commit.
-2. `canon-overrides-v1.2.json`.
-3. Décisions canoniques établies dans les chapitres validés.
-4. `api/lore` et `api/lore.json`.
-5. Anciennes fiches texte ou formulations devenues obsolètes.
+2. `canon-audit-v1.3.json`.
+3. `canon-overrides-v1.2.json`.
+4. Décisions canoniques établies dans les chapitres validés.
+5. `api/lore` et `api/lore.json`.
+6. Anciennes fiches texte ou formulations devenues obsolètes.
 
-Une entrée présente dans `canon-overrides-v1.2.json` remplace donc toute formulation contradictoire plus ancienne du lore principal jusqu’à fusion définitive.
+Une entrée présente dans les fichiers d’audit/corrections prioritaires remplace toute formulation contradictoire plus ancienne du lore principal jusqu’à fusion définitive.
 
 ## Règles impératives
 
@@ -28,14 +30,19 @@ Une entrée présente dans `canon-overrides-v1.2.json` remplace donc toute formu
 - Oryon est la planète entière ; toute ancienne mention d’un « continent d’Oryon » est obsolète.
 - La carte illustrée n’est pas strictement à l’échelle : les distances chiffrées validées priment.
 - Ne jamais transformer une suggestion éditoriale en CANON sans validation explicite de l’auteur.
+- Les erreurs d’identifiant repérées dans le lore historique doivent être corrigées par les fichiers prioritaires : Hetsuga a été vaincu par Trya, pas Vrul ; les ailes de Râ sont liées à Trya, pas Vrul.
+- Une Pierre Noire peut évaluer Vrul SS, mais ne pas inventer qu’un artefact précis l’a déjà évaluée ou la reconnaît personnellement.
 
 ## État de continuité
 
-- Version canon opérationnelle : 1.2 (2026-09-02).
+- Version canon opérationnelle : 1.3 (2026-09-02).
 - Lore principal historique : version 1.1, 89 fiches.
-- Corrections et ajouts récents : `canon-overrides-v1.2.json`.
+- Audit complémentaire actuel : `canon-audit-v1.3.json`.
+- Corrections consolidées antérieures : `canon-overrides-v1.2.json`.
 - Fin actuelle : chapitre 3 « Un toit pour ce soir ».
 
 ## Note de maintenance
 
-Le dépôt GitHub est désormais la base canon opérationnelle prioritaire. Le site `oryon-archives-canon.ogheki.chatgpt.site` peut être resynchronisé ultérieurement ; une différence temporaire entre le site et GitHub ne doit pas faire régresser le canon validé présent ici.
+Le dépôt GitHub est la base canon opérationnelle prioritaire. Le site `oryon-archives-canon.ogheki.chatgpt.site` peut être resynchronisé ultérieurement ; une différence temporaire entre le site et GitHub ne doit pas faire régresser le canon validé présent ici.
+
+L’objectif de maintenance est de fusionner progressivement les fichiers prioritaires dans `api/lore` et `api/lore.json` une fois chaque passe auditée. Tant que cette fusion n’est pas terminée, toujours lire les fichiers prioritaires avant le lore historique.
