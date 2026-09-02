@@ -62,6 +62,7 @@ ANCIEN LORE DANGEREUX — CORRECTIONS DÉJÀ VERROUILLÉES
 BROUILLONS / DÉCISIONS EN ATTENTE
 - drafts/systeme-uniques-oryon-a-valider.md contient le brouillon du système des Uniques et n’est PAS canon prioritaire.
 - drafts/points-a-rendre-coherents.md contient les questions précises qui doivent être tranchées par l’auteur pour éviter de futures contradictions.
+- RÈGLE DE SÉCURITÉ : lorsqu’un point exact est listé dans `drafts/points-a-rendre-coherents.md`, il est temporairement considéré NON VERROUILLÉ même si une formulation ambiguë apparaît dans un document de `docs/`. Ne jamais choisir silencieusement une interprétation ; attendre la validation auteur.
 
 SOURCES
 - Canon principal : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-current.json
