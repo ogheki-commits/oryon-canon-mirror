@@ -1,54 +1,48 @@
-# Oryon — Archives canon
+# Oryon — index canon pour IA
 
-> Source de vérité structurée du manga Ao dans Oryon. Langue : français. Contient des spoilers et du lore réservé auteur.
+Source de vérité opérationnelle du manga Ao/Oryon.
 
-## Lecture normale
+## Ordre de lecture
 
-1. Commencer par : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/ai-context.txt
-2. Lire ensuite le canon opérationnel consolidé : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-current.json
-3. Pour un détail historique non repris dans le canon consolidé, consulter :
-   - https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore
-   - https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore.json
-4. Pour la médecine d’Asteria : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/protocole-medical-asteria.md
+1. https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/ai-context.txt
+2. https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-current.json
+3. Documents spécialisés dans `docs/` si le sujet le nécessite.
 
-Les anciennes couches v1.2, v1.3 et v1.4 sont archivées uniquement pour traçabilité. Elles ne font plus partie de l’ordre de lecture normal.
+## Documents spécialisés canoniques
 
-## Priorité des sources
+- Médecine : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/protocole-medical-asteria.md
+- Solaria : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/solaria.md
+- Armes et enchantements : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/systeme-armes-oryon.md
+- Demi-Bêtes : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/demi-betes-oryon.md
+- Citoyens et recrutement : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/citoyens-recrutement-oryon.md
+- Lois, justice et sécurité : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/lois-justice-securite-oryon.md
 
-1. Correction explicitement validée par l’auteur après le dernier commit GitHub.
-2. `canon-current.json`.
-3. Décisions canoniques établies dans les chapitres validés.
-4. Archives canoniques de secours, si un détail omis doit être récupéré : v1.4 > v1.3 > v1.2.
-5. `api/lore` et `api/lore.json`.
-6. Anciennes fiches texte/formulations obsolètes.
+## API canon
 
-## Règles impératives
+- https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore
+- https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore.json
 
-- CANON est établi. PRÉVU est décidé mais non révélé. IDÉE reste modifiable.
-- Ne pas divulguer `authorKnowledge` avant la révélation correspondante.
-- Ne pas donner à un personnage une information qu’il ne possède pas.
-- Ne jamais résoudre une contradiction par invention.
-- Ne jamais transformer une suggestion éditoriale en CANON sans validation explicite de l’auteur.
-- Oryon est la planète entière, pas un continent.
-- La carte n’est pas strictement à l’échelle ; les distances chiffrées validées priment.
-- La Pierre Noire sert au rang global ; les affinités élémentaires sont testées séparément par les quatre cristaux d’affinité.
-- Hetsuga a été vaincu par Trya, pas Vrul.
-- Les anciennes ailes de Râ sont liées à Trya, pas Vrul.
-- Une Pierre peut évaluer Vrul SS sans qu’il soit canon qu’un artefact précis l’ait déjà évaluée ou reconnue personnellement.
-- Flower est un outil de diagnostic et de chirurgie intracorporelle ; il ne régénère rien.
-- Rang, affinités et limites techniques exactes non définies de Vely/Flower ne doivent pas être inventés.
+Ces deux chemins contiennent désormais le même canon actif que `canon-current.json`. Ils ne contiennent plus l’ancien lore v1.1 contradictoire.
 
-## État de continuité
+## Brouillons — NON CANON
 
-- Canon opérationnel : `canon-current.json`.
-- Fin actuelle : chapitre 3 « Un toit pour ce soir ».
-- Lore historique : version 1.1, 89 fiches.
-- Protocole médical officiel : `docs/protocole-medical-asteria.md`.
+- https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/drafts/systeme-uniques-oryon-a-valider.md
+- https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/drafts/points-a-rendre-coherents.md
+
+Ne jamais utiliser un fichier de `drafts/` comme vérité canonique sans validation explicite de l’auteur.
 
 ## Archives
 
-Les couches qui ont servi à construire le canon consolidé sont conservées dans `archive/canon-layers/` uniquement afin qu’aucune information historique ne soit perdue. Elles ne doivent être consultées qu’en cas de besoin de provenance, de vérification ou de récupération d’un détail non repris ailleurs.
+`archive/` sert uniquement à la traçabilité. Une donnée archivée ne doit jamais écraser une correction présente dans `docs/`, `canon-current.json` ou une validation plus récente de l’auteur.
 
-## Maintenance
+Ancien lore v1.1 : `archive/historical-lore/api-lore-v1.1.json`.
+Anciennes couches v1.2/v1.3/v1.4 : `archive/canon-layers/`.
 
-À partir de maintenant, les nouvelles informations validées doivent être intégrées directement dans `canon-current.json` au lieu de créer une nouvelle succession de fichiers v1.5, v1.6, etc. `ai-context.txt` reste volontairement compact et sert uniquement de point d’entrée rapide.
+## Priorité en cas de conflit
+
+1. Correction explicitement validée par l’auteur après le dernier commit.
+2. Document spécialisé validé dans `docs/` lorsqu’il traite exactement du sujet.
+3. `canon-current.json`.
+4. Chapitres validés.
+5. Archives, uniquement pour récupérer un détail non migré et non contradictoire.
+6. Brouillons : jamais canoniques par défaut.
