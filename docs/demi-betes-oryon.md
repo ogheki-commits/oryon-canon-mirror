@@ -35,14 +35,12 @@
 ## 3. REPRODUCTION
 
 - **Humain + Demi-Bête :** reproduction possible. L'enfant est Demi-Bête de la variante du parent Demi-Bête.
+- **Deux Demi-Bêtes de même variante :** reproduction possible. L'enfant appartient à cette même variante. Exemple : Demi-chat + Demi-chat → Demi-chat.
 - **Deux Demi-Bêtes de variantes différentes :** reproduction impossible.
 - **Elfe + Demi-Bête :** reproduction impossible.
 - **Nain + Demi-Bête :** reproduction impossible.
 - **Humain + Elfe :** reproduction impossible.
 - **Humain + Nain :** reproduction impossible.
+- **Elfe + Nain :** reproduction impossible.
 - Ces incompatibilités reproductives n'empêchent évidemment pas des relations sentimentales ou sexuelles entre adultes consentants de races différentes.
-- Exemples : Humain + Demi-chat → Demi-chat ; Demi-chat + Demi-chien → impossible.
-
-## 4. POINTS NON ENCORE DÉFINIS
-
-- Elfe + Nain n'a pas encore été explicitement défini.
+- Exemples : Humain + Demi-chat → Demi-chat ; Demi-chat + Demi-chat → Demi-chat ; Demi-chat + Demi-chien → impossible.
