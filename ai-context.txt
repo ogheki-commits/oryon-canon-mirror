@@ -1,22 +1,23 @@
-ORYON — CONTEXTE IA CANON · V1.2 · 2026-09-02
+ORYON — CONTEXTE IA CANON · V1.3 · 2026-09-02
 
 RÔLE DE CETTE SOURCE
-- Ce dépôt GitHub est désormais la base canon prioritaire et durable du manga Ao/Oryon.
+- Ce dépôt GitHub est la base canon prioritaire et durable du manga Ao/Oryon.
 - Commencer chaque reprise d’écriture par ce fichier.
-- Lire ensuite canon-overrides-v1.2.json avant api/lore lorsqu’une information détaillée est nécessaire.
+- Lire ensuite canon-audit-v1.3.json, puis canon-overrides-v1.2.json, avant api/lore lorsqu’une information détaillée est nécessaire.
 - En cas de conflit, appliquer strictement la priorité ci-dessous et signaler la contradiction au lieu d’inventer.
 - PRÉVU et IDÉE ne doivent jamais être présentés comme déjà révélés au lecteur.
 
 PRIORITÉ DES SOURCES
 1. Correction explicitement validée par l’auteur après la dernière mise à jour GitHub (temporaire jusqu’au prochain commit)
-2. canon-overrides-v1.2.json
-3. Décisions canoniques établies dans les chapitres validés
-4. api/lore et api/lore.json
-5. Anciennes fiches texte et formulations devenues obsolètes
+2. canon-audit-v1.3.json
+3. canon-overrides-v1.2.json
+4. Décisions canoniques établies dans les chapitres validés
+5. api/lore et api/lore.json
+6. Anciennes fiches texte et formulations devenues obsolètes
 
 ÉTAT ACTUEL
 - Fin du chapitre 3 : « Un toit pour ce soir ».
-- Ao est devant/dans la maison familiale de Lyra et Eren pour sa première soirée sur Oryon.
+- Ao est dans/devant la maison familiale de Lyra et Eren pour sa première soirée sur Oryon.
 - Ao : 27 ans ; ancienne humaine devenue Demi-chat ; rang E ; Eau inférieur ; Foudre inférieur ; aucun sort maîtrisé ; hébergée par Lyra et Eren.
 - Lyra : 25 ans ; humaine ; rang C ; protectrice stricte ; Feu moyen + trois éléments inférieurs.
 - Eren : 28 ans ; humain ; rang C ; épéiste ; Feu inférieur canalisé sur sa lame.
@@ -31,6 +32,7 @@ CORRECTIONS MONDE PRIORITAIRES
 - Les natifs ressentent instinctivement le mana mais sa canalisation volontaire et la maîtrise des sorts s’apprennent.
 - Rangs globaux : E, D, C, B, A, S, SS, SSS. Rang = catégorie globale, pas valeur numérique exacte.
 - La Pierre Noire combine capacités physiques, martiales et magiques détectables ; elle ne mesure pas les Compétences Uniques.
+- Trois Pierres Noires sont actuellement connues : Asteria, Khardûn et Elyndra.
 - Les monstres sont généralement plus dangereux à rang égal ; plusieurs A contre un monstre A est une référence de sécurité, pas une règle mathématique absolue.
 - Aucun natif actuel officiellement connu ne dépasse S.
 
@@ -44,21 +46,25 @@ GÉOGRAPHIE ET VOYAGES
 - Ces durées supposent un trajet direct idéal sans imprévus, combats, détours ni arrêts logistiques prolongés ; les voyages réels peuvent être plus longs.
 - Solaria est gigantesque : certains grands trajets internes peuvent demander environ quatre jours ; les charrettes sont donc courantes.
 - Certains Raptors Acérés de rang C sont dressés et utilisés pour tirer des charrettes.
-- Aria vit au cœur des Brumes Éternelles sur l’axe naturel Asteria–Elyndra ; sa présence, ajoutée aux dragons sauvages, contribue directement au verrou stratégique entre les deux nations.
+- Aria vit au cœur des Brumes Éternelles sur l’axe naturel Asteria–Elyndra ; sa présence, ajoutée aux Dragons sauvages, contribue directement au verrou stratégique entre les deux nations.
+- Le Mont Céleste est le territoire d’Aria mais ne doit pas être présenté comme juridiquement « interdit » à tous : il est surtout évité par prudence.
 
 CORRECTIONS PERSONNAGES À NE PAS RATER
 - Aria Eragon : Pierre/registre officiel S, mais puissance complète réelle SS ; aucun élément ni Unique ; souffle draconique intrinsèque non élémentaire mal pris en compte par la Pierre.
 - Elza Blood : rang B ; Starvamp augmente seulement la puissance de frappe (+10 % après chaque coup physique réussi), pas vitesse/défense/résistance globale.
 - Edward Asteria : sans Instinct, inférieur à Hetsuga en escrime pure ; avec Instinct, peut rivaliser en combat réel.
-- Hetsuga : rang A martial pur ; a vaincu précisément une Chimère A en solo dans des circonstances exceptionnelles, pas n’importe quel A automatiquement.
-- Trya Belion : S détectable même sans Ange ; Ange correspond secrètement aux anciennes ailes de Râ.
-- Norn Khardûn : rang B ; Khardûn est allié à Asteria mais Norn refuse une dépendance militaire permanente ; il n’a accepté qu’Ed Neron comme garde personnel.
-- Mina : Transcendance = +1 rang réel pendant 1 h sur une cible ; pas de cooldown de 24 h dans le canon actuel.
+- Hetsuga : rang A martial pur ; a vaincu précisément une Chimère A en solo dans des circonstances exceptionnelles. La relation ancienne le reliant à Vrul comme adversaire de duel est une erreur : c’est Trya qui l’a vaincu.
+- Trya Belion : S détectable même sans Ange ; Ange contient littéralement les anciennes ailes de Râ. Éviter de parler de « réincarnation » si cela efface leur continuité matérielle/existentielle.
+- Norn Khardûn : rang B ; Khardûn est allié à Asteria mais Norn refuse une dépendance militaire permanente ; il n’a accepté qu’Ed Neron comme garde personnel. AdvancedFire protège des flammes/chaleurs extrêmes, pas du froid en général.
+- Mina : Transcendance = +1 rang réel pendant 1 h sur une cible ; pas de cooldown de 24 h. Son Feu supérieur est un potentiel naturel non entraîné/interdit, pas un scellement magique établi.
+- Nava : Transposis = 100 m, champ de vision, objet 102 kg, vivant 200 kg, conservation de sa propre vitesse/élan ; cooldown non verrouillé.
+- Ed Neron : Brain exploite le point de rupture d’une protection physique ; ce n’est pas une suppression magique automatique des armures/écailles.
+- Yoh : sa défense contre le mana n’annule pas automatiquement une attaque purement physique et peut être dépassée par feintes, multiplicité, vitesse ou puissance.
 - Zeo Soul : nom canon « Zeo » ; rang B normal, pouvoirs d’ombre ; fin prévue avec permutation interdimensionnelle et niveau effectif SSS dans l’univers totalement obscur.
 - Draïd : SS, détruit par Aria dans un affrontement SS contre SS où son arrogance et son erreur de lecture sont décisives.
 - Zenedia : S théorique ; tue Sato ; Ao la tue par préparation techno-magique, précision, surprise et rupture morale, pas par puissance physique S.
 - Vrul : vrai SS ; hémomancie uniquement sur sang externe/extrait/cadavres, jamais le sang interne d’un vivant ; ne rencontre jamais Aria.
-- Râ : boss final SSS, ancien Ange et créateur d’Oryon ; son autorité de créateur est locale à son univers mais sa puissance SSS est intrinsèque.
+- Râ : boss final SSS, ancien Ange et créateur d’Oryon ; son autorité de créateur est locale à son univers mais sa puissance SSS est intrinsèque. L’ancienne relation liant ses ailes à Vrul est une erreur : elles sont liées à Trya.
 
 RÈGLES AO
 - Ao arrive uniquement avec sa tenue technique noire de sa propre conception, son cerveau et Axiome ; ses petits instruments sont détruits à l’impact.
@@ -67,6 +73,15 @@ RÈGLES AO
 - Ao reste physiquement faible au départ. Sa force future vient de l’apprentissage, de la science, des machines, des ressources extérieures et de la techno-magie.
 - Ses hypothèses, prototypes et stratégies peuvent échouer.
 - Ao n’est pas timide : elle manque surtout de codes sociaux. Sa faible pudeur et son rapport inhabituel à l’espace personnel restent occasionnels et non fanservice.
+
+PIERRES NOIRES / VRUL
+- Les Pierres viennent du monde de Vrul et leur système est familier à Vrul.
+- Une Pierre peut l’évaluer SS.
+- Ne pas affirmer qu’une Pierre précise l’a déjà évaluée, qu’elle possède une mémoire personnelle de Vrul ou qu’elle la « reconnaît » explicitement sans nouvelle validation de l’auteur.
+
+BESTIAIRE
+- Le bestiaire complet validé est désormais repris dans canon-audit-v1.3.json : Slime, Rat, Aracne, Slime Transformiste, Gobelin, Strix, Sanglier, Loutre noire, Loup Argenté, Raptor Acéré, Ours d’Onyx, Harpie, Hobgobelin, Dragon adulte, Chimère, Ver Géant, Dragon Ancien.
+- Le titre ancien « Bestiaire d’Oyon » contient seulement une coquille ; Oryon reste le nom canon.
 
 SECRETS AUTEUR MAJEURS
 - L’accident dimensionnel d’Ao perturbe un réseau plus vaste et provoque des arrivées depuis plusieurs mondes et plusieurs époques.
@@ -80,10 +95,14 @@ POINTS À NE PAS INVENTER
 - Toujours respecter CANON / PRÉVU / IDÉE et publicKnowledge / readerKnowledge / authorKnowledge.
 - Ne pas donner à un personnage une connaissance réservée auteur.
 - Ne pas transformer une suggestion éditoriale en canon sans validation de l’auteur.
-- Si api/lore contredit canon-overrides-v1.2.json, l’override prévaut jusqu’à fusion dans le lore principal.
+- Transposis : cooldown/fréquence/orientation exacte non verrouillés.
+- Starvamp : cumul exact, plafond éventuel et remise à zéro non verrouillés.
+- La carte n’étant pas à l’échelle, ne jamais déduire une nouvelle distance depuis son dessin.
+- Si api/lore contredit canon-audit-v1.3.json ou canon-overrides-v1.2.json, les corrections prioritaires prévalent jusqu’à fusion dans le lore principal.
 
 ACCÈS AUX SOURCES
-- Corrections prioritaires : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-overrides-v1.2.json
+- Audit prioritaire v1.3 : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-audit-v1.3.json
+- Corrections prioritaires v1.2 : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-overrides-v1.2.json
 - Index IA : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/llms.txt
-- Lore structuré : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore
-- Copie JSON : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore.json
+- Lore structuré historique : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore
+- Copie JSON historique : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore.json
