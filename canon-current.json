@@ -1,0 +1,548 @@
+{
+  "meta": {
+    "title": "Oryon — Canon opérationnel consolidé",
+    "version": "current-2026-09-02",
+    "updatedAt": "2026-09-02",
+    "language": "fr",
+    "role": "source_canon_operationnelle_unique",
+    "instruction": "Lire ce fichier après ai-context.txt. Il consolide les corrections v1.2, l’audit v1.3 et les ajouts v1.4. Les anciens fichiers sont archivés uniquement pour traçabilité et ne doivent pas être relus en routine. En cas de conflit : correction explicitement validée après ce commit > canon-current.json > chapitres validés > couches archivées v1.4 puis v1.3 puis v1.2 > api/lore et api/lore.json > anciennes fiches. Ne jamais transformer PRÉVU ou IDÉE en CANON sans validation explicite de l’auteur."
+  },
+  "editorialRules": {
+    "visibility": [
+      "publicKnowledge = connu publiquement dans Oryon",
+      "readerKnowledge = révélé au lecteur",
+      "authorKnowledge = réservé auteur / spoiler"
+    ],
+    "continuity": [
+      "Ne jamais donner à un personnage une information qu’il ne peut pas connaître.",
+      "Ne jamais résoudre une contradiction par invention.",
+      "Aucun plot armor : rang, terrain, fatigue, information, expérience, armes, contres et état physique doivent compter.",
+      "Le rang est une catégorie globale et non une valeur numérique exacte.",
+      "Un monstre est généralement plus dangereux qu’un individu civilisé du même rang.",
+      "Ne jamais transformer une suggestion éditoriale en canon sans validation explicite de l’auteur."
+    ]
+  },
+  "continuityState": {
+    "status": "CANON",
+    "currentEnd": "Fin du chapitre 3 — Un toit pour ce soir",
+    "AoState": [
+      "27 ans ; ancienne humaine devenue Demi-chat.",
+      "Rang E.",
+      "Eau inférieur et Foudre inférieur détectés par les cristaux d’affinité.",
+      "Aucune affinité Feu ni Terre actuellement détectée.",
+      "Ne sait pas encore lancer volontairement un sort.",
+      "Contusion et traumatisme musculaire du dos après l’arrivée, sans blessure critique.",
+      "Hébergée temporairement dans la maison familiale de Lyra et Eren.",
+      "A découvert la grande bibliothèque de la Guilde et veut y retourner."
+    ],
+    "nextNaturalScene": "Première soirée chez Lyra et Eren, puis apprentissage réel de la perception et de la canalisation du mana. Ne pas faire réussir Ao trop vite."
+  },
+  "world": {
+    "status": "CANON",
+    "Oryon": [
+      "Oryon est la planète entière, pas un continent.",
+      "Les trois grandes nations actuellement définies sont Asteria, Khardûn et Elyndra.",
+      "Toute ancienne formulation présentant Oryon comme un continent est obsolète."
+    ],
+    "powerSystem": [
+      "Échelle : E → D → C → B → A → S → SS → SSS.",
+      "Aucun natif actuel officiellement connu ne dépasse le rang S.",
+      "SS et SSS existent mais restent hors de l’expérience publique ordinaire.",
+      "La Pierre Noire évalue les capacités physiques, martiales, magiques et la dangerosité détectable, mais ne détecte pas les Compétences Uniques.",
+      "Une Compétence Unique peut détecter ou interagir avec une autre Unique si ses propres mécaniques le permettent.",
+      "Plusieurs aventuriers A contre un monstre A est une référence de sécurité, pas une loi mathématique universelle."
+    ],
+    "blackStones": [
+      "Trois Pierres Noires sont actuellement connues : Asteria, Khardûn et Elyndra.",
+      "Leur origine réelle est le même monde que Vrul.",
+      "Une Pierre peut évaluer Vrul SS, mais ne pas affirmer qu’elle l’a déjà évaluée auparavant ni qu’elle la reconnaît personnellement.",
+      "Le foreshadowing correct repose sur la compatibilité de Vrul avec ce système et sur sa connaissance des rangs."
+    ]
+  },
+  "magic": {
+    "status": "CANON",
+    "access": "author",
+    "origin": [
+      "Le mana d’Oryon provient originellement de Râ, qui a imprégné l’atmosphère lors de la création du monde.",
+      "Les êtres vivants d’Oryon possèdent du mana et l’absorbent passivement depuis l’environnement."
+    ],
+    "learning": [
+      "Les natifs ressentent instinctivement le mana, mais la canalisation volontaire et la maîtrise de sorts doivent être apprises.",
+      "Une affinité élémentaire est nécessaire pour utiliser volontairement l’élément concerné.",
+      "Créer l’élément sous une forme simple est plus facile que lui donner une forme précise ou complexe.",
+      "L’épuisement du mana fatigue fortement le corps ; l’épuisement complet peut devenir mortel.",
+      "Les niveaux de maîtrise sont inférieur, moyen et supérieur et peuvent progresser par entraînement.",
+      "Ao, n’étant pas née normalement sur Oryon, doit apprendre à identifier et canaliser la sensation du mana."
+    ],
+    "elements": {
+      "fundamental": ["Eau", "Feu", "Foudre", "Terre"],
+      "variants": ["Eau → Glace", "Feu → Magma"],
+      "obsolete": ["Feu → Glace est incorrect.", "Terre → Magma est incorrect."]
+    }
+  },
+  "guild": {
+    "status": "CANON",
+    "access": "reader",
+    "governance": [
+      "La Guilde des Aventuriers est internationale et officiellement neutre.",
+      "Les souverains coopèrent avec les branches présentes sur leur territoire mais ne dirigent pas directement l’institution mondiale."
+    ],
+    "registration": [
+      "L’inscription est gratuite et accessible à tous.",
+      "Le candidat remplit un formulaire d’identité.",
+      "La Pierre Noire détermine le rang initial global.",
+      "Les affinités élémentaires sont testées séparément avec les quatre cristaux d’affinité ; cette règle suit le chapitre 3 et remplace l’ancienne formulation où la Pierre identifiait aussi les affinités."
+    ],
+    "missions": [
+      "Tout citoyen peut soumettre une demande ensuite vérifiée et classée par la Guilde.",
+      "Rang E : tâches domestiques et quotidiennes.",
+      "Rangs D à C : petites chasses ou tâches demandant un effort modéré.",
+      "Rang B : menace sérieuse ; solo fortement déconseillé sans préparation adaptée.",
+      "Rang A : protocole standard visant plusieurs aventuriers A ou un soutien équivalent, avec exceptions selon mission, combattants, contres et contexte.",
+      "Rang S : crise majeure entraînant une mobilisation générale des forces disponibles et pertinentes."
+    ],
+    "progression": [
+      "Un aventurier ne monte pas de rang simplement en accumulant des missions.",
+      "La progression reflète l’évolution réelle de ses capacités physiques, martiales et magiques."
+    ],
+    "rewards": {
+      "E": "30 Bronze à 1 Fer",
+      "D-C": "3 à 10 Fer",
+      "B": "20 à 50 Fer",
+      "A": "100 à 200 Or",
+      "S": "1 à 10 Oryon",
+      "sharing": "Répartition équitable par défaut de la récompense et des matériaux, modifiable par accord interne du groupe."
+    },
+    "liability": "Une mission acceptée constitue un contrat ; la Guilde décline la responsabilité des blessures et décès survenus pendant son exécution."
+  },
+  "economyAndDailyLife": {
+    "status": "CANON",
+    "currency": [
+      "100 Bronze = 1 Fer",
+      "100 Fer = 1 Or",
+      "1000 Or = 1 Oryon"
+    ],
+    "prices": [
+      "Nourriture ou vaisselle simple : environ 5 Bronze à 10 Fer selon le produit.",
+      "Auberge à Asteria près de la Guilde : environ 1 Fer pour 2 nuits.",
+      "Maison moyenne : environ 200 à 400 Or.",
+      "Armes E-D : environ 50 Fer à 5 Or ; C : 20 à 40 Or ; B : 100 à 200 Or ; A : 300 à 800 Or ; S : 2 à 5 Oryon."
+    ],
+    "technology": [
+      "Des pierres magiques gravées libèrent un élément brut et servent aux usages domestiques.",
+      "Les pierres de Feu servent notamment au chauffage et à la cuisine ; les pierres d’Eau peuvent alimenter des robinets.",
+      "Le temps est exprimé sur 24 heures et des dispositifs magiques servent d’horloges.",
+      "La médecine est médiévale dans sa base mais améliorée par le mana et des outils magiques spécifiques.",
+      "Le courrier est transporté par des facteurs rémunérés."
+    ],
+    "society": [
+      "Les grandes villes des trois nations sont globalement propres et entretenues.",
+      "L’absence de ghettos institutionnalisés ne signifie pas absence de discrimination.",
+      "À Asteria, l’esclavage des Demi-Bêtes a été aboli, mais des préjugés et mouvements discriminatoires subsistent, notamment dans certaines provinces conservatrices."
+    ]
+  },
+  "architectureAndMilitary": {
+    "status": "CANON",
+    "Asteria": [
+      "Solaria est une capitale immense, ordonnée, fortifiée et structurée en grands secteurs reliés par des axes commerciaux et fluviaux.",
+      "Les infrastructures militaires intègrent les capacités des Demi-Bêtes, notamment l’agilité et la vision nocturne.",
+      "La frontière orientale tournée vers les Brumes Éternelles est fortement fortifiée contre les incursions de monstres."
+    ],
+    "Khardun": [
+      "Khardûn est une civilisation troglodyte et volcanique, experte en métallurgie magique mais technologiquement médiévale hors de ce domaine.",
+      "Khardûn ne possède pas une grande armée de projection comparable à Asteria ; sa sécurité intérieure repose notamment sur une milice/garde civile.",
+      "Khardûn est allié à Asteria mais n’est pas militairement vassal ni totalement dépendant de l’armée impériale.",
+      "Edward a proposé un soutien militaire plus large ; Norn a refusé une dépendance permanente et n’a accepté qu’Ed Neron comme garde du corps personnel.",
+      "Le plafond actuel connu des Nains natifs est le rang B."
+    ],
+    "Elyndra": [
+      "L’architecture est organique, hydraulique et intégrée à la forêt.",
+      "La défense repose fortement sur la magie, les monolithes de mana et une élite entraînée plutôt que sur de grands remparts de pierre.",
+      "Les structures d’arbre-blanc et réseaux d’eau magique donnent à Elyndra une identité distincte."
+    ]
+  },
+  "geographyAndTravel": {
+    "status": "CANON",
+    "access": "author",
+    "mapRule": "La carte illustrée d’Oryon indique les positions générales mais n’est pas strictement à l’échelle ; les distances chiffrées priment.",
+    "standardTravel": "Les durées sont des trajets directs théoriques en charrette, dans des conditions idéales, sans combats, détours, météo, blessures, pannes ou arrêts logistiques prolongés.",
+    "routes": [
+      {"from": "Asteria / Solaria", "to": "bord des Brumes Éternelles", "distanceKm": 150, "idealCartTime": "5 à 7 jours"},
+      {"from": "traversée des Brumes côté Asteria", "to": "sortie vers Elyndra", "distanceKm": 100, "idealCartTime": "3 à 5 jours"},
+      {"from": "bord des Brumes côté Elyndra", "to": "royaume d’Elyndra", "distanceKm": 150, "idealCartTime": "5 à 7 jours"},
+      {"from": "Asteria", "to": "Khardûn", "distanceKm": 180, "idealCartTime": "6 à 9 jours"},
+      {"from": "Khardûn", "to": "Brumes Éternelles", "distanceKm": 30, "idealCartTime": "environ 1 jour"}
+    ],
+    "Solaria": [
+      "Solaria est si vaste que certains grands trajets internes peuvent demander environ quatre jours.",
+      "Cela ne signifie pas que tout déplacement local dans le même quartier prend plusieurs jours.",
+      "Les habitants utilisent fréquemment des charrettes pour les grandes distances urbaines."
+    ],
+    "BrumesEternelles": [
+      "Aria vit au cœur des Brumes Éternelles sur l’axe naturel Asteria–Elyndra.",
+      "Sa présence, ajoutée aux Dragons sauvages et autres monstres, constitue un verrou géographique et stratégique majeur.",
+      "Aria n’a pas besoin d’avoir proclamé une interdiction officielle ; la prudence suffit à limiter routes lourdes, travaux et mouvements militaires massifs."
+    ],
+    "MontCeleste": [
+      "Plus haut sommet de la chaîne située à la frontière Asteria–Elyndra, au cœur ou à proximité immédiate des Brumes Éternelles.",
+      "Territoire d’Aria, mais pas juridiquement interdit par définition ; la zone est surtout évitée par prudence."
+    ]
+  },
+  "bestiary": {
+    "status": "CANON",
+    "rankE": [
+      {"name": "Slime", "facts": ["Petite créature gluante et gélatineuse commune dans les forêts, notamment près d’Asteria.", "Peu dangereuse mais capable de dissoudre les vêtements."]},
+      {"name": "Rat", "facts": ["Plutôt rare, surtout présent dans les égouts et lieux à forte odeur.", "Peu dangereux mais peut mordre."]},
+      {"name": "Aracne", "facts": ["Petite araignée peu dangereuse vivant dans les lieux sombres et abandonnés."]}
+    ],
+    "rankD": [
+      {"name": "Slime Transformiste", "facts": ["Plus rare que le Slime normal.", "Peut prendre le contrôle d’un cadavre pour s’en servir comme corps.", "N’est pas intelligent."]},
+      {"name": "Gobelin", "facts": ["Environ 1,12 m.", "Faible seul mais dangereux en groupe.", "Communique avec ses congénères et établit des camps, notamment dans les forêts profondes."]},
+      {"name": "Strix", "facts": ["Créature fantomatique ressemblant à une chouette.", "Insensible aux dégâts physiques ordinaires et vulnérable à la magie.", "Présente dans les zones sombres et les forêts, notamment autour d’Elyndra."]},
+      {"name": "Sanglier", "facts": ["Peu agressif par nature.", "Ses charges et son fouissage peuvent ravager flore et cultures."]},
+      {"name": "Loutre noire", "facts": ["Vit près des grandes rivières et chasse en groupe.", "Griffes et crocs assez dangereux pour repousser un Hobgobelin dans certaines circonstances."]}
+    ],
+    "rankC": [
+      {"name": "Loup Argenté", "facts": ["Chasse en meute sous les ordres d’un chef.", "Dangereux surtout en groupe et rôde parfois près des Gobelins pour s’en nourrir."]},
+      {"name": "Raptor Acéré", "facts": ["Prédateur solitaire des plaines et hautes herbes.", "Plus intelligent que la moyenne, discret et rusé.", "Certains individus sont capturés, élevés ou dressés et peuvent tirer des charrettes.", "Un Raptor dressé reste physiquement un monstre de rang C et peut redevenir dangereux s’il panique ou est maltraité."]}
+    ],
+    "rankB": [
+      {"name": "Ours d’Onyx", "facts": ["Très dangereux, massif et doté de griffes puissantes.", "Résiste particulièrement bien à la magie.", "Présent près des montagnes des Brumes Éternelles."]},
+      {"name": "Harpie", "facts": ["Monstre humanoïde volant, intelligent et capable de dialoguer.", "Évite les combats inutiles mais reste redoutable grâce à ses ailes, ses griffes et son intelligence.", "Vit dans les grandes forêts d’Elyndra."]},
+      {"name": "Hobgobelin", "facts": ["Semblable au Gobelin mais pouvant approcher 2 m.", "Immense force physique, rare, généralement présent au sein de groupes de Gobelins."]}
+    ],
+    "rankA": [
+      {"name": "Dragon adulte", "facts": ["Créature volante massive des Brumes Éternelles.", "Souffle draconique intrinsèque, écailles extrêmement difficiles à percer.", "Un monstre A exige normalement plusieurs aventuriers A selon les circonstances ; ce n’est pas une règle mathématique absolue."]},
+      {"name": "Chimère", "facts": ["Tête de lion, ailes de faucon et queue de scorpion au venin mortel.", "C’est précisément la créature A vaincue seule par Hetsuga dans des circonstances exceptionnelles."]},
+      {"name": "Ver Géant", "facts": ["Créature désertique de plus de dix mètres, dissimulée sous le sable.", "Être happé dans sa gueule est presque toujours mortel."]}
+    ],
+    "rankS": [
+      {"name": "Dragon Ancien", "facts": ["Évolution/âge supérieur du Dragon avec capacités de base démesurément accrues.", "Extrêmement rare ; peut développer intelligence, langage et forme humanoïde.", "Les Dragons Anciens sont officiellement connus jusqu’au rang S, même si Aria constitue un cas particulier réellement SS mais sous-évalué par la Pierre.", "Les monstres naturels ne possèdent pas de Compétence Unique."]}
+    ]
+  },
+  "itemsAndWeapons": {
+    "status": "CANON_OR_PREVU_AS_CHARACTER_DETAIL",
+    "facts": [
+      "Le rang d’une arme est une recommandation de dangerosité/sécurité et non un prérequis biologique.",
+      "Hetsuga utilise une épée de rang B héritée de son père décédé et refuse de l’abandonner malgré son rang A.",
+      "Edward possède une arme légendaire de rang S forgée sur mesure par Norn.",
+      "Khardûn peut forger des armes de très haut rang grâce à son savoir-faire et à ses matériaux magiques."
+    ]
+  },
+  "charactersAndPowers": {
+    "Ao": {
+      "status": "CANON",
+      "facts": [
+        "27 ans, ancienne humaine de la Terre devenue Demi-chat à son arrivée sur Oryon.",
+        "Début : rang E ; Eau inférieur ; Foudre inférieur ; aucune affinité Feu ni Terre détectée ; aucun sort maîtrisé à la fin du chapitre 3.",
+        "Arrive uniquement avec sa tenue technique noire de sa propre conception et ses connaissances ; petits instruments détruits à l’impact.",
+        "Tenue résistante au feu, isolante électriquement et résistante à la pénétration d’une lame, sans annuler impacts ni douleur.",
+        "Axiome analyse uniquement les informations accessibles/observables ; aucune omniscience ni connaissance gratuite.",
+        "Ao n’est pas timide mais manque de codes sociaux ; faible pudeur et rapport inhabituel à l’espace personnel restent occasionnels et non fanservice.",
+        "Progression par apprentissage, science, prototypes, ressources extérieures et techno-magie ; hypothèses et machines peuvent échouer."
+      ]
+    },
+    "SatoElio": {
+      "status": "CANON_AND_PREVU",
+      "facts": [
+        "48 ans, ancien aventurier A, responsable bénévole de la grande bibliothèque de la Guilde.",
+        "Sensor : au chapitre 2, l’activation accidentelle survient lors du contact rapproché d’Ao avec Sato avant que Sato ne la prenne spontanément dans ses bras.",
+        "Activation accidentelle : flashes émotionnels et fragments incomplets seulement.",
+        "Lecture volontaire approfondie : contact + concentration intense ; Sato l’évite éthiquement.",
+        "Son lien de père de cœur avec Ao se construit progressivement ; Ao n’est jamais un remplacement de sa fille décédée.",
+        "Zenedia le tue définitivement devant Ao plus tard."
+      ]
+    },
+    "AriaEragon": {
+      "status": "PREVU",
+      "facts": [
+        "Dragon Ancien de plus de 1000 ans.",
+        "Classement officiel/Pierre : S ; puissance complète réelle : SS.",
+        "La Pierre la sous-évalue car son souffle draconique intrinsèque non élémentaire est mal pris en compte ; elle ne possède ni Unique ni magie élémentaire.",
+        "Sa forme humanoïde reste évaluée S grâce à ses capacités physiques seules.",
+        "Pacifique et solitaire, mais une provocation ou menace réelle sur son territoire peut être immédiatement létale.",
+        "Vit au cœur des Brumes Éternelles sur l’axe Asteria–Elyndra.",
+        "Lors de l’incident Draïd, elle ne soupçonne jamais Khardûn grâce notamment à sa rencontre secrète positive avec Norn.",
+        "Pendant la visite d’Edward et Elfa après Draïd, un Dragon adulte sauvage peut attaquer leurs délégations ; Aria le tue sans difficulté."
+      ]
+    },
+    "EdwardAsteria": {
+      "status": "PREVU",
+      "facts": [
+        "Sans Instinct, inférieur à Hetsuga en escrime pure à son âge actuel.",
+        "Instinct donne une certitude sur l’action immédiate d’une seule cible environ trois secondes à l’avance, sans augmenter vitesse ni force.",
+        "Avec Instinct, Edward peut rivaliser avec Hetsuga dans un affrontement réel.",
+        "Aucun projet de conquête d’Elyndra ; considère une guerre comme un gaspillage catastrophique."
+      ]
+    },
+    "HetsugaEno": {
+      "status": "CANON_OR_PREVU",
+      "facts": [
+        "24 ans, rang A, pur combattant martial sans magie ni Unique.",
+        "A vaincu seul une Chimère A dans des circonstances et un match-up exceptionnels.",
+        "Supérieur à Edward en escrime pure ; Instinct permet à Edward de rivaliser en combat réel.",
+        "Trya l’a vaincu ; il fut néanmoins le premier combattant d’un rang inférieur à la pousser à respecter sérieusement son adversaire.",
+        "Toute ancienne relation affirmant que Vrul l’a vaincu en duel est une erreur d’identifiant."
+      ]
+    },
+    "ElzaBlood": {
+      "status": "PREVU",
+      "facts": [
+        "Rang B officiel.",
+        "Starvamp augmente de 10 % uniquement la puissance de frappe après chaque coup physique réussi ; pas la vitesse, les réflexes, la défense ou la résistance globale.",
+        "Chaque coup réussi régénère physiquement Elza à hauteur d’environ 10 % de la force réellement déployée sur ce coup.",
+        "Elle demeure vulnérable à l’échelle B.",
+        "Méthode exacte de cumul, plafond éventuel et remise à zéro non verrouillés."
+      ]
+    },
+    "TryaBelion": {
+      "status": "PREVU",
+      "facts": [
+        "18 ans, humaine, aventurière indépendante, plus forte humaine connue.",
+        "La Pierre l’évalue S sans détecter Ange ; ses capacités naturelles sont déjà S.",
+        "Ange lui confère des ailes physiques, un vol rapide sans fatigue et une force physique herculéenne permanente.",
+        "Les ailes sont littéralement les anciennes ailes arrachées de Râ, intégrées accidentellement au système des Uniques.",
+        "Éviter le terme réincarnation s’il implique une rupture de continuité avec les ailes de Râ.",
+        "Leur ADN/signature existentielle a influencé le développement naturel de Trya, expliquant ses quatre affinités supérieures et sa force anormale détectables indépendamment de l’Unique."
+      ]
+    },
+    "NornKhardun": {
+      "status": "PREVU",
+      "facts": [
+        "126 ans, roi nain, rang B, plafond actuel connu des Nains natifs.",
+        "Alliance forte avec Edward mais refuse la dépendance militaire d’Asteria.",
+        "Refuse une présence militaire asterienne large et n’accepte qu’Ed Neron comme garde du corps personnel.",
+        "AdvancedFire : immunité totale aux flammes et chaleurs extrêmes, pas au froid en général ; contrôle très précis de ses propres flammes, températures de Magma pour les minerais rares ; pas contrôle absolu des flammes extérieures.",
+        "Rencontre secrète avec Aria : expédition cherchant un cadavre de dragon pour ses écailles ; Aria cueillait des fleurs, Norn la fait rire, elle lui offre ensuite un dragon fraîchement tué. Ils ne se revoient pas et Norn n’en parle à personne."
+      ]
+    },
+    "MinaKhardun": {
+      "status": "PREVU",
+      "facts": [
+        "11 ans, rang E.",
+        "Feu supérieur = potentiel naturel non entraîné et interdit par Norn, pas scellement magique établi.",
+        "Transcendance : une seule cible, +1 rang réel, exactement une heure, cible vivante ou monstre, Mina comprise, effet imposable, non cumulable.",
+        "Réutilisable immédiatement après la fin ; aucun cooldown de 24 h."
+      ]
+    },
+    "NavaAsteria": {
+      "status": "PREVU",
+      "facts": [
+        "Transposis : portée 100 m, cible dans le champ de vision.",
+        "Objet maximum 102 kg ; être vivant maximum 200 kg.",
+        "Après permutation, Nava conserve sa propre vitesse et son propre élan.",
+        "Cooldown, fréquence précise et orientation de sortie non verrouillés."
+      ]
+    },
+    "EdNeron": {
+      "status": "PREVU",
+      "facts": [
+        "Brain calcule inconsciemment le point de rupture optimal d’une protection physique ou matérielle au moment de l’impact.",
+        "Ne rend pas armures, carapaces ou écailles inexistantes et ne garantit pas de toucher.",
+        "Permet de transmettre les dégâts anormalement efficacement à travers une protection physique lorsque l’impact réussit.",
+        "Les barrières purement magiques ne sont pas automatiquement annulées.",
+        "Les écailles et le corps d’Aria restent hors norme malgré Brain."
+      ]
+    },
+    "ElfaElyndra": {
+      "status": "PREVU",
+      "facts": [
+        "Souverain fonctionne sur une cible dont la puissance effective globale est au moins environ quatre fois inférieure à celle d’Elfa ; la cible reste consciente.",
+        "Peut soumettre de nombreux adversaires faibles selon la situation mais n’est pas un bouton de victoire universel.",
+        "Inefficace contre les individus proches du niveau d’Elfa ; Edward avec Instinct est suffisamment proche pour ne pas être une cible fiable ; Aria est hors de portée."
+      ]
+    },
+    "YohShuzo": {
+      "status": "PREVU",
+      "facts": [
+        "Sa technique défensive lit la signature de mana avant l’impact puis injecte une quantité calculée de mana opposé pour freiner/annuler la composante magique et exploiter son déséquilibre.",
+        "Une attaque purement physique sans mana n’est pas automatiquement annulée.",
+        "Perception, réaction, quantité de mana, feintes, attaques multiples, vitesse ou puissance excessive peuvent dépasser sa défense."
+      ]
+    },
+    "Draid": {
+      "status": "PREVU",
+      "facts": [
+        "Premier outsider majeur après Ao dans la chronologie du récit.",
+        "Puissance réelle/théorique SS.",
+        "Arrive au Mont Céleste, provoque Aria en la sous-estimant et est annihilé par Aria à pleine puissance.",
+        "Affrontement SS contre SS avec énorme erreur de lecture et de match-up, pas un S battant normalement un SS."
+      ]
+    },
+    "ZenediaAroul": {
+      "status": "PREVU",
+      "facts": [
+        "Deuxième outsider majeur après Draïd.",
+        "Puissance théorique S ; pouvoirs volontairement mystérieux, ne pas inventer d’Unique.",
+        "Tue Sato devant Ao.",
+        "Ao la tue ensuite par saturation, surprise, préparation techno-magique, précision anatomique et abandon temporaire de sa retenue morale ; pas un duel frontal où Ao serait physiquement S."
+      ]
+    },
+    "ZeoSoul": {
+      "status": "PREVU",
+      "facts": [
+        "Le nom canon est Zeo Soul ; Zao dans un ancien nom de fichier est une coquille.",
+        "Dernier survivant de son monde, doux mais traumatisé ; Ao est le premier être vivant qu’il rencontre réellement.",
+        "Ne parle pas oralement au début et communique par gestes.",
+        "Rang B en conditions normales d’Oryon.",
+        "Pouvoirs raciaux : Dissimulation Absolue, Marque de l’Ombre, Téléportation Restreinte vers une personne marquée plongée dans l’obscurité complète, Permutation Obscure si les deux cibles sont dans l’obscurité complète.",
+        "Dans l’univers totalement vide et sans lumière, l’ombre amplifie exceptionnellement sa marque jusqu’à permettre une permutation interdimensionnelle avec Ao.",
+        "Première parole télépathique prévue : « Ao… Zeo va te sauver. »",
+        "Il prend la place d’Ao auprès de Râ ; Ao revient sur Oryon trois mois plus tard.",
+        "Dans l’obscurité absolue du vide, ses capacités existantes atteignent un niveau effectif SSS sans lui donner création d’univers ni portail libre."
+      ]
+    },
+    "VrulTesyl": {
+      "status": "PREVU",
+      "facts": [
+        "Vampire d’un autre monde, véritable niveau SS.",
+        "Provient du même monde que les Pierres Noires et connaît leur système de rang.",
+        "Hémomancie limitée au sang déjà extrait ou provenant de cadavres ; impossible de manipuler directement le sang à l’intérieur d’un organisme vivant.",
+        "Aria et Vrul ne se rencontrent jamais.",
+        "Ao est indispensable comme soutien et architecte techno-magique de la victoire, sans affrontement frontal en tant que combattante SS."
+      ]
+    },
+    "Ra": {
+      "status": "PREVU",
+      "facts": [
+        "Boss final, ancien Ange devenu dieu créateur d’Oryon, puissance intrinsèque SSS.",
+        "Sa puissance fondamentale était déjà immense enfant ; son évolution concerne surtout sa compréhension et l’échelle de Création d’Univers X.",
+        "Après la destruction de son ancienne civilisation angélique, il crée les races dominantes, les monstres et le système des Compétences Uniques.",
+        "Les anomalies venues d’autres univers ont une signature existentielle différente et échappent partiellement à son autorité de créateur sur Oryon.",
+        "Son niveau SSS est intrinsèque ; dans un autre univers où son autorité de créateur d’Oryon ne fonctionne plus, il reste SSS.",
+        "Les anciennes ailes de Râ sont celles liées à Trya, pas à Vrul.",
+        "Final : Ao utilise un trou de ver maîtrisé pour l’emmener dans un univers littéralement vide, croyant son sacrifice définitif avant l’intervention de Zeo."
+      ]
+    }
+  },
+  "medicalProtocolAsteria": {
+    "id": "MED-0001",
+    "status": "CANON",
+    "access": "author",
+    "sourceFile": "docs/protocole-medical-asteria.md",
+    "foundation": [
+      "La médecine officielle d’Asteria combine chirurgie médiévale classique et gestion passive du mana.",
+      "Les méthodes liées au mana visent à maintenir ou recharger le réservoir magique ; elles ne sont pas une régénération instantanée des blessures physiques."
+    ],
+    "twoPillars": [
+      "Repos Forcé / Sommeil Artificiel : plantes sédatives comme le pavot pour réduire les dépenses et optimiser l’absorption passive du mana ambiant.",
+      "Tisanes et Onguents de Mana : remèdes issus de plantes chargées en mana servant de carburant d’urgence pour maintenir le niveau vital de mana."
+    ],
+    "minorInjuries": [
+      "Coupures superficielles et morsures mineures : nettoyage au vinaigre ou au vin, suture au fil de lin, onguent de mana sur les sutures pour accélérer la cicatrisation naturelle sur quelques jours.",
+      "Entorses et foulures : réduction manuelle de l’articulation et immobilisation stricte à l’aide d’éclisses en bois, conformément au protocole fourni."
+    ],
+    "severeInjuries": [
+      "Principe : traumatismes lourds traités par médecine médiévale brute et physique, sans intervention du mana dans le protocole standard.",
+      "Fracture ouverte : réalignement manuel de l’os, nettoyage des éclats, suture profonde des muscles puis de la peau.",
+      "Hémorragie interne majeure/éventration : ouverture de la zone, épongeage du sang, cautérisation des gros vaisseaux au fer brûlant ou à l’huile bouillante, fermeture de la plaie."
+    ],
+    "relationshipWithFlower": [
+      "Le protocole décrit la pratique générale accessible aux médecins d’Asteria.",
+      "Flower est une Unique individuelle de Vely et ne transforme pas ses capacités en pratique médicale générale.",
+      "Flower ne régénère rien."
+    ]
+  },
+  "VelyFlower": {
+    "id": "PER-0022",
+    "status": "CANON",
+    "access": "author",
+    "readerStatus": "Non encore introduite dans les chapitres validés.",
+    "identity": {
+      "age": 20,
+      "race": "Humaine",
+      "role": "Médecin officielle de la cour de l’empereur Edward, principalement dédiée aux soldats et aventuriers."
+    },
+    "personality": [
+      "Prodige médical d’une grande gentillesse, profondément timide et peureuse.",
+      "Doute fréquemment d’elle-même malgré son génie médical incontesté.",
+      "Lorsqu’un patient est en danger de mort, sa peur disparaît immédiatement au profit d’une concentration clinique et d’une efficacité chirurgicale redoutables.",
+      "Secrètement amoureuse de Hetsuga depuis qu’elle l’a soigné ; hors urgence médicale, elle perd ses moyens, bafouille et panique en sa présence."
+    ],
+    "uniqueSkill": {
+      "id": "UNI-0012",
+      "name": "Flower",
+      "activationVisual": "Les yeux de Vely deviennent instantanément luminescents lors de l’utilisation.",
+      "abilities": [
+        "Scanner corporel : détecte les symptômes avec une précision chirurgicale absolue et permet de voir à travers le corps humain afin de repérer blessures internes et os brisés.",
+        "Suture Intracorporelle : permet de soigner au sens chirurgical, recoudre ou manipuler tissus et vaisseaux à l’intérieur du corps en ignorant la barrière de la peau, réduisant fortement les risques d’infection liés à l’ouverture du patient."
+      ],
+      "coreRule": [
+        "Flower est un outil médical exceptionnel et ultra-pratique, pas un pouvoir de régénération.",
+        "Flower ne régénère aucun tissu, organe ou partie du corps.",
+        "Vely manipule chirurgicalement ce qui existe déjà ; la guérison biologique reste distincte."
+      ],
+      "undefined": [
+        "Portée exacte.",
+        "Coût précis en mana ou fatigue.",
+        "Durée maximale d’utilisation.",
+        "Limites quantitatives exactes sur la complexité ou le nombre d’interventions simultanées."
+      ]
+    },
+    "background": [
+      "Vely a théorisé et mis au point les deux piliers de la convalescence par le mana utilisés dans le protocole médical d’Asteria.",
+      "Elle a soigné Hetsuga après un combat difficile.",
+      "Impressionné par son efficacité, Hetsuga a vanté ses mérites à Edward.",
+      "Edward s’est déplacé personnellement pour lui proposer le poste de médecin officielle de la cour.",
+      "Vely, complètement paniquée par la présence de l’Empereur, a accepté."
+    ],
+    "relationships": [
+      "Hetsuga Eno : amour secret de Vely ; aucun sentiment réciproque de Hetsuga n’est défini.",
+      "Edward Asteria : employeur impérial ; recrutement personnel après recommandation de Hetsuga."
+    ],
+    "undefined": [
+      "Rang officiel de Vely.",
+      "Affinités élémentaires de Vely.",
+      "Niveau de maîtrise élémentaire éventuel.",
+      "Date exacte du combat lors duquel elle a soigné Hetsuga.",
+      "Première apparition prévue dans le manga."
+    ]
+  },
+  "chapterAudit": {
+    "status": "CANON",
+    "access": "reader",
+    "chapter1": {
+      "title": "L’Autre Côté",
+      "summary": "Ao force une anomalie dimensionnelle dans son laboratoire terrestre. L’arrêt d’urgence échoue lorsque la courbure de l’espace-temps devient autonome ; Ao et des débris sont aspirés. Elle est projetée violemment sur Oryon, se blesse au dos, découvre ses oreilles et sa queue de Demi-chat, puis rencontre Lyra et Eren après la fuite de deux Gobelins. Axiome établit l’adaptation linguistique. À la Guilde de Solaria, le mot magie prononcé par Sato capte toute son attention.",
+      "readerKnowledge": ["Ao a atteint un autre monde mais son expérience a échappé à son contrôle.", "Elle est devenue Demi-chat pendant le passage.", "Axiome lui permet de comprendre la langue locale.", "Ses instruments transportés ont été détruits à l’impact."]
+    },
+    "chapter2": {
+      "title": "Magie",
+      "summary": "Ao interroge Sato sur le mana et les quatre éléments. Un contact rapproché déclenche accidentellement Sensor ; Sato perçoit des fragments de sa solitude et de son passé, puis la prend spontanément dans ses bras. Plus tard, la Pierre Noire classe Ao rang E.",
+      "readerKnowledge": ["Sato possède une capacité sensorielle anormale dont toutes les règles ne sont pas encore révélées.", "Ao est réellement rang E au départ malgré son intelligence.", "La Pierre Noire ne révèle aucune puissance cachée qui la placerait artificiellement plus haut."]
+    },
+    "chapter3": {
+      "title": "Un toit pour ce soir",
+      "summary": "Ao découvre avec les cristaux d’affinité Eau et Foudre au niveau inférieur, tente sans succès de produire de la magie puis apprend qu’elle doit d’abord comprendre le mana. Elle découvre la grande bibliothèque, subit un examen médical confirmant contusion et traumatisme musculaire sans blessure critique, puis accepte l’hébergement temporaire chez Lyra et Eren.",
+      "readerKnowledge": ["Ao ne sait toujours lancer aucun sort.", "La bibliothèque devient son prochain objectif immédiat.", "Lyra et Eren lui offrent un foyer temporaire sans contrepartie."]
+    }
+  },
+  "majorAuthorSecrets": [
+    "L’accident dimensionnel d’Ao perturbe un réseau plus vaste et provoque des arrivées depuis plusieurs mondes et plusieurs époques.",
+    "Les Pierres Noires viennent du monde de Vrul ; leur arrivée des siècles avant Ao découle causalement de la perturbation ultérieure d’Ao.",
+    "Sato devient progressivement le père de cœur d’Ao puis meurt à cause de Zenedia.",
+    "Râ, ancien Ange devenu dieu, a créé Oryon, les races dominantes, les monstres et le système des Uniques.",
+    "Les anomalies interdimensionnelles échappent partiellement au code existentiel de Râ.",
+    "Final : Ao entraîne Râ dans un univers absolument vide via un trou de ver maîtrisé, croyant son sacrifice définitif ; Zeo la remplace ensuite et Ao revient sur Oryon trois mois plus tard."
+  ],
+  "openPointsDoNotInvent": [
+    "Transposis : cooldown, fréquence et orientation exacte non verrouillés.",
+    "Starvamp : méthode exacte de cumul, plafond éventuel et condition de remise à zéro non verrouillés.",
+    "Création d’Univers X : le sens exact de X ne doit pas être développé sans validation.",
+    "Les temps de voyage sont idéaux et ne doivent pas être convertis en durées réelles garanties.",
+    "La carte d’Oryon n’est pas à l’échelle exacte ; ne pas déduire de nouvelles distances depuis le dessin.",
+    "Ne pas inventer de nouvelle nation, continent, religion majeure, haut-gradé A anonyme ou nouvelle Unique pour combler un vide.",
+    "Vely : rang, affinités et niveau de maîtrise élémentaire non définis.",
+    "Flower : portée, coût, fatigue, durée maximale et limites quantitatives précises non définis ; ne jamais lui ajouter une régénération."
+  ],
+  "archivePolicy": {
+    "purpose": "Les anciennes couches sont conservées uniquement pour traçabilité et récupération d’un détail omis. Elles ne font plus partie de l’ordre de lecture normal.",
+    "legacyLayers": [
+      "archive/canon-layers/canon-overrides-v1.2.json",
+      "archive/canon-layers/canon-audit-v1.3.json",
+      "archive/canon-layers/canon-additions-v1.4.json"
+    ],
+    "historicalLore": ["api/lore", "api/lore.json"],
+    "medicalSource": "docs/protocole-medical-asteria.md"
+  }
+}
