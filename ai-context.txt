@@ -53,10 +53,10 @@ POINTS PERSONNAGES À NE PAS RATER
 - Aria : officiel/Pierre S, puissance complète réelle SS ; aucun élément ni Unique ; souffle draconique intrinsèque non élémentaire mal pris en compte par la Pierre.
 - Hetsuga : A martial pur ; Chimère A vaincue seul dans des circonstances exceptionnelles ; Trya l’a vaincu, jamais Vrul.
 - Edward : inférieur à Hetsuga en escrime pure sans Instinct ; avec Instinct peut rivaliser en combat réel.
-- Trya : S détectable sans Ange ; les ailes d’Ange sont littéralement les anciennes ailes de Râ.
+- Trya : S détectable sans Ange ; les ailes d’Ange sont littéralement les anciennes ailes de Râ. Grâce à elles, elle effectue Asteria → Elyndra en environ 2 à 3 jours en survolant les Brumes Éternelles.
 - Norn : B ; refuse une dépendance militaire permanente à Asteria ; AdvancedFire protège flammes/chaleurs extrêmes, pas le froid en général.
 - Mina : Transcendance +1 rang réel pendant 1 h, réutilisable après la fin ; pas de cooldown 24 h.
-- Nava : Transposis 100 m, champ de vision, objet 102 kg, vivant 200 kg, conservation de son propre élan ; cooldown non défini.
+- Nava : Transposis 100 m, champ de vision, objet 102 kg, vivant 200 kg, conservation de son propre élan ; cooldown non défini. Nava et Vely Flower sont meilleures amies.
 - Ed Neron : Brain exploite un point de rupture physique, sans annulation automatique des protections magiques.
 - Yoh : sa défense agit sur la composante mana et peut être dépassée ; le physique pur n’est pas annulé automatiquement.
 - Elza : B ; Starvamp augmente seulement la puissance de frappe de 10 % par coup réussi ; paramètres précis de cumul non verrouillés.
@@ -73,6 +73,8 @@ MÉDECINE / VELY FLOWER
 - Vely Flower : humaine, 20 ans, médecin officielle de la cour d’Edward principalement dédiée aux soldats et aventuriers.
 - Prodige très timide/peureuse ; devient d’une efficacité clinique redoutable lorsqu’une vie est en danger.
 - Vely est secrètement amoureuse de Hetsuga depuis qu’elle l’a soigné.
+- Vely et Nava Asteria sont meilleures amies.
+- L’accès aux soins de Vely est filtré : il faut l’autorisation de Hetsuga, l’autorisation d’Enjin, ou une demande directe à Edward. Cette règle existe pour éviter que des aventuriers viennent la solliciter pour des blessures mineures ou insignifiantes.
 - Unique Flower : yeux luminescents ; Scanner corporel + Suture Intracorporelle.
 - RÈGLE ABSOLUE : Flower est un outil médical exceptionnel, PAS une régénération. Il ne recrée aucun tissu, organe ou membre.
 - Rang, affinités, portée, coût, fatigue et durée maximale de Flower non définis.
