@@ -22,7 +22,8 @@ Solaria, la capitale de l'Empire Humain d'Asteria, est une immense cité fortifi
 - **Rôle principal :** Zone de commerce de masse et pôle de santé pour la population.
 - **Infrastructures clés :**
   - Boutiques spécialisées : vente d'armes, d'armures, d'équipements de voyage, de nourriture, d'objets du quotidien et de pierres magiques utilitaires.
-  - Pôle médical civil : c'est dans ce secteur commercial que se concentre la plupart des médecins et cliniques de la ville. Ils y trouvent un accès direct à leurs fournisseurs de plantes et de pierres de soins pour traiter les civils.
+  - Pôle médical civil : c'est dans ce secteur commercial que se concentre la plupart des médecins et cliniques de la ville. Ils y trouvent un accès direct à leurs fournisseurs de plantes et de pierres médicales concentrées en mana.
+  - **Pierres médicales de mana :** elles servent d'outils médicaux et de réserves/concentrateurs de mana. Elles ne guérissent pas directement une blessure et ne régénèrent aucun tissu.
 
 ## 4. LE QUARTIER NORD : LA RÉSIDENCE ET LA JUSTICE SOUTERRAINE
 
