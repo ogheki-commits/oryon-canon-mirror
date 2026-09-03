@@ -2,6 +2,10 @@
 
 Ce dossier est destiné à contenir le texte intégral de chaque chapitre du manga une fois validé par l’auteur.
 
+## Chapitres canoniques actuellement enregistrés
+
+- `chapitre-01-lautre-cote.md` — **Chapitre 1 — L’Autre Côté** — CANON.
+
 ## Enregistrement
 
 - Tant qu’un chapitre est en écriture, ses scènes restent des brouillons de travail et ne sont pas enregistrées ici comme canon définitif.
