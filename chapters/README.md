@@ -5,6 +5,7 @@ Ce dossier est destiné à contenir le texte intégral de chaque chapitre du man
 ## Chapitres canoniques actuellement enregistrés
 
 - `chapitre-01-lautre-cote.md` — **Chapitre 1 — L’Autre Côté** — CANON.
+- `chapitre-02-magie.md` — **Chapitre 2 — Magie** — CANON.
 
 ## Enregistrement
 
