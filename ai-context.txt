@@ -1,7 +1,8 @@
 ORYON — CONTEXTE IA CANON · CURRENT · 2026-09-04
 
 RÔLE
-- Ce dépôt GitHub est la base canon opérationnelle du manga Ao/Oryon.
+- Ce dépôt GitHub est la base canon opérationnelle du manga actuellement prévu sous le titre **Oryon**.
+- Titre du manga : **Oryon** est désormais le titre de travail très fortement envisagé par l’auteur. Tant qu’il n’a pas été verrouillé explicitement comme définitif, le traiter comme **PRÉVU / titre probable**, pas comme un fait irrévocable.
 - Commencer chaque reprise d’écriture par ce fichier.
 - Lire ensuite canon-current.json.
 - Pour un domaine précis, consulter le document spécialisé correspondant dans docs/ ; une fiche spécialisée plus récente prévaut sur la formulation générale plus ancienne de canon-current.json.
