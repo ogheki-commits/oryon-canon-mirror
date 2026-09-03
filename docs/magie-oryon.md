@@ -38,7 +38,9 @@
 - Pharos appartient à une catégorie différente : **science appliquée à la magie**. Ao combine des connaissances scientifiques de la Terre avec la magie d'Oryon afin de produire un phénomène qu'un mage ordinaire n'obtiendrait pas simplement en donnant une forme sophistiquée à son élément.
 - Comme pour le principe de Megiddo qui l'inspire, l'Eau sert notamment à créer des structures fonctionnelles précises intégrées à un dispositif physique/optique conçu par Ao.
 - La magie fournit et maintient certains composants du système ; la science détermine leur géométrie, leur disposition et la façon dont ils exploitent des phénomènes physiques réels.
-- Pharos exige donc à la fois maîtrise magique, calculs, compréhension scientifique, précision de fabrication magique et expérimentation. Une maîtrise élevée de l'Eau seule ne permet pas automatiquement de reproduire cette technique.
+- Pharos exige donc à la fois maîtrise magique, calculs, compréhension scientifique, précision de fabrication magique et expérimentation. Une maîtrise élevée de l'Eau seule ne permet pas de reproduire cette technique.
+- **Exemple canonique : Elfa Elyndra**, malgré sa maîtrise supérieure de l'Eau et son niveau magique exceptionnel, est incapable de copier Pharos par simple observation ou par supériorité magique. Le mécanisme déterminant n'est pas seulement la magie d'Eau : il repose sur le modèle scientifique conçu par Ao.
+- Voir Ao exécuter Pharos ne fournit donc pas automatiquement à un autre mage les connaissances scientifiques, calculs et principes physiques nécessaires pour le reproduire.
 - Cette distinction est fondamentale pour la progression d'Ao : ses futures créations techno-magiques doivent découler de la combinaison **science + magie**, pas d'une magie qui accomplirait directement tout ce qu'elle imagine.
 - Son nom définitif n'est pas encore verrouillé. « Pharos » reste actuellement une proposition auteur liée symboliquement au Phare d'Alexandrie et à l'idée de lumière focalisée/projetée grâce à un dispositif utilisant des structures d'eau.
 
@@ -49,3 +51,4 @@
 - Ne pas faire dépendre la magie de la prononciation d'un mot de sort.
 - Ne pas confondre manifestation élémentaire simple et maîtrise avancée de formes complexes.
 - Ne pas réduire Pharos à une simple technique d'Eau complexe : c'est une création issue de la science appliquée à la magie.
+- Ne pas faire copier Pharos par un mage uniquement parce qu'il est plus puissant ou maîtrise mieux l'Eau qu'Ao.
