@@ -10,6 +10,7 @@ Source de vérité opérationnelle du manga Ao/Oryon.
 
 ## Documents spécialisés canoniques
 
+- Magie : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/magie-oryon.md
 - Médecine : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/protocole-medical-asteria.md
 - Solaria : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/solaria.md
 - Armes et enchantements : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/systeme-armes-oryon.md
@@ -24,6 +25,8 @@ Source de vérité opérationnelle du manga Ao/Oryon.
 - https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore.json
 
 Ces deux chemins contiennent le canon consolidé général de `canon-current.json`. Pour les domaines disposant d'un document spécialisé plus récent, le document de `docs/` prévaut.
+
+Important pour la magie : toute ancienne formulation disant que les natifs doivent apprendre à ressentir/canaliser/déplacer le mana est obsolète. `docs/magie-oryon.md` est prioritaire : mana naturel comme la respiration, manifestation simple par image mentale, difficulté réelle dans le contrôle et les formes complexes.
 
 ## Archives
 
