@@ -1,10 +1,11 @@
-ORYON — CONTEXTE IA CANON · CURRENT · 2026-09-03
+ORYON — CONTEXTE IA CANON · CURRENT · 2026-09-04
 
 RÔLE
 - Ce dépôt GitHub est la base canon opérationnelle du manga Ao/Oryon.
 - Commencer chaque reprise d’écriture par ce fichier.
 - Lire ensuite canon-current.json.
 - Pour un domaine précis, consulter le document spécialisé correspondant dans docs/ ; une fiche spécialisée plus récente prévaut sur la formulation générale plus ancienne de canon-current.json.
+- Pour la continuité fine des scènes déjà écrites, relire les chapitres complets validés dans chapters/ selon la règle de chapters/README.md.
 - api/lore et api/lore.json sont des copies du canon général actuel, pas l’ancien lore v1.1.
 - archive/ = traçabilité uniquement. Les brouillons éventuels ne sont jamais canoniques sans validation explicite.
 
@@ -18,6 +19,7 @@ PRIORITÉ
 ÉTAT DU RÉCIT
 - Fin actuelle : chapitre 3 « Un toit pour ce soir ».
 - Ao : 27 ans, ancienne humaine devenue Demi-chat, rang E, Eau inférieur, Foudre inférieur, aucun sort maîtrisé, hébergée par Lyra et Eren.
+- Chapitre 4 « Comme respirer » : brouillon de travail en cours ; ne pas le traiter comme chapitre complet validé tant que l’auteur ne l’a pas explicitement validé.
 - Prochaine scène naturelle : première soirée chez Lyra/Eren puis retour à la Guilde/bibliothèque. Pour la magie, ne pas construire un apprentissage fondé sur « ressentir puis déplacer le mana » : la règle correcte est dans docs/magie-oryon.md.
 
 RÈGLES IMPÉRATIVES
@@ -32,6 +34,8 @@ RÈGLES IMPÉRATIVES
 - Les monstres naturels ne possèdent pas de Compétence Unique.
 
 DOCUMENTS SPÉCIALISÉS CANONIQUES
+- docs/apparences-personnages.md : références visuelles actuelles des personnages ; le nouveau jeu d’images fourni le 2026-09-04 remplace les anciennes références visuelles du même personnage.
+- docs/scenes-prevues-oryon.md : scènes futures et événements antérieurs à Ao déjà décidés par l’auteur ; authorKnowledge, spoilers, ne pas révéler trop tôt.
 - docs/magie-oryon.md : nature du mana, manifestation par image mentale, différence entre élément simple et formes complexes.
 - docs/protocole-medical-asteria.md : médecine officielle et gestion du mana.
 - docs/solaria.md : organisation des quatre quartiers et du complexe impérial.
@@ -40,6 +44,13 @@ DOCUMENTS SPÉCIALISÉS CANONIQUES
 - docs/citoyens-recrutement-oryon.md : connaissances du citoyen et recrutement Armée/Gardes, incluant le droit des Nains.
 - docs/lois-justice-securite-oryon.md : lois communes, justice d’Asteria et d’Elyndra, rôle judiciaire de Yoh.
 - docs/systeme-uniques-oryon.md : algorithme de Râ, découverte, recyclage et compensation des outsiders.
+- chapters/README.md : règle d’enregistrement et de relecture des chapitres complets validés.
+
+APPARENCES — RÈGLE VERROUILLÉE
+- L’archive maître `Apparence Personnage - Canon.rar`, conservée dans `/Oryon/References/` de la Library ChatGPT de l’auteur, contient les références visuelles haute définition actuelles.
+- Pour l’apparence visuelle, ces images remplacent les anciennes références du même personnage.
+- Les poses, gestes, accessoires ponctuels et effets de fond d’une illustration ne deviennent pas automatiquement des faits narratifs.
+- Le fichier `Zao.png` semble correspondre à Zeo Soul ; conserver ce point comme correspondance probable à confirmer par l’auteur, sans inventer un personnage Zao distinct.
 
 MAGIE — RÈGLES VERROUILLÉES
 - Le mana est dans l’air et fait naturellement partie des êtres vivants d’Oryon ; pour les natifs, son rapport est aussi naturel que respirer.
@@ -110,6 +121,8 @@ AUTRES POINTS RÉCENTS
 
 SOURCES
 - Canon principal : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-current.json
+- Apparences : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/apparences-personnages.md
+- Scènes prévues : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/scenes-prevues-oryon.md
 - Magie : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/magie-oryon.md
 - API canon : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore
 - Index : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/llms.txt
