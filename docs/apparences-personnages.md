@@ -16,6 +16,7 @@
 - Pour le **visage, la coiffure, les couleurs, la silhouette générale, les traits raciaux visibles et la tenue représentée**, l’image correspondante ci-dessous est la référence actuelle.
 - Une ancienne image contradictoire doit être considérée comme obsolète.
 - Les poses, expressions ponctuelles, objets tenus, gestes et effets de fond d’une illustration ne créent pas automatiquement un fait narratif ou une habitude du personnage.
+- **Exception explicitement validée : la cigarette visible sur `Enjin.jpg` correspond bien à une habitude canonique d’Enjin Etio.** Voir `docs/enjin-etio.md`.
 - Les informations non visuelles déjà établies — âge, rang, pouvoirs, personnalité, relations, histoire — ne sont pas modifiées par ces images.
 - Si une future illustration volontairement validée par l’auteur remplace l’une de celles-ci, mettre à jour cette liste plutôt que conserver deux références concurrentes.
 
@@ -31,7 +32,7 @@
 | Edward Asteria | `Edward.png` | Référence visuelle actuelle |
 | Elfa Elyndra | `Elfa.jpg` | Référence visuelle actuelle |
 | Elza Blood | `Elza.jpg` | Référence visuelle actuelle |
-| Enjin Etio | `Enjin.jpg` | Référence visuelle actuelle |
+| Enjin Etio | `Enjin.jpg` | Référence visuelle actuelle ; cigarette canonique |
 | Eren Enma | `Eren.jpg` | Référence visuelle actuelle |
 | Hetsuga Eno | `Hetsuga.jpg` | Référence visuelle actuelle |
 | Lyra Enma | `Lyra.jpg` | Référence visuelle actuelle |
@@ -54,4 +55,5 @@
 - Les deux formes d’Aria sont désormais clairement séparées, ce qui évite les confusions de continuité visuelle.
 - Lyra dispose dans son fichier de plusieurs vues du visage en plus de la silhouette complète ; c’est particulièrement utile pour conserver ses traits constants lors du dessin.
 - Certaines références sont des portraits ou demi-corps plutôt que des vues intégrales (par exemple Draïd, Elza, Sato ou Yoh) ; elles restent suffisantes comme référence de visage et de tenue supérieure, mais une future vue de corps entier peut compléter la bible sans remplacer nécessairement le visage actuel.
+- Pour Enjin, l’accessoire cigarette fait désormais partie du personnage : il fabrique et fume lui-même un équivalent local du tabac à base de plantes d’Oryon, principalement pour se détendre. Les détails de personnalité et de relations associés sont dans `docs/enjin-etio.md`.
 - Cette bible visuelle doit être consultée avant toute nouvelle description détaillée d’apparence ou toute préparation de scène où le design d’un personnage est important.
