@@ -19,6 +19,7 @@ Cela évite qu’une future IA lise accidentellement comme canon : Oryon = conti
 
 ## Documents spécialisés actuels
 
+- `docs/magie-oryon.md`
 - `docs/protocole-medical-asteria.md`
 - `docs/solaria.md`
 - `docs/systeme-armes-oryon.md`
@@ -26,6 +27,8 @@ Cela évite qu’une future IA lise accidentellement comme canon : Oryon = conti
 - `docs/citoyens-recrutement-oryon.md`
 - `docs/lois-justice-securite-oryon.md`
 - `docs/systeme-uniques-oryon.md`
+
+`docs/magie-oryon.md` corrige une ancienne formulation du canon général : les natifs n'apprennent pas d'abord à « ressentir » puis « déplacer » le mana. Le mana fait naturellement partie d'eux ; une affinité simple se manifeste par image mentale, tandis que la difficulté réelle vient du contrôle et des formes complexes.
 
 Le système des Uniques n’est plus un brouillon : les règles d’attribution, de découverte, de recyclage, l’absence de variantes/évolutions et la compensation des outsiders ont été validées par l’auteur le 2026-09-03.
 
