@@ -6,6 +6,7 @@ Ce dossier est destiné à contenir le texte intégral de chaque chapitre du man
 
 - `chapitre-01-lautre-cote.md` — **Chapitre 1 — L’Autre Côté** — CANON.
 - `chapitre-02-magie.md` — **Chapitre 2 — Magie** — CANON.
+- `chapitre-03-un-toit-pour-ce-soir.md` — **Chapitre 3 — Un toit pour ce soir** — CANON.
 
 ## Enregistrement
 
