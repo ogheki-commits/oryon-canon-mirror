@@ -2,86 +2,314 @@
 
 > **Statut : PLAN / authorKnowledge / modifiable.**
 >
-> Ce fichier prépare un futur **Chapitre 0** placé avant le chapitre 1. Il ne devient un chapitre canonique complet qu’après écriture et validation explicite de l’auteur.
+> Ce fichier prépare le **Chapitre 0** placé avant le chapitre 1. Il ne devient un chapitre canonique complet qu’après écriture et validation explicite de l’auteur.
 
 ## Fonction narrative
 
-Faire connaître au lecteur dès le début une vérité que les personnages ignorent encore : **Sato est le père biologique d’Ao**.
+Faire connaître au lecteur dès la toute première ouverture du manga une vérité que les personnages ignorent encore dans le présent : **Sato est le père biologique d’Ao**.
 
-Le suspense recherché n’est donc pas un twist caché au lecteur, mais une **ironie dramatique** : lorsque Sato et Ao se retrouveront à la Guilde, le lecteur pourra faire le lien avant eux et attendra le moment où ils comprendront enfin leur relation.
+Le suspense recherché n’est pas « qui est le père d’Ao ? », mais : **quand vont-ils comprendre qu’ils se sont retrouvés ?**
 
-## Informations que le chapitre 0 doit établir
+Le lecteur doit donc reconnaître Sato lorsqu’il réapparaît à la fin du chapitre 1 puis ressentir tout le sous-texte du chapitre 2 — Sensor, le trouble de Sato, « tu m’as rappelé quelqu’un », le câlin — alors qu’Ao et Sato ne savent pas encore eux-mêmes qu’ils sont père et fille.
 
-- Terre, plusieurs décennies avant le présent d’Oryon.
-- La mère d’Ao meurt en la mettant au monde.
-- Sato se retrouve jeune père seul.
-- Il élève Ao pendant environ trois ans.
-- Ao est encore trop petite pour conserver un souvenir autobiographique clair de lui à l’âge adulte.
-- Sato aime profondément sa fille et souffre déjà de la perte de sa femme.
-- Une anomalie dimensionnelle apparaît soudainement sans explication complète.
-- Sato est arraché à la Terre alors qu’Ao est encore très jeune.
-- Il tente de rejoindre/protéger Ao mais disparaît sans pouvoir revenir.
-- Ao reste sur Terre et sa disparition la conduit à devenir orpheline.
-- Sato apparaît sur Oryon, comprend qu’il n’est plus sur Terre et réalise progressivement qu’il ne reverra probablement jamais sa fille grandir.
-- Le système d’Oryon compense sa vulnérabilité d’outsider et lui attribue **Sensor**.
+## Longueur cible proposée
 
-## Mise en scène proposée
+**Environ 22 pages**, pour rester cohérent avec le format manga adopté à partir du chapitre 4 tout en donnant assez de temps aux cinq mouvements émotionnels du prologue.
 
-### Séquence A — Naissance d’Ao
-- Hôpital ou contexte médical terrestre moderne.
-- Ne pas faire de la mort de la mère une scène gore.
-- Sato reçoit Ao dans ses bras tandis qu’il comprend qu’il vient de perdre sa femme.
-- Contraste immédiat : naissance et deuil dans la même scène.
+Structure proposée :
+- Pages 1–4 : naissance d’Ao / mort de sa mère.
+- Pages 5–9 : les trois premières années d’Ao avec Sato.
+- Pages 10–15 : disparition dimensionnelle de Sato.
+- Pages 16–19 : arrivée sur Oryon / naissance de Sensor.
+- Pages 20–22 : ellipse de vingt-quatre ans / Sato actuel à la Guilde.
 
-### Séquence B — Trois années père/fille
-- Montage ou quelques scènes courtes : Sato nourrit Ao, la porte, lit avec elle, la regarde dormir, apprend à être père seul.
-- Montrer un ou deux gestes/expressions d’Ao que l’on pourra retrouver plus tard chez l’Ao adulte.
-- Ces motifs deviendront des éléments de reconnaissance émotionnelle pour Sato et des payoffs pour le lecteur.
+Les numéros exacts restent ajustables pendant le découpage en cases.
 
-### Séquence C — Disparition
-- Une journée ou soirée ordinaire, pas une scène héroïque préparée.
-- Apparition d’une anomalie visuellement apparentée à la future anomalie du chapitre 1, sans expliquer son origine.
-- Sato comprend trop tard qu’il est aspiré.
-- Son dernier réflexe est d’essayer de rejoindre Ao.
-- Ao reste hors de portée de l’anomalie.
-- Dernière image terrestre possible : Ao très jeune appelant ou tendant la main vers son père sans comprendre.
+---
 
-### Séquence D — Oryon
-- Sato se réveille dans un environnement impossible.
-- Il comprend qu’il n’est plus chez lui.
-- Sa première peur n’est pas pour lui-même mais pour Ao restée seule.
-- Sensor apparaît ensuite comme compensation de l’outsider faible ; ne pas présenter Râ directement ni expliquer tout le système.
+# SCÈNE 1 — NAÎTRE ET PERDRE
+## Pages 1 à 4
 
-### Séquence E — Fermeture du prologue
-Deux options compatibles à décider lors de l’écriture :
-1. finir sur le jeune Sato regardant le ciel d’Oryon et pensant à Ao ;
-2. faire une ellipse jusqu’au Sato actuel de la Guilde afin que son apparence soit déjà mémorisée par le lecteur avant sa rencontre avec l’Ao adulte.
+### But émotionnel
+Présenter immédiatement Sato dans une situation où la plus grande joie de sa vie et la plus grande perte de sa jeune vie arrivent presque en même temps.
 
-La deuxième option renforce fortement le payoff lorsque le chapitre 1 se termine sur Sato à la Guilde.
+### Informations à montrer
+- Terre, médecine moderne.
+- Sato a environ **21 ans**.
+- La mère d’Ao vient d’accoucher.
+- **Elle meurt en mettant Ao au monde.**
+- Ne pas nommer la mère tant qu’un nom n’a pas été validé par l’auteur.
+- Ao survit.
+- Sato reçoit son bébé dans les bras alors qu’il vient de comprendre que sa compagne est morte.
+- Il choisit néanmoins immédiatement de rester présent pour Ao.
 
-## Ce que le lecteur saura ensuite
+### Mise en scène recommandée
+- Ne pas faire une scène médicale gore.
+- Commencer par des sons / lumières d’hôpital, puis contraste entre les pleurs du bébé et le silence autour de la mère.
+- Le visage de Sato doit mêler choc, deuil et peur de tenir Ao pour la première fois.
+- Une infirmière ou un médecin peut l’appeler **Sato / Monsieur Elio**, seulement si nécessaire pour établir son identité sans exposition artificielle.
+- Sato prononce clairement le prénom **Ao** pour que le lecteur sache immédiatement qui est le bébé.
 
-À partir du chapitre 1, le lecteur sait :
-- qui est Sato ;
-- qu’il vient de la Terre ;
-- qu’Ao est sa fille ;
-- qu’aucun des deux ne sait encore qu’ils vont se retrouver.
+### Dernière image idéale de la scène
+Sato, seul, Ao minuscule contre lui.
 
-Ainsi, au chapitre 2, l’activation accidentelle de Sensor et le câlin deviennent immédiatement chargés d’un sous-texte que les personnages ne comprennent pas encore.
+Le lecteur comprend : il vient de perdre sa femme, mais il lui reste sa fille.
 
-## Ce qu’il ne faut PAS révéler dans le chapitre 0
+---
 
-- Râ.
-- La mécanique complète du système des Uniques.
-- Le fait que les anomalies puissent être causalement liées à l’expérience future d’Ao.
-- La raison exacte de l’arrivée du Gobelin sur Terre.
-- Le futur Draïd/Zenedia/Vrul.
-- La future mort de Sato.
+# SCÈNE 2 — TROIS ANS
+## Pages 5 à 9
 
-## Garde-fous
+### But émotionnel
+Faire aimer la relation père/fille avant de la détruire, sans transformer Sato en père parfait idéalisé.
 
-- Ne pas transformer Sato en père parfait idéalisé : il peut être jeune, épuisé, dépassé, mais profondément attaché à Ao.
-- Ne pas rendre Ao à trois ans anormalement adulte ou consciente des enjeux.
-- Ne pas faire reconnaître Sato par l’Ao adulte uniquement grâce à sa mémoire photographique : `docs/sato-elio.md` verrouille l’amnésie infantile comme explication.
-- Le chapitre 0 doit donner au lecteur suffisamment d’informations pour faire le lien, sans résoudre les mystères dimensionnels du manga.
-- Le vrai payoff doit venir beaucoup plus tard lorsque Sato confirme la filiation puis la révèle à Ao.
+### Principe
+Montage de quelques moments ordinaires sur environ trois ans. Ce sont les banalités qui doivent rendre la séparation douloureuse.
+
+### Moments possibles
+- Sato essayant de nourrir Ao, visiblement fatigué.
+- Ao endormie contre lui pendant qu’il essaie lui-même de rester éveillé.
+- Sato apprenant à coiffer / habiller / calmer sa fille sans toujours réussir du premier coup.
+- Sato lisant un livre avec Ao très jeune.
+- Ao attirée par les pages et les images, sans en faire un bébé qui comprend déjà des théories scientifiques.
+- Quelques petites difficultés financières ou domestiques peuvent être suggérées visuellement, mais aucune situation précise ne doit être inventée comme canon sans nécessité.
+
+## Motif de payoff recommandé : « Respire »
+
+Créer ici un écho direct avec le chapitre 2.
+
+Exemple de situation : Ao, encore petite, s’excite devant un livre ou pose plusieurs « pourquoi ? » à la suite sans reprendre son souffle.
+
+Sato, amusé :
+
+> — Respire, Ao.
+
+Ce motif rendra beaucoup plus fort le chapitre 2 lorsque Sato dira instinctivement à l’Ao adulte :
+
+> — Respire.
+
+Ao ne doit pas consciemment se souvenir de cette scène. Le payoff appartient au lecteur et au comportement instinctif de Sato, pas à une mémoire miraculeuse d’Ao.
+
+### Autres motifs visuels possibles à réutiliser plus tard
+- Ao incline légèrement la tête lorsqu’elle ne comprend pas quelque chose.
+- Une expression particulière lorsqu’une question l’intéresse.
+- Ao se rapproche physiquement sans comprendre l’espace personnel.
+
+N’en choisir qu’un ou deux pour éviter un foreshadowing artificiellement chargé.
+
+### Fin de scène
+Ao a environ trois ans. Sato a environ vingt-quatre ans.
+
+La vie n’est pas facile, mais ils ont une routine et ils sont ensemble.
+
+---
+
+# SCÈNE 3 — LA DISPARITION
+## Pages 10 à 15
+
+### But émotionnel
+Faire de la disparition de Sato une catastrophe absurde et injuste, pas une décision ni un sacrifice volontaire.
+
+### Départ
+- Journée ou soirée totalement ordinaire.
+- Ao se trouve près de Sato mais suffisamment loin pour ne pas être happée avec lui.
+- Aucun signe annonçant une aventure choisie.
+
+### Apparition de l’anomalie
+- Une anomalie dimensionnelle apparaît soudainement.
+- Sa **grammaire visuelle** doit être apparentée à l’anomalie du chapitre 1 et, rétrospectivement, au phénomène ayant amené le Gobelin mort sur Terre.
+- Ne pas expliquer la cause.
+- Ne pas montrer Râ.
+- Ne pas parler de réseau dimensionnel.
+
+### Réaction de Sato
+- D’abord incompréhension.
+- Puis il sent qu’il est entraîné.
+- Sa priorité absolue devient Ao.
+- Il tente de s’accrocher, de revenir vers elle ou de la mettre hors de portée.
+- Il ne doit pas avoir le temps de comprendre ce qui lui arrive.
+
+### Image miroir importante
+Sato tend la main vers Ao pendant qu’il est arraché à la Terre.
+
+Ce geste pourra faire écho plus tard aux scènes dimensionnelles d’Ao et au thème général des personnes séparées par les anomalies.
+
+### Ao à trois ans
+- Elle ne comprend pas la situation.
+- Elle peut appeler son père, pleurer ou tendre elle aussi la main.
+- Ne pas lui donner de dialogue ou de compréhension trop mature.
+
+### Dernière case terrestre proposée
+Ao reste seule tandis que l’anomalie disparaît.
+
+Le lecteur sait exactement **pourquoi Ao deviendra orpheline**, alors qu’Ao adulte l’ignore encore.
+
+---
+
+# SCÈNE 4 — L’AUTRE CÔTÉ DE SATO
+## Pages 16 à 19
+
+### But émotionnel
+Montrer que Sato ne considère jamais son arrivée sur Oryon comme une aventure merveilleuse : sa première pensée est la fille qu’il vient de perdre.
+
+### Arrivée
+- Sato apparaît sur Oryon dans un environnement qu’il ne reconnaît pas.
+- Il est physiquement faible, sans équipement adapté et vulnérable.
+- Le passage peut l’avoir désorienté ou blessé légèrement, mais ne pas lui inventer de blessure grave sans besoin narratif.
+
+### Prise de conscience
+- Ciel, végétation, architecture ou créatures suffisent à lui faire comprendre qu’il n’est plus sur Terre.
+- Il ne sait pas où il est.
+- Il ne sait pas revenir.
+- Il comprend surtout qu’Ao, trois ans, est restée derrière lui.
+
+### Détresse de Sato
+Son conflit principal n’est pas :
+> « Comment vais-je survivre ? »
+
+mais :
+> « Ao est seule. »
+
+Il peut chercher immédiatement une manière de revenir avant même de comprendre Oryon.
+
+### Apparition de Sensor
+- Comme outsider trop faible pour survivre correctement sur Oryon, le système du monde compense sa vulnérabilité.
+- **Sensor** lui est attribuée.
+- Le chapitre 0 ne doit pas expliquer l’algorithme de Râ ni le système complet des Uniques.
+- Le nom Sensor peut apparaître naturellement / intérieurement à Sato sans expliquer qui ou quoi le lui donne.
+- Cette Unique est thématiquement adaptée à un homme qui vient de perdre toute possibilité de voir sa fille, mais ne doit pas être présentée comme un cadeau conscient d’un dieu compatissant.
+
+### Première manifestation
+Il est possible de montrer une activation très brève ou une sensation anormale permettant au lecteur de comprendre que Sato possède désormais quelque chose de nouveau.
+
+Ne pas définir ici de nouvelle règle qui contredirait `docs/sato-elio.md` :
+- Sensor nécessite un contact pour lire une personne.
+- Une activation accidentelle ne donne que des fragments.
+- Une lecture volontaire approfondie demande concentration.
+
+### Fin de scène
+Sato comprend qu’il devra survivre, mais son objectif émotionnel reste impossible : retrouver Ao.
+
+---
+
+# SCÈNE 5 — VINGT-QUATRE ANS
+## Pages 20 à 22
+
+### But narratif
+Faire reconnaître au lecteur **le Sato actuel** avant sa rencontre avec l’Ao adulte.
+
+### Ellipse
+Indication simple de type :
+
+> **Vingt-quatre ans plus tard — Oryon**
+
+Ne pas raconter ici toute sa carrière.
+
+Le lecteur peut seulement voir ce que Sato est devenu :
+- 48 ans.
+- Ancien aventurier de rang A.
+- Responsable bénévole / présence majeure de la grande bibliothèque de la Guilde.
+- Homme doux et calme qui a construit une vie sur Oryon.
+- La blessure concernant Ao n’a jamais réellement disparu.
+
+### Mise en scène recommandée
+Sato actuel remet un livre en place ou aide un jeune aventurier avec la même patience qu’on lui connaît.
+
+Un détail discret peut rappeler Ao enfant : un livre, un geste, un enfant dans la bibliothèque, une phrase ou simplement son regard qui se voile une seconde.
+
+### Choix de fin privilégié
+**Finir sur le Sato actuel à la Guilde**, plutôt que seulement sur le jeune Sato regardant le ciel.
+
+C’est plus fort parce que :
+1. le lecteur mémorise immédiatement son apparence actuelle ;
+2. le chapitre 1 peut ensuite commencer sur Ao adulte sur Terre ;
+3. lorsque le chapitre 1 se termine à la Guilde et que Sato réapparaît, le lecteur le reconnaît instantanément ;
+4. au chapitre 2, le lecteur comprend avant lui pourquoi Ao lui semble inexplicablement familière.
+
+### Dernière case possible
+Sato dans la bibliothèque, calme en apparence.
+
+Une pensée minimale, pas un monologue explicatif :
+
+> *Ao…*
+
+Puis :
+
+**FIN DU CHAPITRE 0**
+
+Le chapitre 1 commence ensuite avec l’Ao adulte sur Terre, sans préciser immédiatement au lecteur qu’ils vont se retrouver quelques heures / scènes plus tard.
+
+---
+
+# CE QUE LE LECTEUR SAIT À LA FIN DU CHAPITRE 0
+
+Le lecteur sait :
+- Sato est le père biologique d’Ao ;
+- la mère d’Ao est morte en couches ;
+- Sato a élevé Ao seul jusqu’à environ trois ans ;
+- Sato n’a jamais abandonné volontairement Ao ;
+- il a été arraché à la Terre par une anomalie inexplicable ;
+- Ao est devenue orpheline à cause de cette disparition ;
+- Sato vit depuis environ vingt-quatre ans sur Oryon ;
+- il possède Sensor ;
+- il n’a jamais cessé de souffrir de ne pas avoir vu grandir Ao.
+
+Le lecteur **ne sait pas encore** :
+- pourquoi l’anomalie a pris Sato ;
+- pourquoi le Gobelin arrivera plus tard sur Terre ;
+- que l’expérience future d’Ao perturbera causalement un réseau dimensionnel plus vaste ;
+- l’existence et le rôle complet de Râ ;
+- que Sato mourra plus tard à cause de Zenedia.
+
+---
+
+# PAYOFFS À PRÉSERVER DANS LES CHAPITRES EXISTANTS ET FUTURS
+
+## Chapitre 1
+Lorsque Sato apparaît à la Guilde, le lecteur doit le reconnaître immédiatement grâce au Chapitre 0.
+
+## Chapitre 2
+Le contact Ao/Sato déclenche Sensor accidentellement.
+
+Le lecteur comprend alors :
+- pourquoi les souvenirs terrestres perturbent profondément Sato ;
+- pourquoi certaines expressions d’Ao lui paraissent familières ;
+- pourquoi il la serre spontanément dans ses bras ;
+- pourquoi « tu m’as rappelé quelqu’un » est bien plus littéral qu’il ne le pense.
+
+La version actuelle du chapitre 2 contenant l’ancien concept de « sept années » et d’« une autre jeune femme » devra être retouchée après validation du Chapitre 0.
+
+## Arcs 2–6
+Multiplier les petites scènes ordinaires Ao/Sato, sans faire comprendre trop vite à Sato la vérité.
+
+Le lecteur doit progressivement attendre la révélation avec de plus en plus d’impatience.
+
+## Arc 7 — Les fissures
+Fenêtre actuellement privilégiée pour :
+- révéler explicitement que Sato vient de la Terre ;
+- faire grandir ses soupçons ;
+- utilisation volontaire de Sensor sur Ao avec une justification éthique ;
+- confirmation de la filiation ;
+- révélation à Ao.
+
+## Après la révélation
+Prévoir plusieurs chapitres / scènes permettant à Ao et Sato d’essayer d’avoir enfin une vraie relation père/fille.
+
+## Arc 8 — Zenedia
+Sato meurt toujours définitivement devant Ao.
+
+Sa mort doit être douloureuse non seulement parce qu’Ao découvre qu’il était son père, mais parce qu’elle **avait enfin eu le temps de le retrouver réellement**.
+
+---
+
+# GARDE-FOUS
+
+- Sato est le **père biologique**, plus seulement un père de cœur.
+- Ne plus utiliser l’ancienne fille morte sept ans auparavant.
+- Sato souffre depuis son arrivée sur Oryon de la séparation avec Ao.
+- Ao ne reconnaît pas immédiatement Sato grâce à sa mémoire photographique : l’amnésie infantile reste la règle.
+- Sensor n’est pas omniscient.
+- Le Chapitre 0 révèle la filiation au lecteur, pas aux personnages.
+- Ne pas révéler Râ ni la causalité complète des anomalies.
+- Ne pas faire du prologue une succession uniquement tragique : les pages de vie quotidienne père/fille sont essentielles pour que la perte ait du poids.
+- Ne pas faire mourir Sato immédiatement après la révélation future ; leur relation retrouvée doit exister réellement avant Zenedia.
