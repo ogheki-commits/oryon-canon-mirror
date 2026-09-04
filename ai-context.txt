@@ -29,6 +29,7 @@ PRIORITÉ
 - Fin du chapitre 4 : Ao comprend que l’image mentale influence la manifestation mais que son contrôle limite ce qu’elle peut réellement produire ; elle a déjà plusieurs idées et veut retourner à la bibliothèque.
 - Le chapitre 5 n’est pas encore écrit ni verrouillé. Avant de l’écrire, relire intégralement les chapitres 1 à 4 tant que leur nombre reste faible.
 - Roadmap actuelle : Arc 1 terminé ; **Arc 2 « Trouver sa place »** est le prochain arc proposé pour commencer au chapitre 5. Voir `plans/arcs/arc-02-trouver-sa-place.md`.
+- Un **Chapitre 0** est désormais prévu avant le chapitre 1 pour montrer au lecteur que Sato est le père biologique d’Ao et qu’il a été arraché à la Terre lorsqu’elle avait environ trois ans. Voir `plans/chapitre-00-sato.md`.
 
 RÈGLES IMPÉRATIVES
 - CANON = établi ; PRÉVU = décidé mais non encore révélé ; IDÉE = modifiable ; PLAN = direction éditoriale modifiable.
@@ -44,6 +45,7 @@ RÈGLES IMPÉRATIVES
 DOCUMENTS SPÉCIALISÉS CANONIQUES
 - docs/apparences-personnages.md : références visuelles actuelles des personnages ; **le deuxième jeu d’images complet fourni le 2026-09-04 remplace intégralement le premier jeu du même jour et montre désormais les personnages en entier.**
 - docs/enjin-etio.md : personnalité d’Enjin, cigarettes artisanales à base de plantes d’Oryon, rapport aux autres, estime de Vely/Hetsuga/Edward et future reconnaissance intellectuelle d’Ao.
+- docs/sato-elio.md : **Sato est le père biologique d’Ao**, origine terrestre, disparition quand Ao avait environ 3 ans, Sensor, futur dévoilement et retcon nécessaire du chapitre 2.
 - docs/scenes-prevues-oryon.md : scènes futures et événements antérieurs à Ao déjà décidés par l’auteur ; authorKnowledge, spoilers, ne pas révéler trop tôt.
 - docs/magie-oryon.md : nature du mana, manifestation par image mentale, différence entre élément simple et formes complexes.
 - docs/protocole-medical-asteria.md : médecine officielle et gestion du mana.
@@ -56,20 +58,38 @@ DOCUMENTS SPÉCIALISÉS CANONIQUES
 - chapters/README.md : règle d’enregistrement et de relecture des chapitres complets validés.
 
 PLANS ÉDITORIAUX
+- `plans/chapitre-00-sato.md` : prologue prévu avant le chapitre 1 ; naissance d’Ao, mort de sa mère, trois années avec Sato, disparition de Sato vers Oryon, Sensor et ironie dramatique pour le lecteur.
 - `plans/arcs/README.md` : index et règles de la roadmap.
-- `plans/arcs/arc-01-lautre-cote.md` : arc d’introduction, terminé, chapitres 1 à 4.
-- `plans/arcs/arc-02-trouver-sa-place.md` : prochain arc proposé ; premières missions, argent, apprentissage, Sato, Lyra/Eren, Nina possible, premier vrai échec scientifique.
-- `plans/arcs/arc-03-science-et-magie.md` : expérimentations, premiers prototypes, introduction progressive Enjin/Hetsuga/Vely/Nava/Edward, antagoniste natif C/B possible.
+- `plans/arcs/arc-01-lautre-cote.md` : arc d’introduction, terminé, chapitres 1 à 4 ; le futur Chapitre 0 le précédera dans l’ordre de lecture.
+- `plans/arcs/arc-02-trouver-sa-place.md` : prochain arc proposé ; premières missions, argent, apprentissage, Sato/Ao avec sous-texte père-fille connu du lecteur, Lyra/Eren, Nina possible, premier vrai échec scientifique.
+- `plans/arcs/arc-03-science-et-magie.md` : expérimentations, premiers prototypes, introduction progressive Enjin/Hetsuga/Vely/Nava/Edward, antagoniste natif C/B possible ; les soupçons de Sato sur Ao peuvent grandir.
 - `plans/arcs/arc-04-khardun.md` : métallurgie magique, Norn/Mina/Ed, crise locale, foreshadowing Norn/Aria.
 - `plans/arcs/arc-05-elyndra-et-les-brumes.md` : Elfa/Yoh/Elza/Trya, magie de haut niveau, Dragons, préparation d’Aria.
 - `plans/arcs/arc-06-draid-mont-celeste.md` : mort de Draïd par Aria, réaction politique, payoff possible du flashback Norn/Aria.
-- `plans/arcs/arc-07-les-fissures.md` : enquête dimensionnelle, responsabilité potentielle d’Ao, rapprochement intellectuel Ao/Enjin.
-- `plans/arcs/arc-08-zenedia.md` : mort définitive de Sato, victoire préparée d’Ao, capacités de Zenedia encore à définir.
-- `plans/arcs/arc-09-apres-sato.md` : deuil et conséquences durables.
+- `plans/arcs/arc-07-les-fissures.md` : enquête dimensionnelle, responsabilité potentielle d’Ao, rapprochement intellectuel Ao/Enjin ; **fenêtre privilégiée proposée pour confirmation/révélation de la filiation Sato/Ao**, sans numéro de chapitre verrouillé.
+- `plans/arcs/arc-08-zenedia.md` : mort définitive de Sato après que la relation père/fille a réellement eu le temps d’exister ; victoire préparée d’Ao, capacités de Zenedia encore à définir.
+- `plans/arcs/arc-09-apres-sato.md` : deuil de son père biologique et conséquences durables sur la compréhension qu’Ao a de son passé et de la famille.
 - `plans/arcs/arc-10-zeo.md` : installation longue de Zeo et de sa relation avec Ao.
 - `plans/arcs/arc-11-vrul-guerre-de-survie.md` : guerre de survie, Elfa/Trya en première ligne, Ao soutien techno-magique.
 - `plans/arcs/arc-12-la-verite-doryon.md` : convergence des mystères et préparation de Râ.
 - `plans/arcs/arc-final-ra.md` : wormhole vers l’univers vide, sacrifice prévu d’Ao, intervention de Zeo.
+
+SATO / AO — RÈGLES VERROUILLÉES
+- Sato Elio est le **père biologique d’Ao**, pas seulement un futur père de cœur.
+- La mère biologique d’Ao est morte en la mettant au monde ; Ao l’ignore au début du récit.
+- Sato a élevé Ao seul jusqu’à environ ses 3 ans, puis une anomalie dimensionnelle l’a arraché à la Terre et projeté sur Oryon.
+- Cette disparition est la cause réelle de l’orphelinat d’Ao.
+- Sato vient donc lui aussi de la Terre et vit sur Oryon depuis environ deux décennies ; avec les âges actuels 48/27, une calibration cohérente le place approximativement à 24 ans lors de la disparition.
+- Sa Compétence Unique Sensor est une compensation de faible outsider cohérente avec le système : adaptée à son profil et à sa perte, sans cadeau conscient de Râ.
+- Sensor accidentel = fragments incomplets ; Sensor volontaire approfondi = contact + concentration, intrusif et évité éthiquement.
+- Chapitre 2 : le contact Ao/Sato déclenche toujours Sensor avant le câlin. Sato voit des fragments incomplets, dont des éléments terrestres, mais pas assez pour identifier immédiatement Ao comme sa fille.
+- Le câlin devient une reconnaissance paternelle émotionnelle/inconsciente qu’il ne comprend pas lui-même.
+- Ao ne reconnaît pas Sato malgré sa mémoire exceptionnelle : l’amnésie infantile empêche un souvenir autobiographique clair de son père à environ 3 ans ; sa mémoire photographique ne crée pas rétroactivement un souvenir non consolidé.
+- Les anciennes mentions d’une autre fille de Sato morte sept ans auparavant et de Sato comme simple « père de cœur » sont **OBSOLETES**.
+- Le chapitre 2 contient encore des lignes héritées de cet ancien concept (« sept années », « autre jeune femme ») : elles doivent être corrigées chirurgicalement avant publication finale. `docs/sato-elio.md` prévaut jusque-là.
+- Sato finira par confirmer la filiation et la révéler à Ao ; une lecture volontaire de Sensor avec raison éthique/consentement est une piste privilégiée, mais le fragment exact reste à écrire.
+- Ne pas tuer Sato immédiatement après la révélation : Ao et Sato doivent avoir du temps réel pour vivre et reconstruire leur relation père/fille avant Zenedia.
+- Zenedia tue toujours Sato définitivement devant Ao plus tard.
 
 APPARENCES — RÈGLE VERROUILLÉE
 - L’archive maître `Apparence Personnage - Canon.rar`, conservée dans `/Oryon/References/` de la Library ChatGPT de l’auteur, a été **écrasée par la version la plus récente** le 2026-09-04.
@@ -158,9 +178,11 @@ AUTRES POINTS RÉCENTS
 SOURCES
 - Canon principal : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-current.json
 - Chapitre 4 : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/chapters/chapitre-04-comme-respirer.md
+- Plan Chapitre 0 : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/plans/chapitre-00-sato.md
 - Roadmap des arcs : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/plans/arcs/README.md
 - Apparences : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/apparences-personnages.md
 - Enjin Etio : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/enjin-etio.md
+- Sato Elio : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/sato-elio.md
 - Scènes prévues : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/scenes-prevues-oryon.md
 - Magie : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/magie-oryon.md
 - API canon : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/api/lore
