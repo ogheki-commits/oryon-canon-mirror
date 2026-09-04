@@ -7,6 +7,8 @@ RÔLE
 - Lire ensuite canon-current.json.
 - Pour un domaine précis, consulter le document spécialisé correspondant dans docs/ ; une fiche spécialisée plus récente prévaut sur la formulation générale plus ancienne de canon-current.json.
 - Pour la continuité fine des scènes déjà écrites, relire les chapitres complets validés dans chapters/ selon la règle de chapters/README.md.
+- Pour la **roadmap éditoriale des arcs**, consulter `plans/arcs/README.md` puis uniquement le fichier de l’arc concerné. Ces fichiers sont des **PLAN / authorKnowledge / modifiables**, pas du canon narratif.
+- Les fichiers d’arc sont volontairement séparés afin de pouvoir être supprimés au fur et à mesure une fois les arcs terminés et absorbés par les chapitres/canon.
 - api/lore et api/lore.json sont des copies du canon général actuel, pas l’ancien lore v1.1.
 - archive/ = traçabilité uniquement. Les brouillons éventuels ne sont jamais canoniques sans validation explicite.
 
@@ -15,7 +17,8 @@ PRIORITÉ
 2. Documents spécialisés validés dans docs/ lorsqu’ils traitent précisément du sujet.
 3. canon-current.json / api/lore / api/lore.json.
 4. Chapitres validés.
-5. archive/ uniquement pour retrouver un détail historique non migré, jamais pour écraser une correction récente.
+5. Plans éditoriaux dans `plans/` uniquement pour guider le futur ; ils ne peuvent pas écraser le canon.
+6. archive/ uniquement pour retrouver un détail historique non migré, jamais pour écraser une correction récente.
 
 ÉTAT DU RÉCIT
 - Fin actuelle : **chapitre 4 « Comme respirer »**, désormais validé et enregistré intégralement dans `chapters/chapitre-04-comme-respirer.md`.
@@ -25,9 +28,10 @@ PRIORITÉ
 - Ao réussit également une **minuscule étincelle de Foudre**, suffisante pour la surprendre et lui faire légèrement mal ; cela ne constitue pas une maîtrise avancée.
 - Fin du chapitre 4 : Ao comprend que l’image mentale influence la manifestation mais que son contrôle limite ce qu’elle peut réellement produire ; elle a déjà plusieurs idées et veut retourner à la bibliothèque.
 - Le chapitre 5 n’est pas encore écrit ni verrouillé. Avant de l’écrire, relire intégralement les chapitres 1 à 4 tant que leur nombre reste faible.
+- Roadmap actuelle : Arc 1 terminé ; **Arc 2 « Trouver sa place »** est le prochain arc proposé pour commencer au chapitre 5. Voir `plans/arcs/arc-02-trouver-sa-place.md`.
 
 RÈGLES IMPÉRATIVES
-- CANON = établi ; PRÉVU = décidé mais non encore révélé ; IDÉE = modifiable.
+- CANON = établi ; PRÉVU = décidé mais non encore révélé ; IDÉE = modifiable ; PLAN = direction éditoriale modifiable.
 - Respecter publicKnowledge / readerKnowledge / authorKnowledge.
 - Ne jamais donner à un personnage une information qu’il ne possède pas.
 - Ne jamais résoudre une contradiction par invention.
@@ -50,6 +54,22 @@ DOCUMENTS SPÉCIALISÉS CANONIQUES
 - docs/lois-justice-securite-oryon.md : lois communes, justice d’Asteria et d’Elyndra, rôle judiciaire de Yoh.
 - docs/systeme-uniques-oryon.md : algorithme de Râ, découverte, recyclage et compensation des outsiders.
 - chapters/README.md : règle d’enregistrement et de relecture des chapitres complets validés.
+
+PLANS ÉDITORIAUX
+- `plans/arcs/README.md` : index et règles de la roadmap.
+- `plans/arcs/arc-01-lautre-cote.md` : arc d’introduction, terminé, chapitres 1 à 4.
+- `plans/arcs/arc-02-trouver-sa-place.md` : prochain arc proposé ; premières missions, argent, apprentissage, Sato, Lyra/Eren, Nina possible, premier vrai échec scientifique.
+- `plans/arcs/arc-03-science-et-magie.md` : expérimentations, premiers prototypes, introduction progressive Enjin/Hetsuga/Vely/Nava/Edward, antagoniste natif C/B possible.
+- `plans/arcs/arc-04-khardun.md` : métallurgie magique, Norn/Mina/Ed, crise locale, foreshadowing Norn/Aria.
+- `plans/arcs/arc-05-elyndra-et-les-brumes.md` : Elfa/Yoh/Elza/Trya, magie de haut niveau, Dragons, préparation d’Aria.
+- `plans/arcs/arc-06-draid-mont-celeste.md` : mort de Draïd par Aria, réaction politique, payoff possible du flashback Norn/Aria.
+- `plans/arcs/arc-07-les-fissures.md` : enquête dimensionnelle, responsabilité potentielle d’Ao, rapprochement intellectuel Ao/Enjin.
+- `plans/arcs/arc-08-zenedia.md` : mort définitive de Sato, victoire préparée d’Ao, capacités de Zenedia encore à définir.
+- `plans/arcs/arc-09-apres-sato.md` : deuil et conséquences durables.
+- `plans/arcs/arc-10-zeo.md` : installation longue de Zeo et de sa relation avec Ao.
+- `plans/arcs/arc-11-vrul-guerre-de-survie.md` : guerre de survie, Elfa/Trya en première ligne, Ao soutien techno-magique.
+- `plans/arcs/arc-12-la-verite-doryon.md` : convergence des mystères et préparation de Râ.
+- `plans/arcs/arc-final-ra.md` : wormhole vers l’univers vide, sacrifice prévu d’Ao, intervention de Zeo.
 
 APPARENCES — RÈGLE VERROUILLÉE
 - L’archive maître `Apparence Personnage - Canon.rar`, conservée dans `/Oryon/References/` de la Library ChatGPT de l’auteur, a été **écrasée par la version la plus récente** le 2026-09-04.
@@ -138,6 +158,7 @@ AUTRES POINTS RÉCENTS
 SOURCES
 - Canon principal : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/canon-current.json
 - Chapitre 4 : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/chapters/chapitre-04-comme-respirer.md
+- Roadmap des arcs : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/plans/arcs/README.md
 - Apparences : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/apparences-personnages.md
 - Enjin Etio : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/enjin-etio.md
 - Scènes prévues : https://raw.githubusercontent.com/ogheki-commits/oryon-canon-mirror/main/docs/scenes-prevues-oryon.md
