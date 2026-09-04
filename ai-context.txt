@@ -35,7 +35,7 @@ RÈGLES IMPÉRATIVES
 - Les monstres naturels ne possèdent pas de Compétence Unique.
 
 DOCUMENTS SPÉCIALISÉS CANONIQUES
-- docs/apparences-personnages.md : références visuelles actuelles des personnages ; le nouveau jeu d’images fourni le 2026-09-04 remplace les anciennes références visuelles du même personnage.
+- docs/apparences-personnages.md : références visuelles actuelles des personnages ; **le deuxième jeu d’images complet fourni le 2026-09-04 remplace intégralement le premier jeu du même jour et montre désormais les personnages en entier.**
 - docs/enjin-etio.md : personnalité d’Enjin, cigarettes artisanales à base de plantes d’Oryon, rapport aux autres, estime de Vely/Hetsuga/Edward et future reconnaissance intellectuelle d’Ao.
 - docs/scenes-prevues-oryon.md : scènes futures et événements antérieurs à Ao déjà décidés par l’auteur ; authorKnowledge, spoilers, ne pas révéler trop tôt.
 - docs/magie-oryon.md : nature du mana, manifestation par image mentale, différence entre élément simple et formes complexes.
@@ -49,8 +49,9 @@ DOCUMENTS SPÉCIALISÉS CANONIQUES
 - chapters/README.md : règle d’enregistrement et de relecture des chapitres complets validés.
 
 APPARENCES — RÈGLE VERROUILLÉE
-- L’archive maître `Apparence Personnage - Canon.rar`, conservée dans `/Oryon/References/` de la Library ChatGPT de l’auteur, contient les références visuelles haute définition actuelles.
-- Pour l’apparence visuelle, ces images remplacent les anciennes références du même personnage.
+- L’archive maître `Apparence Personnage - Canon.rar`, conservée dans `/Oryon/References/` de la Library ChatGPT de l’auteur, a été **écrasée par la version la plus récente** le 2026-09-04.
+- La version précédente du set visuel est obsolète et ne doit plus être utilisée.
+- Le set actuel montre les personnages en entier et devient la référence prioritaire pour visage, coiffure, couleurs, silhouette, proportions, traits raciaux visibles et tenue.
 - Les poses, gestes, accessoires ponctuels et effets de fond d’une illustration ne deviennent pas automatiquement des faits narratifs.
 - Exception validée : la cigarette montrée sur `Enjin.jpg` correspond bien à une habitude canonique d’Enjin Etio ; consulter docs/enjin-etio.md.
 - Le fichier `Zao.png` semble correspondre à Zeo Soul ; conserver ce point comme correspondance probable à confirmer par l’auteur, sans inventer un personnage Zao distinct.
