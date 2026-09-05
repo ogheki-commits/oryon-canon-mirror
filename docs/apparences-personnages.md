@@ -2,14 +2,14 @@
 
 > **Statut : CANON VISUEL / authorKnowledge.**
 >
-> Le jeu d’images fourni par l’auteur le 2026-09-04 à 08h environ est désormais la **seule référence visuelle actuelle** des personnages. Il **remplace intégralement** le jeu précédent transmis plus tôt le même jour.
+> Le jeu d’images fourni par l’auteur le 2026-09-04 à 08h environ est désormais la **seule référence visuelle actuelle** des personnages. Il **remplace intégralement** le jeu précédent transmis plus tôt le même jour. Le 2026-09-05, ce jeu a été **complété avec `Ciaël.png`**, sans remplacer les autres références déjà présentes.
 
 ## Source maître
 
 - Archive actuelle : `Apparence Personnage.rar`.
 - Copie persistante actuelle : `/Oryon/References/Apparence Personnage - Canon.rar` dans la Library ChatGPT de l’auteur.
 - Cette copie a été **écrasée/remplacée** par la nouvelle archive ; l’ancienne archive visuelle ne doit plus être utilisée.
-- Taille de la nouvelle archive reçue : `43 401 066` octets.
+- Taille actuelle de l’archive après ajout de Ciaël : `44 938 998` octets.
 - Chaque image porte le nom du personnage afin de garder une correspondance directe.
 - Le dépôt GitHub ne stocke pas les binaires haute définition eux-mêmes ; il conserve cette fiche comme index canonique, tandis que l’archive maître persistante contient les images originales.
 
@@ -20,7 +20,8 @@
 - Le nouveau jeu a été fourni précisément pour montrer les personnages **en entier** et doit être privilégié pour toute future mise en scène, description ou dessin de silhouette complète.
 - Les poses, expressions ponctuelles, objets tenus, gestes et effets de fond d’une illustration ne créent pas automatiquement un fait narratif ou une habitude du personnage.
 - **Exception explicitement validée : la cigarette visible sur `Enjin.jpg` correspond bien à une habitude canonique d’Enjin Etio.** Voir `docs/enjin-etio.md`.
-- Les informations non visuelles déjà établies — âge, rang, pouvoirs, personnalité, relations et histoire — ne sont pas modifiées par ce remplacement graphique.
+- Pour **Ciaël**, l’apparence entière montrée sur `Ciaël.png`, y compris les lunettes, la blouse blanche, la tenue noire, le badge et les chaussures brunes, est volontairement validée comme sa représentation visuelle.
+- Les informations non visuelles déjà établies — âge, rang, pouvoirs, personnalité, relations et histoire — ne sont pas modifiées par un remplacement graphique.
 
 ## Références actuelles
 
@@ -29,6 +30,7 @@
 | Ao | `Ao.png` | Référence visuelle actuelle — corps entier |
 | Aria Eragon — forme Dragon | `Aria Forme Dragon.png` | Référence visuelle actuelle — forme complète |
 | Aria Eragon — forme humanoïde | `Aria Forme Humaine.png` | Référence visuelle actuelle — corps entier |
+| Ciaël | `Ciaël.png` | Référence visuelle actuelle — corps entier |
 | Draïd | `Draïd.jpg` | Référence visuelle actuelle — corps entier |
 | Ed Neron | `Ed.jpg` | Référence visuelle actuelle — corps entier |
 | Edward Asteria | `Edward.png` | Référence visuelle actuelle — corps entier |
@@ -57,3 +59,4 @@
 - Ne pas mélanger un ancien visage ou une ancienne tenue avec le nouveau corps sauf validation explicite de l’auteur.
 - Si une future référence remplace encore un personnage, remplacer l’entrée correspondante ici et considérer immédiatement la précédente comme obsolète.
 - Pour Enjin, conserver également les règles de `docs/enjin-etio.md` : sa cigarette n’est pas décorative, elle fait partie de son comportement canonique.
+- Pour Ciaël, consulter également `docs/ciael.md` pour son identité, sa personnalité, Concordance et ses limites.
